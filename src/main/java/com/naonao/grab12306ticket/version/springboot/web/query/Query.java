@@ -1,7 +1,9 @@
 package com.naonao.grab12306ticket.version.springboot.web.query;
 
 import com.naonao.grab12306ticket.version.springboot.database.entity.AllInformationEntity;
+import com.naonao.grab12306ticket.version.springboot.database.entity.UserInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.database.mapper.AllInformationMapper;
+import com.naonao.grab12306ticket.version.springboot.database.mapper.UserInformationMapper;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,9 +25,17 @@ public class Query {
     @Autowired
     private AllInformationMapper allInformationMapper;
 
+    @Autowired
+    private UserInformationMapper userInformationMapper;
+
     @RequestMapping(value = "all", method = RequestMethod.GET)
     public List<AllInformationEntity> getAllInformationEntityAll(){
         return allInformationMapper.getAllInformationEntityByAll();
+    }
+
+    @RequestMapping(value = "1", method = RequestMethod.GET)
+    public UserInformationEntity getAllInformationEntity(){
+        return userInformationMapper.getUsernameAndPasswordById(1);
     }
 
 }
