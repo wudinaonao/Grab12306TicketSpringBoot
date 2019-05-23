@@ -7,9 +7,9 @@
     <!--<properties resource="./application.properties">-->
     <!--</properties>-->
 
-    <typeAliases>
-        <package name="com.naonao.grab12306ticket.version.springboot.database.entity"/>
-    </typeAliases>
+    <!--<typeAliases>-->
+        <!--<package name="com.naonao.grab12306ticket.version.springboot.database.entity"/>-->
+    <!--</typeAliases>-->
 
     <!--<environments default="development">-->
         <!--<environment id="development">-->
@@ -28,7 +28,7 @@
     <!--<mappers>-->
         <!--<mapper resource="./mybatis/mapper/UserInformationMapper.xml"/>-->
         <!--<mapper resource="./mybatis/mapper/GrabTicketInformationMapper.xml"/>-->
-        <!--<mapper resource="./mybatis/mapper/NotifyInformationMapper.xml"/>-->
+        <!--<mapper resource="./mybatis/mapper/NotificationInformationMapper.xml"/>-->
         <!--<mapper resource="./mybatis/mapper/StatusInformationMapper.xml"/>-->
         <!--<mapper resource="./mybatis/mapper/InitializationMapper.xml"/>-->
     <!--</mappers>-->

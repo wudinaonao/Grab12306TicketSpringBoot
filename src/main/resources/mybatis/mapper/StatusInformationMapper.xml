@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.naonao.grab12306ticket.version.springboot.database.mapper.StatusInformationMapper">
+<mapper namespace="com.naonao.grab12306ticket.version.springboot.mapper.StatusInformationMapper">
 
     <!--name space-->
     <select id="getStatusInformationById" resultType="StatusInformationEntity">
@@ -23,6 +23,20 @@
         where status <![CDATA[<>]]> "running" and status <![CDATA[<>]]> "completed" limit 10
     </select>
 
+    <select id="getStatusInformationTableListBySuccess" resultType="StatusInformationEntity">
+        select * from status_information
+        where hash = #{hash} and (status = "booking succeed but send notification failed" or status = "completed")
+    </select>
+
+    <select id="getStatusInformationTableListByFailed" resultType="StatusInformationEntity">
+        select * from status_information
+        where hash = #{hash} and status = "booking failed")
+    </select>
+
+
+    <select id="getStatusInformationByHashAndStatus" resultType="StatusInformationEntity">
+      select * from status_information where hash = #{hash} and status = #{status}
+    </select>
 
     <insert id="insert">
         insert into status_information(

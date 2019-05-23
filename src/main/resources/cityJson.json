@@ -1,0 +1,8203 @@
+{
+  "data":[
+    {
+      "value": "beijingshi",
+      "label": "北京市",
+      "children": [
+        {
+          "value": "beijingbei",
+          "label": "北京北"
+        },
+        {
+          "value": "beijingdong",
+          "label": "北京东"
+        },
+        {
+          "value": "beijing",
+          "label": "北京"
+        },
+        {
+          "value": "beijingxi",
+          "label": "北京西"
+        },
+        {
+          "value": "changping",
+          "label": "昌平"
+        },
+        {
+          "value": "lianggezhuang",
+          "label": "良各庄"
+        },
+        {
+          "value": "tongzhouxi",
+          "label": "通州西"
+        },
+        {
+          "value": "yanqing",
+          "label": "延庆"
+        },
+        {
+          "value": "anding",
+          "label": "安定"
+        },
+        {
+          "value": "badaling",
+          "label": "八达岭"
+        },
+        {
+          "value": "changpingbei",
+          "label": "昌平北"
+        },
+        {
+          "value": "dahuichang",
+          "label": "大灰厂"
+        },
+        {
+          "value": "gaogezhuang",
+          "label": "高各庄"
+        },
+        {
+          "value": "gushankou",
+          "label": "孤山口"
+        },
+        {
+          "value": "huangcun",
+          "label": "黄村"
+        },
+        {
+          "value": "kangzhuang",
+          "label": "康庄"
+        },
+        {
+          "value": "miaocheng",
+          "label": "庙城"
+        },
+        {
+          "value": "nanguancun",
+          "label": "南观村"
+        },
+        {
+          "value": "nankou",
+          "label": "南口"
+        },
+        {
+          "value": "pingyu",
+          "label": "平峪"
+        },
+        {
+          "value": "qinghuayuan",
+          "label": "清华园"
+        },
+        {
+          "value": "shidu",
+          "label": "十渡"
+        },
+        {
+          "value": "sanhezhuang",
+          "label": "三合庄"
+        },
+        {
+          "value": "sanjiadian",
+          "label": "三家店"
+        },
+        {
+          "value": "shangwan",
+          "label": "上万"
+        },
+        {
+          "value": "shunyi",
+          "label": "顺义"
+        },
+        {
+          "value": "tongjunzhuang",
+          "label": "统军庄"
+        },
+        {
+          "value": "weishanzhuang",
+          "label": "魏善庄"
+        },
+        {
+          "value": "xiehejian",
+          "label": "斜河涧"
+        },
+        {
+          "value": "yanhecheng",
+          "label": "沿河城"
+        },
+        {
+          "value": "yunjusi",
+          "label": "云居寺"
+        },
+        {
+          "value": "zhuwo",
+          "label": "珠窝"
+        },
+        {
+          "value": "fangezhuang",
+          "label": "范各庄"
+        },
+        {
+          "value": "gubeikou",
+          "label": "古北口"
+        },
+        {
+          "value": "heishansi",
+          "label": "黑山寺"
+        },
+        {
+          "value": "huangtudian",
+          "label": "黄土店"
+        },
+        {
+          "value": "tongzhou",
+          "label": "通州"
+        }
+      ]
+    },
+    {
+      "value": "tianjinshi",
+      "label": "天津市",
+      "children": [
+        {
+          "value": "tianjinbei",
+          "label": "天津北"
+        },
+        {
+          "value": "tianjin",
+          "label": "天津"
+        },
+        {
+          "value": "tianjinnan",
+          "label": "天津南"
+        },
+        {
+          "value": "tianjinxi",
+          "label": "天津西"
+        },
+        {
+          "value": "jizhoubei",
+          "label": "蓟州北"
+        },
+        {
+          "value": "tanggu",
+          "label": "塘沽"
+        },
+        {
+          "value": "yangcun",
+          "label": "杨村"
+        },
+        {
+          "value": "baodi",
+          "label": "宝坻"
+        },
+        {
+          "value": "cuihuangkou",
+          "label": "崔黄口"
+        },
+        {
+          "value": "caozili",
+          "label": "曹子里"
+        },
+        {
+          "value": "dakoutun",
+          "label": "大口屯"
+        },
+        {
+          "value": "douzhangzhuang",
+          "label": "豆张庄"
+        },
+        {
+          "value": "jinghai",
+          "label": "静海"
+        },
+        {
+          "value": "jizhou",
+          "label": "蓟州"
+        },
+        {
+          "value": "lutai",
+          "label": "芦台"
+        },
+        {
+          "value": "wuqing",
+          "label": "武清"
+        },
+        {
+          "value": "binhai",
+          "label": "滨海"
+        },
+        {
+          "value": "binhaibei",
+          "label": "滨海北"
+        },
+        {
+          "value": "binhaixi",
+          "label": "滨海西"
+        },
+        {
+          "value": "junliangchengbei",
+          "label": "军粮城北"
+        }
+      ]
+    },
+    {
+      "value": "shanghaishi",
+      "label": "上海市",
+      "children": [
+        {
+          "value": "shanghai",
+          "label": "上海"
+        },
+        {
+          "value": "shanghainan",
+          "label": "上海南"
+        },
+        {
+          "value": "shanghaihongqiao",
+          "label": "上海虹桥"
+        },
+        {
+          "value": "shanghaixi",
+          "label": "上海西"
+        },
+        {
+          "value": "antingbei",
+          "label": "安亭北"
+        },
+        {
+          "value": "jinshanbei",
+          "label": "金山北"
+        },
+        {
+          "value": "longhua",
+          "label": "龙华"
+        },
+        {
+          "value": "nanxiangbei",
+          "label": "南翔北"
+        },
+        {
+          "value": "songjiang",
+          "label": "松江"
+        }
+      ]
+    },
+    {
+      "value": "chongqingshi",
+      "label": "重庆市",
+      "children": [
+        {
+          "value": "chongqingbei",
+          "label": "重庆北"
+        },
+        {
+          "value": "chongqing",
+          "label": "重庆"
+        },
+        {
+          "value": "chongqingnan",
+          "label": "重庆南"
+        },
+        {
+          "value": "chongqingxi",
+          "label": "重庆西"
+        },
+        {
+          "value": "fuling",
+          "label": "涪陵"
+        },
+        {
+          "value": "qianjiang",
+          "label": "黔江"
+        },
+        {
+          "value": "wanzhou",
+          "label": "万州"
+        },
+        {
+          "value": "yongchuan",
+          "label": "永川"
+        },
+        {
+          "value": "hechuan",
+          "label": "合川"
+        },
+        {
+          "value": "heyang",
+          "label": "合阳"
+        },
+        {
+          "value": "jiangjin",
+          "label": "江津"
+        },
+        {
+          "value": "liangping",
+          "label": "梁平"
+        },
+        {
+          "value": "pengshui",
+          "label": "彭水"
+        },
+        {
+          "value": "qijiang",
+          "label": "綦江"
+        },
+        {
+          "value": "shapingba",
+          "label": "沙坪坝"
+        },
+        {
+          "value": "tongnan",
+          "label": "潼南"
+        },
+        {
+          "value": "youyang",
+          "label": "酉阳"
+        },
+        {
+          "value": "bishan",
+          "label": "璧山"
+        },
+        {
+          "value": "changshoubei",
+          "label": "长寿北"
+        },
+        {
+          "value": "changshouhu",
+          "label": "长寿湖"
+        },
+        {
+          "value": "dianjiang",
+          "label": "垫江"
+        },
+        {
+          "value": "dazunan",
+          "label": "大足南"
+        },
+        {
+          "value": "fengdou",
+          "label": "丰都"
+        },
+        {
+          "value": "fulingbei",
+          "label": "涪陵北"
+        },
+        {
+          "value": "fusheng",
+          "label": "复盛"
+        },
+        {
+          "value": "ganshuidong",
+          "label": "赶水东"
+        },
+        {
+          "value": "luohuangnan",
+          "label": "珞璜南"
+        },
+        {
+          "value": "qijiangdong",
+          "label": "綦江东"
+        },
+        {
+          "value": "rongchangbei",
+          "label": "荣昌北"
+        },
+        {
+          "value": "shizhuxian",
+          "label": "石柱县"
+        },
+        {
+          "value": "wanzhoubei",
+          "label": "万州北"
+        },
+        {
+          "value": "yongchuandong",
+          "label": "永川东"
+        }
+      ]
+    },
+    {
+      "value": "hebeisheng",
+      "label": "河北省",
+      "children": [
+        {
+          "value": "shijiazhuangbei",
+          "label": "石家庄北"
+        },
+        {
+          "value": "shijiazhuang",
+          "label": "石家庄"
+        },
+        {
+          "value": "baijian",
+          "label": "白涧"
+        },
+        {
+          "value": "chengde",
+          "label": "承德"
+        },
+        {
+          "value": "cangzhou",
+          "label": "沧州"
+        },
+        {
+          "value": "handan",
+          "label": "邯郸"
+        },
+        {
+          "value": "hengshui",
+          "label": "衡水"
+        },
+        {
+          "value": "longhua",
+          "label": "隆化"
+        },
+        {
+          "value": "luanping",
+          "label": "滦平"
+        },
+        {
+          "value": "linxi",
+          "label": "临西"
+        },
+        {
+          "value": "nandamiao",
+          "label": "南大庙"
+        },
+        {
+          "value": "pingquan",
+          "label": "平泉"
+        },
+        {
+          "value": "qinghecheng",
+          "label": "清河城"
+        },
+        {
+          "value": "shanhaiguan",
+          "label": "山海关"
+        },
+        {
+          "value": "shexian",
+          "label": "涉县"
+        },
+        {
+          "value": "tangshanbei",
+          "label": "唐山北"
+        },
+        {
+          "value": "tangshan",
+          "label": "唐山"
+        },
+        {
+          "value": "yutianxian",
+          "label": "玉田县"
+        },
+        {
+          "value": "zhangjiakou",
+          "label": "张家口"
+        },
+        {
+          "value": "aihe",
+          "label": "艾河"
+        },
+        {
+          "value": "bancheng",
+          "label": "板城"
+        },
+        {
+          "value": "beidaihe",
+          "label": "北戴河"
+        },
+        {
+          "value": "baoding",
+          "label": "保定"
+        },
+        {
+          "value": "bailixia",
+          "label": "百里峡"
+        },
+        {
+          "value": "baiqi",
+          "label": "白旗"
+        },
+        {
+          "value": "beitun",
+          "label": "北屯"
+        },
+        {
+          "value": "bazhou",
+          "label": "霸州"
+        },
+        {
+          "value": "chengdedong",
+          "label": "承德东"
+        },
+        {
+          "value": "chaigoubu",
+          "label": "柴沟堡"
+        },
+        {
+          "value": "changli",
+          "label": "昌黎"
+        },
+        {
+          "value": "cixian",
+          "label": "磁县"
+        },
+        {
+          "value": "cangzhouxi",
+          "label": "沧州西"
+        },
+        {
+          "value": "dongguang",
+          "label": "东光"
+        },
+        {
+          "value": "dongxu",
+          "label": "东戌"
+        },
+        {
+          "value": "dayingzhen",
+          "label": "大营镇"
+        },
+        {
+          "value": "douzhuang",
+          "label": "豆庄"
+        },
+        {
+          "value": "dingzhou",
+          "label": "定州"
+        },
+        {
+          "value": "dazhangzi",
+          "label": "大杖子"
+        },
+        {
+          "value": "erdaogoumen",
+          "label": "二道沟门"
+        },
+        {
+          "value": "funing",
+          "label": "抚宁"
+        },
+        {
+          "value": "fushankou",
+          "label": "福山口"
+        },
+        {
+          "value": "futuyu",
+          "label": "浮图峪"
+        },
+        {
+          "value": "guan",
+          "label": "固安"
+        },
+        {
+          "value": "gaocheng",
+          "label": "藁城"
+        },
+        {
+          "value": "guoleizhuang",
+          "label": "郭磊庄"
+        },
+        {
+          "value": "guanting",
+          "label": "官厅"
+        },
+        {
+          "value": "gaoyi",
+          "label": "高邑"
+        },
+        {
+          "value": "hejianxi",
+          "label": "河间西"
+        },
+        {
+          "value": "hushenha",
+          "label": "虎什哈"
+        },
+        {
+          "value": "jingdian",
+          "label": "井店"
+        },
+        {
+          "value": "jingoutun",
+          "label": "金沟屯"
+        },
+        {
+          "value": "jiashan",
+          "label": "甲山"
+        },
+        {
+          "value": "jiuzhuangwo",
+          "label": "旧庄窝"
+        },
+        {
+          "value": "liudaohezi",
+          "label": "六道河子"
+        },
+        {
+          "value": "langfang",
+          "label": "廊坊"
+        },
+        {
+          "value": "luofa",
+          "label": "落垡"
+        },
+        {
+          "value": "langfangbei",
+          "label": "廊坊北"
+        },
+        {
+          "value": "lulong",
+          "label": "卢龙"
+        },
+        {
+          "value": "liushuigou",
+          "label": "流水沟"
+        },
+        {
+          "value": "luanxian",
+          "label": "滦县"
+        },
+        {
+          "value": "laiyuan",
+          "label": "涞源"
+        },
+        {
+          "value": "nanchengsi",
+          "label": "南城司"
+        },
+        {
+          "value": "nangongdong",
+          "label": "南宫东"
+        },
+        {
+          "value": "panjiadian",
+          "label": "潘家店"
+        },
+        {
+          "value": "qianan",
+          "label": "迁安"
+        },
+        {
+          "value": "qifengta",
+          "label": "奇峰塔"
+        },
+        {
+          "value": "qinhuangdao",
+          "label": "秦皇岛"
+        },
+        {
+          "value": "qianweitang",
+          "label": "前苇塘"
+        },
+        {
+          "value": "qingxian",
+          "label": "青县"
+        },
+        {
+          "value": "renqiu",
+          "label": "任丘"
+        },
+        {
+          "value": "raoyang",
+          "label": "饶阳"
+        },
+        {
+          "value": "shangbancheng",
+          "label": "上板城"
+        },
+        {
+          "value": "shangbanchengnan",
+          "label": "上板城南"
+        },
+        {
+          "value": "shacheng",
+          "label": "沙城"
+        },
+        {
+          "value": "sanhexian",
+          "label": "三河县"
+        },
+        {
+          "value": "siheyong",
+          "label": "四合永"
+        },
+        {
+          "value": "shenlidian",
+          "label": "什里店"
+        },
+        {
+          "value": "shalingzi",
+          "label": "沙岭子"
+        },
+        {
+          "value": "suning",
+          "label": "肃宁"
+        },
+        {
+          "value": "shenzhou",
+          "label": "深州"
+        },
+        {
+          "value": "tayayi",
+          "label": "塔崖驿"
+        },
+        {
+          "value": "wenan",
+          "label": "文安"
+        },
+        {
+          "value": "wuan",
+          "label": "武安"
+        },
+        {
+          "value": "wanganzhen",
+          "label": "王安镇"
+        },
+        {
+          "value": "wangdou",
+          "label": "望都"
+        },
+        {
+          "value": "wuqiao",
+          "label": "吴桥"
+        },
+        {
+          "value": "wangtong",
+          "label": "王瞳"
+        },
+        {
+          "value": "xinbaoan",
+          "label": "新保安"
+        },
+        {
+          "value": "xiabancheng",
+          "label": "下板城"
+        },
+        {
+          "value": "xibali",
+          "label": "西八里"
+        },
+        {
+          "value": "xuanhua",
+          "label": "宣化"
+        },
+        {
+          "value": "xiahuayuan",
+          "label": "下花园"
+        },
+        {
+          "value": "xinji",
+          "label": "辛集"
+        },
+        {
+          "value": "xinle",
+          "label": "新乐"
+        },
+        {
+          "value": "xiaosigou",
+          "label": "小寺沟"
+        },
+        {
+          "value": "xushui",
+          "label": "徐水"
+        },
+        {
+          "value": "xingtai",
+          "label": "邢台"
+        },
+        {
+          "value": "xiataizi",
+          "label": "下台子"
+        },
+        {
+          "value": "xiaoxizhuang",
+          "label": "小西庄"
+        },
+        {
+          "value": "xuanzhong",
+          "label": "悬钟"
+        },
+        {
+          "value": "xinzhangzi",
+          "label": "新杖子"
+        },
+        {
+          "value": "yanjiao",
+          "label": "燕郊"
+        },
+        {
+          "value": "yushugou",
+          "label": "榆树沟"
+        },
+        {
+          "value": "yuanshi",
+          "label": "元氏"
+        },
+        {
+          "value": "yangshuling",
+          "label": "杨树岭"
+        },
+        {
+          "value": "yesanpo",
+          "label": "野三坡"
+        },
+        {
+          "value": "yingshouyingzi",
+          "label": "鹰手营子"
+        },
+        {
+          "value": "zhengding",
+          "label": "正定"
+        },
+        {
+          "value": "zijingguan",
+          "label": "紫荆关"
+        },
+        {
+          "value": "zaoqiang",
+          "label": "枣强"
+        },
+        {
+          "value": "zhuozhou",
+          "label": "涿州"
+        },
+        {
+          "value": "baodingdong",
+          "label": "保定东"
+        },
+        {
+          "value": "baigou",
+          "label": "白沟"
+        },
+        {
+          "value": "baiyangdian",
+          "label": "白洋淀"
+        },
+        {
+          "value": "chengdexianbei",
+          "label": "承德县北"
+        },
+        {
+          "value": "chengdenan",
+          "label": "承德南"
+        },
+        {
+          "value": "caofeidiandong",
+          "label": "曹妃甸东"
+        },
+        {
+          "value": "caofeidiangang",
+          "label": "曹妃甸港"
+        },
+        {
+          "value": "dingzhoudong",
+          "label": "定州东"
+        },
+        {
+          "value": "gaobeidiandong",
+          "label": "高碑店东"
+        },
+        {
+          "value": "gaochengnan",
+          "label": "藁城南"
+        },
+        {
+          "value": "handandong",
+          "label": "邯郸东"
+        },
+        {
+          "value": "hengshuibei",
+          "label": "衡水北"
+        },
+        {
+          "value": "jingzhou",
+          "label": "景州"
+        },
+        {
+          "value": "lincheng",
+          "label": "临城"
+        },
+        {
+          "value": "luanhe",
+          "label": "滦河"
+        },
+        {
+          "value": "nanbaobei",
+          "label": "南堡北"
+        },
+        {
+          "value": "pingquanbei",
+          "label": "平泉北"
+        },
+        {
+          "value": "shengfang",
+          "label": "胜芳"
+        },
+        {
+          "value": "shijiazhuangdong",
+          "label": "石家庄东"
+        },
+        {
+          "value": "tanghainan",
+          "label": "唐海南"
+        },
+        {
+          "value": "xinjinan",
+          "label": "辛集南"
+        },
+        {
+          "value": "xingtaidong",
+          "label": "邢台东"
+        },
+        {
+          "value": "zhangjiakounan",
+          "label": "张家口南"
+        },
+        {
+          "value": "zhuozhoudong",
+          "label": "涿州东"
+        }
+      ]
+    },
+    {
+      "value": "shanxisheng",
+      "label": "山西省",
+      "children": [
+        {
+          "value": "taiyuandong",
+          "label": "太原东"
+        },
+        {
+          "value": "zhangzhibei",
+          "label": "长治北"
+        },
+        {
+          "value": "dajian",
+          "label": "大涧"
+        },
+        {
+          "value": "datong",
+          "label": "大同"
+        },
+        {
+          "value": "fenglingdu",
+          "label": "风陵渡"
+        },
+        {
+          "value": "jincheng",
+          "label": "晋城"
+        },
+        {
+          "value": "jiafeng",
+          "label": "嘉峰"
+        },
+        {
+          "value": "kelan",
+          "label": "岢岚"
+        },
+        {
+          "value": "linfen",
+          "label": "临汾"
+        },
+        {
+          "value": "lvliang",
+          "label": "吕梁"
+        },
+        {
+          "value": "lingqiu",
+          "label": "灵丘"
+        },
+        {
+          "value": "shuozhou",
+          "label": "朔州"
+        },
+        {
+          "value": "yuncheng",
+          "label": "运城"
+        },
+        {
+          "value": "yuanping",
+          "label": "原平"
+        },
+        {
+          "value": "yangquan",
+          "label": "阳泉"
+        },
+        {
+          "value": "beiying",
+          "label": "北营"
+        },
+        {
+          "value": "daixian",
+          "label": "代县"
+        },
+        {
+          "value": "dingxiang",
+          "label": "定襄"
+        },
+        {
+          "value": "daiyue",
+          "label": "岱岳"
+        },
+        {
+          "value": "dongzhen",
+          "label": "东镇"
+        },
+        {
+          "value": "fenhe",
+          "label": "汾河"
+        },
+        {
+          "value": "fanzhi",
+          "label": "繁峙"
+        },
+        {
+          "value": "hejin",
+          "label": "河津"
+        },
+        {
+          "value": "huairen",
+          "label": "怀仁"
+        },
+        {
+          "value": "huozhou",
+          "label": "霍州"
+        },
+        {
+          "value": "jinchengbei",
+          "label": "晋城北"
+        },
+        {
+          "value": "jishan",
+          "label": "稷山"
+        },
+        {
+          "value": "lingshi",
+          "label": "灵石"
+        },
+        {
+          "value": "ningwu",
+          "label": "宁武"
+        },
+        {
+          "value": "pingwang",
+          "label": "平旺"
+        },
+        {
+          "value": "pingyao",
+          "label": "平遥"
+        },
+        {
+          "value": "qingxu",
+          "label": "清徐"
+        },
+        {
+          "value": "shenchi",
+          "label": "神池"
+        },
+        {
+          "value": "tianzhen",
+          "label": "天镇"
+        },
+        {
+          "value": "wenxi",
+          "label": "闻喜"
+        },
+        {
+          "value": "weizizhen",
+          "label": "微子镇"
+        },
+        {
+          "value": "xiangfen",
+          "label": "襄汾"
+        },
+        {
+          "value": "xuangang",
+          "label": "轩岗"
+        },
+        {
+          "value": "xinjiang",
+          "label": "新绛"
+        },
+        {
+          "value": "xinzhou",
+          "label": "忻州"
+        },
+        {
+          "value": "yangcheng",
+          "label": "阳城"
+        },
+        {
+          "value": "yuncailing",
+          "label": "云彩岭"
+        },
+        {
+          "value": "yanggao",
+          "label": "阳高"
+        },
+        {
+          "value": "zhaobai",
+          "label": "招柏"
+        },
+        {
+          "value": "zhanglan",
+          "label": "张兰"
+        },
+        {
+          "value": "zaolin",
+          "label": "枣林"
+        },
+        {
+          "value": "caijiaya",
+          "label": "蔡家崖"
+        },
+        {
+          "value": "hongdongxi",
+          "label": "洪洞西"
+        },
+        {
+          "value": "houmaxi",
+          "label": "侯马西"
+        },
+        {
+          "value": "huozhoudong",
+          "label": "霍州东"
+        },
+        {
+          "value": "loufan",
+          "label": "娄烦"
+        },
+        {
+          "value": "shanyin",
+          "label": "山阴"
+        },
+        {
+          "value": "taiguxi",
+          "label": "太谷西"
+        },
+        {
+          "value": "wenxixi",
+          "label": "闻喜西"
+        },
+        {
+          "value": "xiangfenxi",
+          "label": "襄汾西"
+        },
+        {
+          "value": "xinzhouxi",
+          "label": "忻州西"
+        },
+        {
+          "value": "yunchengbei",
+          "label": "运城北"
+        },
+        {
+          "value": "yongjibei",
+          "label": "永济北"
+        },
+        {
+          "value": "yuanpingxi",
+          "label": "原平西"
+        }
+      ]
+    },
+    {
+      "value": "liaoningsheng",
+      "label": "辽宁省",
+      "children": [
+        {
+          "value": "shenyangbei",
+          "label": "沈阳北"
+        },
+        {
+          "value": "shenyangdong",
+          "label": "沈阳东"
+        },
+        {
+          "value": "shenyangnan",
+          "label": "沈阳南"
+        },
+        {
+          "value": "anping",
+          "label": "安平"
+        },
+        {
+          "value": "anshan",
+          "label": "鞍山"
+        },
+        {
+          "value": "beitai",
+          "label": "北台"
+        },
+        {
+          "value": "benxi",
+          "label": "本溪"
+        },
+        {
+          "value": "zhangdian",
+          "label": "长甸"
+        },
+        {
+          "value": "changtu",
+          "label": "昌图"
+        },
+        {
+          "value": "chenxiangtun",
+          "label": "陈相屯"
+        },
+        {
+          "value": "dacheng",
+          "label": "大成"
+        },
+        {
+          "value": "dandong",
+          "label": "丹东"
+        },
+        {
+          "value": "dahushan",
+          "label": "大虎山"
+        },
+        {
+          "value": "dalianbei",
+          "label": "大连北"
+        },
+        {
+          "value": "dashiqiao",
+          "label": "大石桥"
+        },
+        {
+          "value": "fushunbei",
+          "label": "抚顺北"
+        },
+        {
+          "value": "fuxinnan",
+          "label": "阜新南"
+        },
+        {
+          "value": "huanggutun",
+          "label": "皇姑屯"
+        },
+        {
+          "value": "huludao",
+          "label": "葫芦岛"
+        },
+        {
+          "value": "jinzhou",
+          "label": "金州"
+        },
+        {
+          "value": "jinzhou",
+          "label": "锦州"
+        },
+        {
+          "value": "kaiyuan",
+          "label": "开原"
+        },
+        {
+          "value": "lingyuan",
+          "label": "凌源"
+        },
+        {
+          "value": "liaozhong",
+          "label": "辽中"
+        },
+        {
+          "value": "masanjia",
+          "label": "马三家"
+        },
+        {
+          "value": "nanfen",
+          "label": "南芬"
+        },
+        {
+          "value": "panjin",
+          "label": "盘锦"
+        },
+        {
+          "value": "sujiatun",
+          "label": "苏家屯"
+        },
+        {
+          "value": "tieling",
+          "label": "铁岭"
+        },
+        {
+          "value": "tianshifu",
+          "label": "田师府"
+        },
+        {
+          "value": "tongyuanbao",
+          "label": "通远堡"
+        },
+        {
+          "value": "wafangdian",
+          "label": "瓦房店"
+        },
+        {
+          "value": "wujiatun",
+          "label": "吴家屯"
+        },
+        {
+          "value": "waitoushan",
+          "label": "歪头山"
+        },
+        {
+          "value": "xiongyuecheng",
+          "label": "熊岳城"
+        },
+        {
+          "value": "yebaishou",
+          "label": "叶柏寿"
+        },
+        {
+          "value": "yingkou",
+          "label": "营口"
+        },
+        {
+          "value": "yixian",
+          "label": "义县"
+        },
+        {
+          "value": "zhoushuizi",
+          "label": "周水子"
+        },
+        {
+          "value": "ajin",
+          "label": "阿金"
+        },
+        {
+          "value": "anshanxi",
+          "label": "鞍山西"
+        },
+        {
+          "value": "bajiaotai",
+          "label": "八角台"
+        },
+        {
+          "value": "bamiancheng",
+          "label": "八面城"
+        },
+        {
+          "value": "beipiaonan",
+          "label": "北票南"
+        },
+        {
+          "value": "benxihu",
+          "label": "本溪湖"
+        },
+        {
+          "value": "bayuquan",
+          "label": "鲅鱼圈"
+        },
+        {
+          "value": "caohekou",
+          "label": "草河口"
+        },
+        {
+          "value": "zhanglingzi",
+          "label": "长岭子"
+        },
+        {
+          "value": "cangshi",
+          "label": "苍石"
+        },
+        {
+          "value": "changtuxi",
+          "label": "昌图西"
+        },
+        {
+          "value": "daba",
+          "label": "大巴"
+        },
+        {
+          "value": "daoerdeng",
+          "label": "刀尔登"
+        },
+        {
+          "value": "daguantun",
+          "label": "大官屯"
+        },
+        {
+          "value": "dahongqi",
+          "label": "大红旗"
+        },
+        {
+          "value": "dapingfang",
+          "label": "大平房"
+        },
+        {
+          "value": "dengshahe",
+          "label": "登沙河"
+        },
+        {
+          "value": "dengta",
+          "label": "灯塔"
+        },
+        {
+          "value": "dayingzi",
+          "label": "大营子"
+        },
+        {
+          "value": "fenghuangcheng",
+          "label": "凤凰城"
+        },
+        {
+          "value": "fushun",
+          "label": "抚顺"
+        },
+        {
+          "value": "goubangzi",
+          "label": "沟帮子"
+        },
+        {
+          "value": "gujiazi",
+          "label": "孤家子"
+        },
+        {
+          "value": "gaoqiaozhen",
+          "label": "高桥镇"
+        },
+        {
+          "value": "guanshui",
+          "label": "灌水"
+        },
+        {
+          "value": "gongyingzi",
+          "label": "公营子"
+        },
+        {
+          "value": "gaizhouxi",
+          "label": "盖州西"
+        },
+        {
+          "value": "haicheng",
+          "label": "海城"
+        },
+        {
+          "value": "haichengxi",
+          "label": "海城西"
+        },
+        {
+          "value": "hunhe",
+          "label": "浑河"
+        },
+        {
+          "value": "huludaobei",
+          "label": "葫芦岛北"
+        },
+        {
+          "value": "hanling",
+          "label": "寒岭"
+        },
+        {
+          "value": "huolianzhai",
+          "label": "火连寨"
+        },
+        {
+          "value": "hushitai",
+          "label": "虎石台"
+        },
+        {
+          "value": "jiguanshan",
+          "label": "鸡冠山"
+        },
+        {
+          "value": "jiaxinzi",
+          "label": "夹心子"
+        },
+        {
+          "value": "jinzhounan",
+          "label": "锦州南"
+        },
+        {
+          "value": "jinzhangzi",
+          "label": "金杖子"
+        },
+        {
+          "value": "kuandian",
+          "label": "宽甸"
+        },
+        {
+          "value": "kaiyuanxi",
+          "label": "开原西"
+        },
+        {
+          "value": "laobian",
+          "label": "老边"
+        },
+        {
+          "value": "linghai",
+          "label": "凌海"
+        },
+        {
+          "value": "liujiahe",
+          "label": "刘家河"
+        },
+        {
+          "value": "lianshanguan",
+          "label": "连山关"
+        },
+        {
+          "value": "linshengbao",
+          "label": "林盛堡"
+        },
+        {
+          "value": "lishizhai",
+          "label": "李石寨"
+        },
+        {
+          "value": "liaoyang",
+          "label": "辽阳"
+        },
+        {
+          "value": "lingyuandong",
+          "label": "凌源东"
+        },
+        {
+          "value": "longzhaogou",
+          "label": "龙爪沟"
+        },
+        {
+          "value": "nanguanling",
+          "label": "南关岭"
+        },
+        {
+          "value": "nihezi",
+          "label": "泥河子"
+        },
+        {
+          "value": "nengjia",
+          "label": "能家"
+        },
+        {
+          "value": "nankouqian",
+          "label": "南口前"
+        },
+        {
+          "value": "nantai",
+          "label": "南台"
+        },
+        {
+          "value": "niuxintai",
+          "label": "牛心台"
+        },
+        {
+          "value": "nanzamu",
+          "label": "南杂木"
+        },
+        {
+          "value": "piaoertun",
+          "label": "瓢儿屯"
+        },
+        {
+          "value": "panjinbei",
+          "label": "盘锦北"
+        },
+        {
+          "value": "pulandian",
+          "label": "普兰店"
+        },
+        {
+          "value": "puwan",
+          "label": "普湾"
+        },
+        {
+          "value": "paozi",
+          "label": "泡子"
+        },
+        {
+          "value": "qinghemen",
+          "label": "清河门"
+        },
+        {
+          "value": "qijiabao",
+          "label": "祁家堡"
+        },
+        {
+          "value": "qilihe",
+          "label": "七里河"
+        },
+        {
+          "value": "qingyuan",
+          "label": "清原"
+        },
+        {
+          "value": "shicheng",
+          "label": "石城"
+        },
+        {
+          "value": "shahai",
+          "label": "沙海"
+        },
+        {
+          "value": "shahekou",
+          "label": "沙河口"
+        },
+        {
+          "value": "shahousuo",
+          "label": "沙后所"
+        },
+        {
+          "value": "sanjiangkou",
+          "label": "三江口"
+        },
+        {
+          "value": "shijiazi",
+          "label": "十家子"
+        },
+        {
+          "value": "shenjingzi",
+          "label": "深井子"
+        },
+        {
+          "value": "shuiquan",
+          "label": "水泉"
+        },
+        {
+          "value": "shiqiaozi",
+          "label": "石桥子"
+        },
+        {
+          "value": "shishan",
+          "label": "石山"
+        },
+        {
+          "value": "songshu",
+          "label": "松树"
+        },
+        {
+          "value": "shoushan",
+          "label": "首山"
+        },
+        {
+          "value": "sanshilibao",
+          "label": "三十里堡"
+        },
+        {
+          "value": "shangyuan",
+          "label": "上园"
+        },
+        {
+          "value": "suizhongbei",
+          "label": "绥中北"
+        },
+        {
+          "value": "suizhong",
+          "label": "绥中"
+        },
+        {
+          "value": "taian",
+          "label": "台安"
+        },
+        {
+          "value": "tielingxi",
+          "label": "铁岭西"
+        },
+        {
+          "value": "tangshancheng",
+          "label": "汤山城"
+        },
+        {
+          "value": "wafangdianxi",
+          "label": "瓦房店西"
+        },
+        {
+          "value": "wulongbei",
+          "label": "五龙背"
+        },
+        {
+          "value": "weizhangzi",
+          "label": "魏杖子"
+        },
+        {
+          "value": "xingcheng",
+          "label": "兴城"
+        },
+        {
+          "value": "xinchengzi",
+          "label": "新城子"
+        },
+        {
+          "value": "xiliu",
+          "label": "西柳"
+        },
+        {
+          "value": "xinlitun",
+          "label": "新立屯"
+        },
+        {
+          "value": "xinmin",
+          "label": "新民"
+        },
+        {
+          "value": "xiamatang",
+          "label": "下马塘"
+        },
+        {
+          "value": "xinqiu",
+          "label": "新邱"
+        },
+        {
+          "value": "yingchengzi",
+          "label": "营城子"
+        },
+        {
+          "value": "yimianshan",
+          "label": "一面山"
+        },
+        {
+          "value": "yaoqianhutun",
+          "label": "姚千户屯"
+        },
+        {
+          "value": "yushutai",
+          "label": "榆树台"
+        },
+        {
+          "value": "yangzhangzi",
+          "label": "杨杖子"
+        },
+        {
+          "value": "zhangdang",
+          "label": "章党"
+        },
+        {
+          "value": "zhanggutai",
+          "label": "章古台"
+        },
+        {
+          "value": "zhoujiatun",
+          "label": "周家屯"
+        },
+        {
+          "value": "zhangwu",
+          "label": "彰武"
+        },
+        {
+          "value": "benxixincheng",
+          "label": "本溪新城"
+        },
+        {
+          "value": "zhaoyang",
+          "label": "朝阳"
+        },
+        {
+          "value": "chengzitan",
+          "label": "城子坦"
+        },
+        {
+          "value": "dongdaihe",
+          "label": "东戴河"
+        },
+        {
+          "value": "donggangbei",
+          "label": "东港北"
+        },
+        {
+          "value": "fengchengdong",
+          "label": "凤城东"
+        },
+        {
+          "value": "fuxin",
+          "label": "阜新"
+        },
+        {
+          "value": "heishanbei",
+          "label": "黑山北"
+        },
+        {
+          "value": "kazuo",
+          "label": "喀左"
+        },
+        {
+          "value": "nanfenbei",
+          "label": "南芬北"
+        },
+        {
+          "value": "nailingao",
+          "label": "奈林皋"
+        },
+        {
+          "value": "pikou",
+          "label": "皮口"
+        },
+        {
+          "value": "panshan",
+          "label": "盘山"
+        },
+        {
+          "value": "qingdui",
+          "label": "青堆"
+        },
+        {
+          "value": "qinghemenbei",
+          "label": "清河门北"
+        },
+        {
+          "value": "taiannan",
+          "label": "台安南"
+        },
+        {
+          "value": "tongyuanbaoxi",
+          "label": "通远堡西"
+        },
+        {
+          "value": "wulongbeidong",
+          "label": "五龙背东"
+        },
+        {
+          "value": "wulanmutu",
+          "label": "乌兰木图"
+        },
+        {
+          "value": "wunvshan",
+          "label": "五女山"
+        },
+        {
+          "value": "xifeng",
+          "label": "西丰"
+        },
+        {
+          "value": "yixianxi",
+          "label": "义县西"
+        }
+      ]
+    },
+    {
+      "value": "jilinsheng",
+      "label": "吉林省",
+      "children": [
+        {
+          "value": "changchun",
+          "label": "长春"
+        },
+        {
+          "value": "changchunnan",
+          "label": "长春南"
+        },
+        {
+          "value": "changchunxi",
+          "label": "长春西"
+        },
+        {
+          "value": "baicheng",
+          "label": "白城"
+        },
+        {
+          "value": "baihe",
+          "label": "白河"
+        },
+        {
+          "value": "daanbei",
+          "label": "大安北"
+        },
+        {
+          "value": "dunhua",
+          "label": "敦化"
+        },
+        {
+          "value": "gongzhuling",
+          "label": "公主岭"
+        },
+        {
+          "value": "gongzhulingnan",
+          "label": "公主岭南"
+        },
+        {
+          "value": "jian",
+          "label": "集安"
+        },
+        {
+          "value": "jiaohe",
+          "label": "蛟河"
+        },
+        {
+          "value": "jilin",
+          "label": "吉林"
+        },
+        {
+          "value": "jiutai",
+          "label": "九台"
+        },
+        {
+          "value": "longjing",
+          "label": "龙井"
+        },
+        {
+          "value": "shulan",
+          "label": "舒兰"
+        },
+        {
+          "value": "siping",
+          "label": "四平"
+        },
+        {
+          "value": "songyuan",
+          "label": "松原"
+        },
+        {
+          "value": "tonghua",
+          "label": "通化"
+        },
+        {
+          "value": "taolaizhao",
+          "label": "陶赖昭"
+        },
+        {
+          "value": "tumen",
+          "label": "图们"
+        },
+        {
+          "value": "yanji",
+          "label": "延吉"
+        },
+        {
+          "value": "yushu",
+          "label": "榆树"
+        },
+        {
+          "value": "anguang",
+          "label": "安广"
+        },
+        {
+          "value": "antu",
+          "label": "安图"
+        },
+        {
+          "value": "buhai",
+          "label": "布海"
+        },
+        {
+          "value": "baiquan",
+          "label": "白泉"
+        },
+        {
+          "value": "baishishan",
+          "label": "白石山"
+        },
+        {
+          "value": "caijiagou",
+          "label": "蔡家沟"
+        },
+        {
+          "value": "zhangshantun",
+          "label": "长山屯"
+        },
+        {
+          "value": "chunyang",
+          "label": "春阳"
+        },
+        {
+          "value": "zhaoyangchuan",
+          "label": "朝阳川"
+        },
+        {
+          "value": "zhaoyangzhen",
+          "label": "朝阳镇"
+        },
+        {
+          "value": "daobao",
+          "label": "到保"
+        },
+        {
+          "value": "dongfeng",
+          "label": "东丰"
+        },
+        {
+          "value": "dehuixi",
+          "label": "德惠西"
+        },
+        {
+          "value": "dajiagou",
+          "label": "达家沟"
+        },
+        {
+          "value": "daoqing",
+          "label": "道清"
+        },
+        {
+          "value": "dashitou",
+          "label": "大石头"
+        },
+        {
+          "value": "dongtonghua",
+          "label": "东通化"
+        },
+        {
+          "value": "datun",
+          "label": "大屯"
+        },
+        {
+          "value": "daxinggou",
+          "label": "大兴沟"
+        },
+        {
+          "value": "fanjiatun",
+          "label": "范家屯"
+        },
+        {
+          "value": "fuyubei",
+          "label": "扶余北"
+        },
+        {
+          "value": "fuyu",
+          "label": "扶余"
+        },
+        {
+          "value": "gangou",
+          "label": "干沟"
+        },
+        {
+          "value": "guojiadian",
+          "label": "郭家店"
+        },
+        {
+          "value": "gongnonghu",
+          "label": "工农湖"
+        },
+        {
+          "value": "guyuan",
+          "label": "菇园"
+        },
+        {
+          "value": "guanzijing",
+          "label": "官字井"
+        },
+        {
+          "value": "huangbai",
+          "label": "黄柏"
+        },
+        {
+          "value": "huajia",
+          "label": "华家"
+        },
+        {
+          "value": "halahai",
+          "label": "哈拉海"
+        },
+        {
+          "value": "hailong",
+          "label": "海龙"
+        },
+        {
+          "value": "huangnihe",
+          "label": "黄泥河"
+        },
+        {
+          "value": "huangsongdian",
+          "label": "黄松甸"
+        },
+        {
+          "value": "heishui",
+          "label": "黑水"
+        },
+        {
+          "value": "haituozi",
+          "label": "海坨子"
+        },
+        {
+          "value": "jubao",
+          "label": "巨宝"
+        },
+        {
+          "value": "jishu",
+          "label": "吉舒"
+        },
+        {
+          "value": "jianshe",
+          "label": "建设"
+        },
+        {
+          "value": "jiutainan",
+          "label": "九台南"
+        },
+        {
+          "value": "jiangyuan",
+          "label": "江源"
+        },
+        {
+          "value": "kaian",
+          "label": "开安"
+        },
+        {
+          "value": "kouqian",
+          "label": "口前"
+        },
+        {
+          "value": "liuhe",
+          "label": "柳河"
+        },
+        {
+          "value": "liujiadian",
+          "label": "刘家店"
+        },
+        {
+          "value": "liangjia",
+          "label": "两家"
+        },
+        {
+          "value": "longjia",
+          "label": "龙嘉"
+        },
+        {
+          "value": "lushuihe",
+          "label": "露水河"
+        },
+        {
+          "value": "laoying",
+          "label": "老营"
+        },
+        {
+          "value": "mingcheng",
+          "label": "明城"
+        },
+        {
+          "value": "meihekou",
+          "label": "梅河口"
+        },
+        {
+          "value": "maolin",
+          "label": "茂林"
+        },
+        {
+          "value": "mishazi",
+          "label": "米沙子"
+        },
+        {
+          "value": "nongan",
+          "label": "农安"
+        },
+        {
+          "value": "pinganzhen",
+          "label": "平安镇"
+        },
+        {
+          "value": "pinggang",
+          "label": "平岗"
+        },
+        {
+          "value": "panshi",
+          "label": "磐石"
+        },
+        {
+          "value": "pingtai",
+          "label": "平台"
+        },
+        {
+          "value": "qianan",
+          "label": "乾安"
+        },
+        {
+          "value": "qingfeng",
+          "label": "庆丰"
+        },
+        {
+          "value": "quanyang",
+          "label": "泉阳"
+        },
+        {
+          "value": "shanchengzhen",
+          "label": "山城镇"
+        },
+        {
+          "value": "shuanghezhen",
+          "label": "双河镇"
+        },
+        {
+          "value": "songjianghe",
+          "label": "松江河"
+        },
+        {
+          "value": "shuangji",
+          "label": "双吉"
+        },
+        {
+          "value": "songjiangzhen",
+          "label": "松江镇"
+        },
+        {
+          "value": "shuangliao",
+          "label": "双辽"
+        },
+        {
+          "value": "shiling",
+          "label": "石岭"
+        },
+        {
+          "value": "shiren",
+          "label": "石人"
+        },
+        {
+          "value": "sanyuanpu",
+          "label": "三源浦"
+        },
+        {
+          "value": "tiechang",
+          "label": "铁厂"
+        },
+        {
+          "value": "tiangang",
+          "label": "天岗"
+        },
+        {
+          "value": "tonggou",
+          "label": "通沟"
+        },
+        {
+          "value": "taojiatun",
+          "label": "陶家屯"
+        },
+        {
+          "value": "tumenbei",
+          "label": "图们北"
+        },
+        {
+          "value": "taonan",
+          "label": "洮南"
+        },
+        {
+          "value": "taipingchuan",
+          "label": "太平川"
+        },
+        {
+          "value": "tianqiaoling",
+          "label": "天桥岭"
+        },
+        {
+          "value": "tongtu",
+          "label": "通途"
+        },
+        {
+          "value": "tuoyaoling",
+          "label": "驼腰岭"
+        },
+        {
+          "value": "tongyu",
+          "label": "通榆"
+        },
+        {
+          "value": "wudaogou",
+          "label": "五道沟"
+        },
+        {
+          "value": "weijin",
+          "label": "渭津"
+        },
+        {
+          "value": "wangqing",
+          "label": "汪清"
+        },
+        {
+          "value": "weizigou",
+          "label": "苇子沟"
+        },
+        {
+          "value": "xiejiazhen",
+          "label": "谢家镇"
+        },
+        {
+          "value": "xinlizhen",
+          "label": "新立镇"
+        },
+        {
+          "value": "xianrenqiao",
+          "label": "仙人桥"
+        },
+        {
+          "value": "yangcha",
+          "label": "阳岔"
+        },
+        {
+          "value": "yijianbao",
+          "label": "一间堡"
+        },
+        {
+          "value": "yantongshan",
+          "label": "烟筒山"
+        },
+        {
+          "value": "yayuan",
+          "label": "鸭园"
+        },
+        {
+          "value": "zhenlai",
+          "label": "镇赉"
+        },
+        {
+          "value": "zhenxi",
+          "label": "镇西"
+        },
+        {
+          "value": "antuxi",
+          "label": "安图西"
+        },
+        {
+          "value": "chaganhu",
+          "label": "查干湖"
+        },
+        {
+          "value": "dashitounan",
+          "label": "大石头南"
+        },
+        {
+          "value": "fusong",
+          "label": "抚松"
+        },
+        {
+          "value": "gongpengzi",
+          "label": "弓棚子"
+        },
+        {
+          "value": "huichun",
+          "label": "珲春"
+        },
+        {
+          "value": "jiaohexi",
+          "label": "蛟河西"
+        },
+        {
+          "value": "jingyu",
+          "label": "靖宇"
+        },
+        {
+          "value": "sanjingzi",
+          "label": "三井子"
+        },
+        {
+          "value": "shuangyang",
+          "label": "双阳"
+        },
+        {
+          "value": "tonghuaxian",
+          "label": "通化县"
+        },
+        {
+          "value": "weihulingbei",
+          "label": "威虎岭北"
+        },
+        {
+          "value": "yanjixi",
+          "label": "延吉西"
+        }
+      ]
+    },
+    {
+      "value": "heilongjiangsheng",
+      "label": "黑龙江省",
+      "children": [
+        {
+          "value": "haerbinxi",
+          "label": "哈尔滨西"
+        },
+        {
+          "value": "beian",
+          "label": "北安"
+        },
+        {
+          "value": "changtingzhen",
+          "label": "长汀镇"
+        },
+        {
+          "value": "dongjingcheng",
+          "label": "东京城"
+        },
+        {
+          "value": "daqing",
+          "label": "大庆"
+        },
+        {
+          "value": "gulian",
+          "label": "古莲"
+        },
+        {
+          "value": "hebei",
+          "label": "鹤北"
+        },
+        {
+          "value": "hengdaohezi",
+          "label": "横道河子"
+        },
+        {
+          "value": "hegang",
+          "label": "鹤岗"
+        },
+        {
+          "value": "heihe",
+          "label": "黑河"
+        },
+        {
+          "value": "hailun",
+          "label": "海伦"
+        },
+        {
+          "value": "huanan",
+          "label": "桦南"
+        },
+        {
+          "value": "jiamusi",
+          "label": "佳木斯"
+        },
+        {
+          "value": "ludao",
+          "label": "鹿道"
+        },
+        {
+          "value": "lizhi",
+          "label": "立志"
+        },
+        {
+          "value": "mudanjiang",
+          "label": "牡丹江"
+        },
+        {
+          "value": "mohe",
+          "label": "漠河"
+        },
+        {
+          "value": "mishan",
+          "label": "密山"
+        },
+        {
+          "value": "nancha",
+          "label": "南岔"
+        },
+        {
+          "value": "nenjiang",
+          "label": "嫩江"
+        },
+        {
+          "value": "nianzishan",
+          "label": "碾子山"
+        },
+        {
+          "value": "qianjinzhen",
+          "label": "前进镇"
+        },
+        {
+          "value": "qiqihaer",
+          "label": "齐齐哈尔"
+        },
+        {
+          "value": "qitaihe",
+          "label": "七台河"
+        },
+        {
+          "value": "shuangchengbao",
+          "label": "双城堡"
+        },
+        {
+          "value": "suifenhe",
+          "label": "绥芬河"
+        },
+        {
+          "value": "sanjianfang",
+          "label": "三间房"
+        },
+        {
+          "value": "tahe",
+          "label": "塔河"
+        },
+        {
+          "value": "tailai",
+          "label": "泰来"
+        },
+        {
+          "value": "taiyangsheng",
+          "label": "太阳升"
+        },
+        {
+          "value": "wuyiling",
+          "label": "乌伊岭"
+        },
+        {
+          "value": "yabulinan",
+          "label": "亚布力南"
+        },
+        {
+          "value": "yichun",
+          "label": "伊春"
+        },
+        {
+          "value": "yimianpo",
+          "label": "一面坡"
+        },
+        {
+          "value": "yuquan",
+          "label": "玉泉"
+        },
+        {
+          "value": "acheng",
+          "label": "阿城"
+        },
+        {
+          "value": "anda",
+          "label": "安达"
+        },
+        {
+          "value": "amuer",
+          "label": "阿木尔"
+        },
+        {
+          "value": "baikuibao",
+          "label": "白奎堡"
+        },
+        {
+          "value": "baolin",
+          "label": "宝林"
+        },
+        {
+          "value": "boli",
+          "label": "勃利"
+        },
+        {
+          "value": "baoquanling",
+          "label": "宝泉岭"
+        },
+        {
+          "value": "chenggaozi",
+          "label": "成高子"
+        },
+        {
+          "value": "chaihe",
+          "label": "柴河"
+        },
+        {
+          "value": "chenming",
+          "label": "晨明"
+        },
+        {
+          "value": "chuangyecun",
+          "label": "创业村"
+        },
+        {
+          "value": "didao",
+          "label": "滴道"
+        },
+        {
+          "value": "duerbote",
+          "label": "杜尔伯特"
+        },
+        {
+          "value": "donghai",
+          "label": "东海"
+        },
+        {
+          "value": "dongjin",
+          "label": "东津"
+        },
+        {
+          "value": "dailing",
+          "label": "带岭"
+        },
+        {
+          "value": "dulitun",
+          "label": "独立屯"
+        },
+        {
+          "value": "daqingdong",
+          "label": "大庆东"
+        },
+        {
+          "value": "duiqingshan",
+          "label": "对青山"
+        },
+        {
+          "value": "daqingxi",
+          "label": "大庆西"
+        },
+        {
+          "value": "daxing",
+          "label": "大兴"
+        },
+        {
+          "value": "erdaowan",
+          "label": "二道湾"
+        },
+        {
+          "value": "fuhai",
+          "label": "富海"
+        },
+        {
+          "value": "fulitun",
+          "label": "福利屯"
+        },
+        {
+          "value": "fenglezhen",
+          "label": "丰乐镇"
+        },
+        {
+          "value": "fengtun",
+          "label": "冯屯"
+        },
+        {
+          "value": "fuyu",
+          "label": "富裕"
+        },
+        {
+          "value": "guchengzhen",
+          "label": "古城镇"
+        },
+        {
+          "value": "hulan",
+          "label": "呼兰"
+        },
+        {
+          "value": "heli",
+          "label": "鹤立"
+        },
+        {
+          "value": "hailin",
+          "label": "海林"
+        },
+        {
+          "value": "hulin",
+          "label": "虎林"
+        },
+        {
+          "value": "heitai",
+          "label": "黑台"
+        },
+        {
+          "value": "hongxing",
+          "label": "红星"
+        },
+        {
+          "value": "jidong",
+          "label": "鸡东"
+        },
+        {
+          "value": "jinhe",
+          "label": "锦河"
+        },
+        {
+          "value": "jiangqiao",
+          "label": "江桥"
+        },
+        {
+          "value": "jinshantun",
+          "label": "金山屯"
+        },
+        {
+          "value": "kuishan",
+          "label": "奎山"
+        },
+        {
+          "value": "keshan",
+          "label": "克山"
+        },
+        {
+          "value": "langang",
+          "label": "兰岗"
+        },
+        {
+          "value": "laha",
+          "label": "拉哈"
+        },
+        {
+          "value": "liuhezhen",
+          "label": "六合镇"
+        },
+        {
+          "value": "lijia",
+          "label": "李家"
+        },
+        {
+          "value": "lianjiangkou",
+          "label": "莲江口"
+        },
+        {
+          "value": "linkou",
+          "label": "林口"
+        },
+        {
+          "value": "lanleng",
+          "label": "兰棱"
+        },
+        {
+          "value": "lishuzhen",
+          "label": "梨树镇"
+        },
+        {
+          "value": "langxiang",
+          "label": "朗乡"
+        },
+        {
+          "value": "linyuan",
+          "label": "林源"
+        },
+        {
+          "value": "longzhen",
+          "label": "龙镇"
+        },
+        {
+          "value": "modaoshi",
+          "label": "磨刀石"
+        },
+        {
+          "value": "maoershan",
+          "label": "帽儿山"
+        },
+        {
+          "value": "mengjiagang",
+          "label": "孟家岗"
+        },
+        {
+          "value": "muleng",
+          "label": "穆棱"
+        },
+        {
+          "value": "maqiaohe",
+          "label": "马桥河"
+        },
+        {
+          "value": "mashan",
+          "label": "麻山"
+        },
+        {
+          "value": "ningan",
+          "label": "宁安"
+        },
+        {
+          "value": "peide",
+          "label": "裴德"
+        },
+        {
+          "value": "pingshan",
+          "label": "平山"
+        },
+        {
+          "value": "pingyang",
+          "label": "平洋"
+        },
+        {
+          "value": "qingan",
+          "label": "庆安"
+        },
+        {
+          "value": "qinjia",
+          "label": "秦家"
+        },
+        {
+          "value": "qinglong",
+          "label": "青龙"
+        },
+        {
+          "value": "qingshan",
+          "label": "青山"
+        },
+        {
+          "value": "shuangchengbei",
+          "label": "双城北"
+        },
+        {
+          "value": "shuangfeng",
+          "label": "双丰"
+        },
+        {
+          "value": "shangjia",
+          "label": "尚家"
+        },
+        {
+          "value": "shenjia",
+          "label": "沈家"
+        },
+        {
+          "value": "shilin",
+          "label": "石磷"
+        },
+        {
+          "value": "suileng",
+          "label": "绥棱"
+        },
+        {
+          "value": "song",
+          "label": "宋"
+        },
+        {
+          "value": "shirencheng",
+          "label": "石人城"
+        },
+        {
+          "value": "shitou",
+          "label": "石头"
+        },
+        {
+          "value": "shangzhi",
+          "label": "尚志"
+        },
+        {
+          "value": "tongbei",
+          "label": "通北"
+        },
+        {
+          "value": "tangchi",
+          "label": "汤池"
+        },
+        {
+          "value": "tuanjie",
+          "label": "团结"
+        },
+        {
+          "value": "tieli",
+          "label": "铁力"
+        },
+        {
+          "value": "taipingzhen",
+          "label": "太平镇"
+        },
+        {
+          "value": "taoshan",
+          "label": "桃山"
+        },
+        {
+          "value": "tangwanghe",
+          "label": "汤旺河"
+        },
+        {
+          "value": "tangyuan",
+          "label": "汤原"
+        },
+        {
+          "value": "wenchun",
+          "label": "温春"
+        },
+        {
+          "value": "wudalianchi",
+          "label": "五大连池"
+        },
+        {
+          "value": "weihe",
+          "label": "苇河"
+        },
+        {
+          "value": "wujia",
+          "label": "五家"
+        },
+        {
+          "value": "wolitun",
+          "label": "卧里屯"
+        },
+        {
+          "value": "wangyang",
+          "label": "王杨"
+        },
+        {
+          "value": "wuying",
+          "label": "五营"
+        },
+        {
+          "value": "wangzhaotun",
+          "label": "王兆屯"
+        },
+        {
+          "value": "xiachengzi",
+          "label": "下城子"
+        },
+        {
+          "value": "xiangfang",
+          "label": "香坊"
+        },
+        {
+          "value": "xigangzi",
+          "label": "西岗子"
+        },
+        {
+          "value": "xianghe",
+          "label": "襄河"
+        },
+        {
+          "value": "xinhuatun",
+          "label": "新华屯"
+        },
+        {
+          "value": "xinhua",
+          "label": "新华"
+        },
+        {
+          "value": "xingkai",
+          "label": "兴凯"
+        },
+        {
+          "value": "xianglan",
+          "label": "香兰"
+        },
+        {
+          "value": "xiaoling",
+          "label": "小岭"
+        },
+        {
+          "value": "xilin",
+          "label": "西林"
+        },
+        {
+          "value": "xinqing",
+          "label": "新青"
+        },
+        {
+          "value": "xingshu",
+          "label": "杏树"
+        },
+        {
+          "value": "xinsongpu",
+          "label": "新松浦"
+        },
+        {
+          "value": "xinyouyi",
+          "label": "新友谊"
+        },
+        {
+          "value": "yian",
+          "label": "依安"
+        },
+        {
+          "value": "yonganxiang",
+          "label": "永安乡"
+        },
+        {
+          "value": "yabuli",
+          "label": "亚布力"
+        },
+        {
+          "value": "yingchun",
+          "label": "迎春"
+        },
+        {
+          "value": "yanggang",
+          "label": "杨岗"
+        },
+        {
+          "value": "youhao",
+          "label": "友好"
+        },
+        {
+          "value": "yinlang",
+          "label": "银浪"
+        },
+        {
+          "value": "yilaha",
+          "label": "伊拉哈"
+        },
+        {
+          "value": "yilin",
+          "label": "伊林"
+        },
+        {
+          "value": "yushutun",
+          "label": "榆树屯"
+        },
+        {
+          "value": "zhaodong",
+          "label": "肇东"
+        },
+        {
+          "value": "zhaoguang",
+          "label": "赵光"
+        },
+        {
+          "value": "zhoujia",
+          "label": "周家"
+        },
+        {
+          "value": "zhangweitun",
+          "label": "张维屯"
+        },
+        {
+          "value": "zhuangzhi",
+          "label": "壮志"
+        },
+        {
+          "value": "binzhou",
+          "label": "宾州"
+        },
+        {
+          "value": "fuyuan",
+          "label": "抚远"
+        },
+        {
+          "value": "fangzheng",
+          "label": "方正"
+        },
+        {
+          "value": "hanconggou",
+          "label": "寒葱沟"
+        },
+        {
+          "value": "honghe",
+          "label": "洪河"
+        },
+        {
+          "value": "jiamusixi",
+          "label": "佳木斯西"
+        },
+        {
+          "value": "qianfeng",
+          "label": "前锋"
+        },
+        {
+          "value": "qiqihaernan",
+          "label": "齐齐哈尔南"
+        },
+        {
+          "value": "shenglizhen",
+          "label": "胜利镇"
+        },
+        {
+          "value": "shangzhinan",
+          "label": "尚志南"
+        },
+        {
+          "value": "tongjiang",
+          "label": "同江"
+        },
+        {
+          "value": "yilan",
+          "label": "依兰"
+        }
+      ]
+    },
+    {
+      "value": "jiangsusheng",
+      "label": "江苏省",
+      "children": [
+        {
+          "value": "changzhou",
+          "label": "常州"
+        },
+        {
+          "value": "huaian",
+          "label": "淮安"
+        },
+        {
+          "value": "kunshannan",
+          "label": "昆山南"
+        },
+        {
+          "value": "lianyungangdong",
+          "label": "连云港东"
+        },
+        {
+          "value": "nantong",
+          "label": "南通"
+        },
+        {
+          "value": "suzhou",
+          "label": "苏州"
+        },
+        {
+          "value": "taizhou",
+          "label": "泰州"
+        },
+        {
+          "value": "wuxi",
+          "label": "无锡"
+        },
+        {
+          "value": "yancheng",
+          "label": "盐城"
+        },
+        {
+          "value": "yangzhou",
+          "label": "扬州"
+        },
+        {
+          "value": "zhenjiang",
+          "label": "镇江"
+        },
+        {
+          "value": "baohuashan",
+          "label": "宝华山"
+        },
+        {
+          "value": "changzhoubei",
+          "label": "常州北"
+        },
+        {
+          "value": "donghaixian",
+          "label": "东海县"
+        },
+        {
+          "value": "dongtai",
+          "label": "东台"
+        },
+        {
+          "value": "dantu",
+          "label": "丹徒"
+        },
+        {
+          "value": "danyang",
+          "label": "丹阳"
+        },
+        {
+          "value": "danyangbei",
+          "label": "丹阳北"
+        },
+        {
+          "value": "funing",
+          "label": "阜宁"
+        },
+        {
+          "value": "haian",
+          "label": "海安"
+        },
+        {
+          "value": "huaiannan",
+          "label": "淮安南"
+        },
+        {
+          "value": "huaqiao",
+          "label": "花桥"
+        },
+        {
+          "value": "huishan",
+          "label": "惠山"
+        },
+        {
+          "value": "jiangdu",
+          "label": "江都"
+        },
+        {
+          "value": "jianhu",
+          "label": "建湖"
+        },
+        {
+          "value": "kunshan",
+          "label": "昆山"
+        },
+        {
+          "value": "longjiang",
+          "label": "龙江"
+        },
+        {
+          "value": "lianyungang",
+          "label": "连云港"
+        },
+        {
+          "value": "pizhou",
+          "label": "邳州"
+        },
+        {
+          "value": "qishuyan",
+          "label": "戚墅堰"
+        },
+        {
+          "value": "rugao",
+          "label": "如皋"
+        },
+        {
+          "value": "shuyang",
+          "label": "沭阳"
+        },
+        {
+          "value": "suzhoubei",
+          "label": "苏州北"
+        },
+        {
+          "value": "suzhouyuanqu",
+          "label": "苏州园区"
+        },
+        {
+          "value": "suzhouxinqu",
+          "label": "苏州新区"
+        },
+        {
+          "value": "wangjiawan",
+          "label": "王家湾"
+        },
+        {
+          "value": "wuxidong",
+          "label": "无锡东"
+        },
+        {
+          "value": "xianlin",
+          "label": "仙林"
+        },
+        {
+          "value": "xinyi",
+          "label": "新沂"
+        },
+        {
+          "value": "yangchenghu",
+          "label": "阳澄湖"
+        },
+        {
+          "value": "yizheng",
+          "label": "仪征"
+        },
+        {
+          "value": "zhonghuamen",
+          "label": "中华门"
+        },
+        {
+          "value": "zhenjiangnan",
+          "label": "镇江南"
+        },
+        {
+          "value": "bencha",
+          "label": "栟茶"
+        },
+        {
+          "value": "binhaigang",
+          "label": "滨海港"
+        },
+        {
+          "value": "dafeng",
+          "label": "大丰"
+        },
+        {
+          "value": "funingdong",
+          "label": "阜宁东"
+        },
+        {
+          "value": "ganyu",
+          "label": "赣榆"
+        },
+        {
+          "value": "jiangning",
+          "label": "江宁"
+        },
+        {
+          "value": "jiangningxi",
+          "label": "江宁西"
+        },
+        {
+          "value": "jurongxi",
+          "label": "句容西"
+        },
+        {
+          "value": "lishui",
+          "label": "溧水"
+        },
+        {
+          "value": "liyang",
+          "label": "溧阳"
+        },
+        {
+          "value": "qidong",
+          "label": "启东"
+        },
+        {
+          "value": "sihong",
+          "label": "泗洪"
+        },
+        {
+          "value": "siyang",
+          "label": "泗阳"
+        },
+        {
+          "value": "sheyang",
+          "label": "射阳"
+        },
+        {
+          "value": "wawushan",
+          "label": "瓦屋山"
+        },
+        {
+          "value": "xiangshuixian",
+          "label": "响水县"
+        },
+        {
+          "value": "yanchengbei",
+          "label": "盐城北"
+        },
+        {
+          "value": "yixing",
+          "label": "宜兴"
+        }
+      ]
+    },
+    {
+      "value": "zhejiangsheng",
+      "label": "浙江省",
+      "children": [
+        {
+          "value": "hangzhoudong",
+          "label": "杭州东"
+        },
+        {
+          "value": "hangzhou",
+          "label": "杭州"
+        },
+        {
+          "value": "hangzhounan",
+          "label": "杭州南"
+        },
+        {
+          "value": "cangnan",
+          "label": "苍南"
+        },
+        {
+          "value": "hainingxi",
+          "label": "海宁西"
+        },
+        {
+          "value": "jinhuanan",
+          "label": "金华南"
+        },
+        {
+          "value": "jinhua",
+          "label": "金华"
+        },
+        {
+          "value": "lanxi",
+          "label": "兰溪"
+        },
+        {
+          "value": "ningbo",
+          "label": "宁波"
+        },
+        {
+          "value": "quzhou",
+          "label": "衢州"
+        },
+        {
+          "value": "wenzhou",
+          "label": "温州"
+        },
+        {
+          "value": "wenzhounan",
+          "label": "温州南"
+        },
+        {
+          "value": "yiwu",
+          "label": "义乌"
+        },
+        {
+          "value": "aojiang",
+          "label": "鳌江"
+        },
+        {
+          "value": "changxingnan",
+          "label": "长兴南"
+        },
+        {
+          "value": "deqingxi",
+          "label": "德清西"
+        },
+        {
+          "value": "fenghua",
+          "label": "奉化"
+        },
+        {
+          "value": "haining",
+          "label": "海宁"
+        },
+        {
+          "value": "huzhou",
+          "label": "湖州"
+        },
+        {
+          "value": "jiashan",
+          "label": "嘉善"
+        },
+        {
+          "value": "jiashannan",
+          "label": "嘉善南"
+        },
+        {
+          "value": "jiaxing",
+          "label": "嘉兴"
+        },
+        {
+          "value": "jiaxingnan",
+          "label": "嘉兴南"
+        },
+        {
+          "value": "jinyun",
+          "label": "缙云"
+        },
+        {
+          "value": "linhai",
+          "label": "临海"
+        },
+        {
+          "value": "longyou",
+          "label": "龙游"
+        },
+        {
+          "value": "qingtian",
+          "label": "青田"
+        },
+        {
+          "value": "shenfang",
+          "label": "绅坊"
+        },
+        {
+          "value": "sanmenxian",
+          "label": "三门县"
+        },
+        {
+          "value": "shaoxing",
+          "label": "绍兴"
+        },
+        {
+          "value": "shangyu",
+          "label": "上虞"
+        },
+        {
+          "value": "tongxiang",
+          "label": "桐乡"
+        },
+        {
+          "value": "taizhou",
+          "label": "台州"
+        },
+        {
+          "value": "wuyi",
+          "label": "武义"
+        },
+        {
+          "value": "yuhang",
+          "label": "余杭"
+        },
+        {
+          "value": "yongjia",
+          "label": "永嘉"
+        },
+        {
+          "value": "yongkang",
+          "label": "永康"
+        },
+        {
+          "value": "yuyao",
+          "label": "余姚"
+        },
+        {
+          "value": "zhuji",
+          "label": "诸暨"
+        },
+        {
+          "value": "changshan",
+          "label": "常山"
+        },
+        {
+          "value": "changxing",
+          "label": "长兴"
+        },
+        {
+          "value": "deqing",
+          "label": "德清"
+        },
+        {
+          "value": "fuyang",
+          "label": "富阳"
+        },
+        {
+          "value": "jiande",
+          "label": "建德"
+        },
+        {
+          "value": "jinyunxi",
+          "label": "缙云西"
+        },
+        {
+          "value": "kaihua",
+          "label": "开化"
+        },
+        {
+          "value": "qiandaohu",
+          "label": "千岛湖"
+        },
+        {
+          "value": "shaoxingbei",
+          "label": "绍兴北"
+        },
+        {
+          "value": "shaoxingdong",
+          "label": "绍兴东"
+        },
+        {
+          "value": "tonglu",
+          "label": "桐庐"
+        },
+        {
+          "value": "wuyibei",
+          "label": "武义北"
+        },
+        {
+          "value": "yongkangnan",
+          "label": "永康南"
+        },
+        {
+          "value": "yuyaobei",
+          "label": "余姚北"
+        },
+        {
+          "value": "zhuangqiao",
+          "label": "庄桥"
+        }
+      ]
+    },
+    {
+      "value": "anhuisheng",
+      "label": "安徽省",
+      "children": [
+        {
+          "value": "hefei",
+          "label": "合肥"
+        },
+        {
+          "value": "anqing",
+          "label": "安庆"
+        },
+        {
+          "value": "bengbu",
+          "label": "蚌埠"
+        },
+        {
+          "value": "bozhou",
+          "label": "亳州"
+        },
+        {
+          "value": "chizhou",
+          "label": "池州"
+        },
+        {
+          "value": "fuyang",
+          "label": "阜阳"
+        },
+        {
+          "value": "huaibei",
+          "label": "淮北"
+        },
+        {
+          "value": "huainan",
+          "label": "淮南"
+        },
+        {
+          "value": "huangshan",
+          "label": "黄山"
+        },
+        {
+          "value": "jixixian",
+          "label": "绩溪县"
+        },
+        {
+          "value": "luan",
+          "label": "六安"
+        },
+        {
+          "value": "mingguang",
+          "label": "明光"
+        },
+        {
+          "value": "susong",
+          "label": "宿松"
+        },
+        {
+          "value": "suzhou",
+          "label": "宿州"
+        },
+        {
+          "value": "wuhu",
+          "label": "芜湖"
+        },
+        {
+          "value": "anqingxi",
+          "label": "安庆西"
+        },
+        {
+          "value": "bengbunan",
+          "label": "蚌埠南"
+        },
+        {
+          "value": "chuzhoubei",
+          "label": "滁州北"
+        },
+        {
+          "value": "chuzhou",
+          "label": "滁州"
+        },
+        {
+          "value": "dangshan",
+          "label": "砀山"
+        },
+        {
+          "value": "dingyuan",
+          "label": "定远"
+        },
+        {
+          "value": "dongzhi",
+          "label": "东至"
+        },
+        {
+          "value": "feidong",
+          "label": "肥东"
+        },
+        {
+          "value": "funan",
+          "label": "阜南"
+        },
+        {
+          "value": "fengyang",
+          "label": "凤阳"
+        },
+        {
+          "value": "guzhen",
+          "label": "固镇"
+        },
+        {
+          "value": "huangkou",
+          "label": "黄口"
+        },
+        {
+          "value": "jinzhai",
+          "label": "金寨"
+        },
+        {
+          "value": "lujiang",
+          "label": "庐江"
+        },
+        {
+          "value": "maanshan",
+          "label": "马鞍山"
+        },
+        {
+          "value": "ningguo",
+          "label": "宁国"
+        },
+        {
+          "value": "quanjiao",
+          "label": "全椒"
+        },
+        {
+          "value": "qinglongshan",
+          "label": "青龙山"
+        },
+        {
+          "value": "qimen",
+          "label": "祁门"
+        },
+        {
+          "value": "shucheng",
+          "label": "舒城"
+        },
+        {
+          "value": "santangji",
+          "label": "三堂集"
+        },
+        {
+          "value": "shexian",
+          "label": "歙县"
+        },
+        {
+          "value": "suzhoudong",
+          "label": "宿州东"
+        },
+        {
+          "value": "tongcheng",
+          "label": "桐城"
+        },
+        {
+          "value": "taihu",
+          "label": "太湖"
+        },
+        {
+          "value": "tongling",
+          "label": "铜陵"
+        },
+        {
+          "value": "tianzhushan",
+          "label": "天柱山"
+        },
+        {
+          "value": "xuancheng",
+          "label": "宣城"
+        },
+        {
+          "value": "yingshang",
+          "label": "颍上"
+        },
+        {
+          "value": "chaohudong",
+          "label": "巢湖东"
+        },
+        {
+          "value": "dangshannan",
+          "label": "砀山南"
+        },
+        {
+          "value": "dangtudong",
+          "label": "当涂东"
+        },
+        {
+          "value": "fanchangxi",
+          "label": "繁昌西"
+        },
+        {
+          "value": "huaibeibei",
+          "label": "淮北北"
+        },
+        {
+          "value": "hefeibeicheng",
+          "label": "合肥北城"
+        },
+        {
+          "value": "hefeinan",
+          "label": "合肥南"
+        },
+        {
+          "value": "huoqiu",
+          "label": "霍邱"
+        },
+        {
+          "value": "huangshanbei",
+          "label": "黄山北"
+        },
+        {
+          "value": "jingde",
+          "label": "旌德"
+        },
+        {
+          "value": "jixibei",
+          "label": "绩溪北"
+        },
+        {
+          "value": "jingxian",
+          "label": "泾县"
+        },
+        {
+          "value": "lingbi",
+          "label": "灵璧"
+        },
+        {
+          "value": "longqiao",
+          "label": "龙桥"
+        },
+        {
+          "value": "maanshandong",
+          "label": "马鞍山东"
+        },
+        {
+          "value": "nanling",
+          "label": "南陵"
+        },
+        {
+          "value": "shexianbei",
+          "label": "歙县北"
+        },
+        {
+          "value": "taihebei",
+          "label": "太和北"
+        },
+        {
+          "value": "tonglingbei",
+          "label": "铜陵北"
+        },
+        {
+          "value": "wuwei",
+          "label": "无为"
+        },
+        {
+          "value": "xiaoxianbei",
+          "label": "萧县北"
+        },
+        {
+          "value": "yijiang",
+          "label": "弋江"
+        }
+      ]
+    },
+    {
+      "value": "fujiansheng",
+      "label": "福建省",
+      "children": [
+        {
+          "value": "fuzhou",
+          "label": "福州"
+        },
+        {
+          "value": "fuzhounan",
+          "label": "福州南"
+        },
+        {
+          "value": "fuding",
+          "label": "福鼎"
+        },
+        {
+          "value": "longyan",
+          "label": "龙岩"
+        },
+        {
+          "value": "nanping",
+          "label": "南平"
+        },
+        {
+          "value": "quanzhoudong",
+          "label": "泉州东"
+        },
+        {
+          "value": "quanzhou",
+          "label": "泉州"
+        },
+        {
+          "value": "sanyuanqu",
+          "label": "三元区"
+        },
+        {
+          "value": "xiamengaoqi",
+          "label": "厦门高崎"
+        },
+        {
+          "value": "anxi",
+          "label": "安溪"
+        },
+        {
+          "value": "changting",
+          "label": "长汀"
+        },
+        {
+          "value": "fuqing",
+          "label": "福清"
+        },
+        {
+          "value": "guanzhishan",
+          "label": "冠豸山"
+        },
+        {
+          "value": "hanjiang",
+          "label": "涵江"
+        },
+        {
+          "value": "jinjiang",
+          "label": "晋江"
+        },
+        {
+          "value": "jiaomei",
+          "label": "角美"
+        },
+        {
+          "value": "jianyang",
+          "label": "建阳"
+        },
+        {
+          "value": "lianjiang",
+          "label": "连江"
+        },
+        {
+          "value": "longshanzhen",
+          "label": "龙山镇"
+        },
+        {
+          "value": "luoyuan",
+          "label": "罗源"
+        },
+        {
+          "value": "laizhou",
+          "label": "来舟"
+        },
+        {
+          "value": "minqing",
+          "label": "闽清"
+        },
+        {
+          "value": "ningde",
+          "label": "宁德"
+        },
+        {
+          "value": "nanjing",
+          "label": "南靖"
+        },
+        {
+          "value": "nanpingnan",
+          "label": "南平南"
+        },
+        {
+          "value": "putian",
+          "label": "莆田"
+        },
+        {
+          "value": "shunchang",
+          "label": "顺昌"
+        },
+        {
+          "value": "shanghang",
+          "label": "上杭"
+        },
+        {
+          "value": "tailaoshan",
+          "label": "太姥山"
+        },
+        {
+          "value": "xiapu",
+          "label": "霞浦"
+        },
+        {
+          "value": "yongan",
+          "label": "永安"
+        },
+        {
+          "value": "zhangzhoudong",
+          "label": "漳州东"
+        },
+        {
+          "value": "zhangzhou",
+          "label": "漳州"
+        },
+        {
+          "value": "changtingnan",
+          "label": "长汀南"
+        },
+        {
+          "value": "fuzhou nan",
+          "label": "福州 南"
+        },
+        {
+          "value": "gutianbei",
+          "label": "古田北"
+        },
+        {
+          "value": "gutianhuizhi",
+          "label": "古田会址"
+        },
+        {
+          "value": "huian",
+          "label": "惠安"
+        },
+        {
+          "value": "jiangle",
+          "label": "将乐"
+        },
+        {
+          "value": "jianningxianbei",
+          "label": "建宁县北"
+        },
+        {
+          "value": "jianouxi",
+          "label": "建瓯西"
+        },
+        {
+          "value": "minqingbei",
+          "label": "闽清北"
+        },
+        {
+          "value": "nanpingbei",
+          "label": "南平北"
+        },
+        {
+          "value": "sanmingbei",
+          "label": "三明北"
+        },
+        {
+          "value": "sanming",
+          "label": "三明"
+        },
+        {
+          "value": "shuangyang",
+          "label": "双洋"
+        },
+        {
+          "value": "taining",
+          "label": "泰宁"
+        },
+        {
+          "value": "wuyishanbei",
+          "label": "武夷山北"
+        },
+        {
+          "value": "wuyishandong",
+          "label": "武夷山东"
+        },
+        {
+          "value": "xianyou",
+          "label": "仙游"
+        },
+        {
+          "value": "yongannan",
+          "label": "永安南"
+        },
+        {
+          "value": "yanpingxi",
+          "label": "延平西"
+        },
+        {
+          "value": "yanshinan",
+          "label": "雁石南"
+        },
+        {
+          "value": "yongtai",
+          "label": "永泰"
+        },
+        {
+          "value": "youxi",
+          "label": "尤溪"
+        },
+        {
+          "value": "yunxiao",
+          "label": "云霄"
+        },
+        {
+          "value": "zhaoan",
+          "label": "诏安"
+        },
+        {
+          "value": "zhangpu",
+          "label": "漳浦"
+        },
+        {
+          "value": "zhangpingxi",
+          "label": "漳平西"
+        }
+      ]
+    },
+    {
+      "value": "jiangxisheng",
+      "label": "江西省",
+      "children": [
+        {
+          "value": "nanchang",
+          "label": "南昌"
+        },
+        {
+          "value": "chongren",
+          "label": "崇仁"
+        },
+        {
+          "value": "dingnan",
+          "label": "定南"
+        },
+        {
+          "value": "ganzhou",
+          "label": "赣州"
+        },
+        {
+          "value": "jian",
+          "label": "吉安"
+        },
+        {
+          "value": "jiangbiancun",
+          "label": "江边村"
+        },
+        {
+          "value": "jingdezhen",
+          "label": "景德镇"
+        },
+        {
+          "value": "jinggangshan",
+          "label": "井冈山"
+        },
+        {
+          "value": "jiujiang",
+          "label": "九江"
+        },
+        {
+          "value": "pingxiang",
+          "label": "萍乡"
+        },
+        {
+          "value": "ruijin",
+          "label": "瑞金"
+        },
+        {
+          "value": "shangrao",
+          "label": "上饶"
+        },
+        {
+          "value": "yichunxi",
+          "label": "宜春西"
+        },
+        {
+          "value": "yushan",
+          "label": "玉山"
+        },
+        {
+          "value": "yingtan",
+          "label": "鹰潭"
+        },
+        {
+          "value": "dean",
+          "label": "德安"
+        },
+        {
+          "value": "dongxiang",
+          "label": "东乡"
+        },
+        {
+          "value": "fengcheng",
+          "label": "丰城"
+        },
+        {
+          "value": "fengchengnan",
+          "label": "丰城南"
+        },
+        {
+          "value": "fenyi",
+          "label": "分宜"
+        },
+        {
+          "value": "gongqingcheng",
+          "label": "共青城"
+        },
+        {
+          "value": "huichangbei",
+          "label": "会昌北"
+        },
+        {
+          "value": "hengfeng",
+          "label": "横峰"
+        },
+        {
+          "value": "hukou",
+          "label": "湖口"
+        },
+        {
+          "value": "jinxian",
+          "label": "进贤"
+        },
+        {
+          "value": "longnan",
+          "label": "龙南"
+        },
+        {
+          "value": "lushan",
+          "label": "庐山"
+        },
+        {
+          "value": "luxi",
+          "label": "芦溪"
+        },
+        {
+          "value": "pengze",
+          "label": "彭泽"
+        },
+        {
+          "value": "ruichang",
+          "label": "瑞昌"
+        },
+        {
+          "value": "taihe",
+          "label": "泰和"
+        },
+        {
+          "value": "wannian",
+          "label": "万年"
+        },
+        {
+          "value": "xinfeng",
+          "label": "信丰"
+        },
+        {
+          "value": "xingan",
+          "label": "新干"
+        },
+        {
+          "value": "xingguo",
+          "label": "兴国"
+        },
+        {
+          "value": "xiajiang",
+          "label": "峡江"
+        },
+        {
+          "value": "xiangtang",
+          "label": "向塘"
+        },
+        {
+          "value": "yudou",
+          "label": "于都"
+        },
+        {
+          "value": "yujiang",
+          "label": "余江"
+        },
+        {
+          "value": "yiyang",
+          "label": "弋阳"
+        },
+        {
+          "value": "zhangshudong",
+          "label": "樟树东"
+        },
+        {
+          "value": "zhangshu",
+          "label": "樟树"
+        },
+        {
+          "value": "dayu",
+          "label": "大余"
+        },
+        {
+          "value": "fuzhoudong",
+          "label": "抚州东"
+        },
+        {
+          "value": "gaoan",
+          "label": "高安"
+        },
+        {
+          "value": "jingdezhenbei",
+          "label": "景德镇北"
+        },
+        {
+          "value": "nancheng",
+          "label": "南城"
+        },
+        {
+          "value": "nan chang",
+          "label": "南 昌"
+        },
+        {
+          "value": "nanchangxi",
+          "label": "南昌西"
+        },
+        {
+          "value": "pingxiangbei",
+          "label": "萍乡北"
+        },
+        {
+          "value": "ruichangxi",
+          "label": "瑞昌西"
+        },
+        {
+          "value": "wufushan",
+          "label": "五府山"
+        },
+        {
+          "value": "wuyuan",
+          "label": "婺源"
+        },
+        {
+          "value": "xinyubei",
+          "label": "新余北"
+        },
+        {
+          "value": "yichun",
+          "label": "宜春"
+        },
+        {
+          "value": "yushannan",
+          "label": "玉山南"
+        },
+        {
+          "value": "yingtanbei",
+          "label": "鹰潭北"
+        }
+      ]
+    },
+    {
+      "value": "shandongsheng",
+      "label": "山东省",
+      "children": [
+        {
+          "value": "jinan",
+          "label": "济南"
+        },
+        {
+          "value": "caoxian",
+          "label": "曹县"
+        },
+        {
+          "value": "dongying",
+          "label": "东营"
+        },
+        {
+          "value": "dezhou",
+          "label": "德州"
+        },
+        {
+          "value": "heze",
+          "label": "菏泽"
+        },
+        {
+          "value": "jining",
+          "label": "济宁"
+        },
+        {
+          "value": "qingdao",
+          "label": "青岛"
+        },
+        {
+          "value": "yantai",
+          "label": "烟台"
+        },
+        {
+          "value": "zibo",
+          "label": "淄博"
+        },
+        {
+          "value": "zaozhuang",
+          "label": "枣庄"
+        },
+        {
+          "value": "zaozhuangxi",
+          "label": "枣庄西"
+        },
+        {
+          "value": "changle",
+          "label": "昌乐"
+        },
+        {
+          "value": "ciyao",
+          "label": "磁窑"
+        },
+        {
+          "value": "changzhuang",
+          "label": "常庄"
+        },
+        {
+          "value": "dingtao",
+          "label": "定陶"
+        },
+        {
+          "value": "dezhoudong",
+          "label": "德州东"
+        },
+        {
+          "value": "feixian",
+          "label": "费县"
+        },
+        {
+          "value": "gaomi",
+          "label": "高密"
+        },
+        {
+          "value": "heiwang",
+          "label": "黑旺"
+        },
+        {
+          "value": "juancheng",
+          "label": "鄄城"
+        },
+        {
+          "value": "junan",
+          "label": "莒南"
+        },
+        {
+          "value": "juxian",
+          "label": "莒县"
+        },
+        {
+          "value": "jiaxiang",
+          "label": "嘉祥"
+        },
+        {
+          "value": "juye",
+          "label": "巨野"
+        },
+        {
+          "value": "jiaozhoubei",
+          "label": "胶州北"
+        },
+        {
+          "value": "jiaozhou",
+          "label": "胶州"
+        },
+        {
+          "value": "liaocheng",
+          "label": "聊城"
+        },
+        {
+          "value": "lancun",
+          "label": "蓝村"
+        },
+        {
+          "value": "linjialou",
+          "label": "蔺家楼"
+        },
+        {
+          "value": "linqing",
+          "label": "临清"
+        },
+        {
+          "value": "liangshan",
+          "label": "梁山"
+        },
+        {
+          "value": "laiwudong",
+          "label": "莱芜东"
+        },
+        {
+          "value": "laiwuxi",
+          "label": "莱芜西"
+        },
+        {
+          "value": "laiyang",
+          "label": "莱阳"
+        },
+        {
+          "value": "linyidong",
+          "label": "临沂东"
+        },
+        {
+          "value": "nanboshan",
+          "label": "南博山"
+        },
+        {
+          "value": "nanchou",
+          "label": "南仇"
+        },
+        {
+          "value": "pingyi",
+          "label": "平邑"
+        },
+        {
+          "value": "pingyuan",
+          "label": "平原"
+        },
+        {
+          "value": "qufudong",
+          "label": "曲阜东"
+        },
+        {
+          "value": "shanggaozhen",
+          "label": "上高镇"
+        },
+        {
+          "value": "sijialing",
+          "label": "司家岭"
+        },
+        {
+          "value": "sishui",
+          "label": "泗水"
+        },
+        {
+          "value": "taian",
+          "label": "泰安"
+        },
+        {
+          "value": "tancheng",
+          "label": "郯城"
+        },
+        {
+          "value": "taocun",
+          "label": "桃村"
+        },
+        {
+          "value": "tengzhou",
+          "label": "滕州"
+        },
+        {
+          "value": "wendeng",
+          "label": "文登"
+        },
+        {
+          "value": "weifang",
+          "label": "潍坊"
+        },
+        {
+          "value": "wulian",
+          "label": "五莲"
+        },
+        {
+          "value": "xujiadian",
+          "label": "徐家店"
+        },
+        {
+          "value": "yucheng",
+          "label": "禹城"
+        },
+        {
+          "value": "yancheng",
+          "label": "晏城"
+        },
+        {
+          "value": "yuncheng",
+          "label": "郓城"
+        },
+        {
+          "value": "yanggu",
+          "label": "阳谷"
+        },
+        {
+          "value": "yinan",
+          "label": "沂南"
+        },
+        {
+          "value": "yuanqian",
+          "label": "源迁"
+        },
+        {
+          "value": "yishui",
+          "label": "沂水"
+        },
+        {
+          "value": "yanzhou",
+          "label": "兖州"
+        },
+        {
+          "value": "zhucheng",
+          "label": "诸城"
+        },
+        {
+          "value": "zoucheng",
+          "label": "邹城"
+        },
+        {
+          "value": "zhangqiu",
+          "label": "章丘"
+        },
+        {
+          "value": "binzhou",
+          "label": "滨州"
+        },
+        {
+          "value": "dongjiakou",
+          "label": "董家口"
+        },
+        {
+          "value": "gaomibei",
+          "label": "高密北"
+        },
+        {
+          "value": "jimobei",
+          "label": "即墨北"
+        },
+        {
+          "value": "jinandong",
+          "label": "济南东"
+        },
+        {
+          "value": "lijinnan",
+          "label": "利津南"
+        },
+        {
+          "value": "lanlingbei",
+          "label": "兰陵北"
+        },
+        {
+          "value": "lanshanxi",
+          "label": "岚山西"
+        },
+        {
+          "value": "linyi",
+          "label": "临邑"
+        },
+        {
+          "value": "linzibei",
+          "label": "临淄北"
+        },
+        {
+          "value": "miaoshan",
+          "label": "庙山"
+        },
+        {
+          "value": "pingdu",
+          "label": "平度"
+        },
+        {
+          "value": "pingshang",
+          "label": "坪上"
+        },
+        {
+          "value": "pingyuandong",
+          "label": "平原东"
+        },
+        {
+          "value": "qingdaobei",
+          "label": "青岛北"
+        },
+        {
+          "value": "qingdaoxi",
+          "label": "青岛西"
+        },
+        {
+          "value": "qihe",
+          "label": "齐河"
+        },
+        {
+          "value": "rongcheng",
+          "label": "荣成"
+        },
+        {
+          "value": "rizhaoxi",
+          "label": "日照西"
+        },
+        {
+          "value": "shanghe",
+          "label": "商河"
+        },
+        {
+          "value": "weifangbei",
+          "label": "潍坊北"
+        },
+        {
+          "value": "yuchengdong",
+          "label": "禹城东"
+        },
+        {
+          "value": "yantainan",
+          "label": "烟台南"
+        },
+        {
+          "value": "yantaixi",
+          "label": "烟台西"
+        },
+        {
+          "value": "yangxin",
+          "label": "阳信"
+        },
+        {
+          "value": "zibobei",
+          "label": "淄博北"
+        },
+        {
+          "value": "zouping",
+          "label": "邹平"
+        },
+        {
+          "value": "zhangqiubei",
+          "label": "章丘北"
+        },
+        {
+          "value": "zaozhuangdong",
+          "label": "枣庄东"
+        }
+      ]
+    },
+    {
+      "value": "henansheng",
+      "label": "河南省",
+      "children": [
+        {
+          "value": "anyang",
+          "label": "安阳"
+        },
+        {
+          "value": "dengzhou",
+          "label": "邓州"
+        },
+        {
+          "value": "gushi",
+          "label": "固始"
+        },
+        {
+          "value": "huaibin",
+          "label": "淮滨"
+        },
+        {
+          "value": "huangchuan",
+          "label": "潢川"
+        },
+        {
+          "value": "kaifeng",
+          "label": "开封"
+        },
+        {
+          "value": "lingbao",
+          "label": "灵宝"
+        },
+        {
+          "value": "tahe",
+          "label": "漯河"
+        },
+        {
+          "value": "luoyang",
+          "label": "洛阳"
+        },
+        {
+          "value": "luoyangdong",
+          "label": "洛阳东"
+        },
+        {
+          "value": "nanyang",
+          "label": "南阳"
+        },
+        {
+          "value": "pingdingshan",
+          "label": "平顶山"
+        },
+        {
+          "value": "sanmenxia",
+          "label": "三门峡"
+        },
+        {
+          "value": "shangqiu",
+          "label": "商丘"
+        },
+        {
+          "value": "xuchang",
+          "label": "许昌"
+        },
+        {
+          "value": "xinxiang",
+          "label": "新乡"
+        },
+        {
+          "value": "xinyang",
+          "label": "信阳"
+        },
+        {
+          "value": "zhoukou",
+          "label": "周口"
+        },
+        {
+          "value": "zhumadian",
+          "label": "驻马店"
+        },
+        {
+          "value": "zhangge",
+          "label": "长葛"
+        },
+        {
+          "value": "guanlin",
+          "label": "关林"
+        },
+        {
+          "value": "gongyi",
+          "label": "巩义"
+        },
+        {
+          "value": "gongyinan",
+          "label": "巩义南"
+        },
+        {
+          "value": "hebi",
+          "label": "鹤壁"
+        },
+        {
+          "value": "huojia",
+          "label": "获嘉"
+        },
+        {
+          "value": "jiyuan",
+          "label": "济源"
+        },
+        {
+          "value": "jiaozuodong",
+          "label": "焦作东"
+        },
+        {
+          "value": "jiaozuo",
+          "label": "焦作"
+        },
+        {
+          "value": "lingbaoxi",
+          "label": "灵宝西"
+        },
+        {
+          "value": "lankao",
+          "label": "兰考"
+        },
+        {
+          "value": "luoshan",
+          "label": "罗山"
+        },
+        {
+          "value": "lushan",
+          "label": "鲁山"
+        },
+        {
+          "value": "linying",
+          "label": "临颍"
+        },
+        {
+          "value": "mianchi",
+          "label": "渑池"
+        },
+        {
+          "value": "mianchinan",
+          "label": "渑池南"
+        },
+        {
+          "value": "minquan",
+          "label": "民权"
+        },
+        {
+          "value": "ninglingxian",
+          "label": "宁陵县"
+        },
+        {
+          "value": "neixiang",
+          "label": "内乡"
+        },
+        {
+          "value": "nanzhao",
+          "label": "南召"
+        },
+        {
+          "value": "pingdingshanxi",
+          "label": "平顶山西"
+        },
+        {
+          "value": "queshan",
+          "label": "确山"
+        },
+        {
+          "value": "qinyang",
+          "label": "沁阳"
+        },
+        {
+          "value": "ruyang",
+          "label": "汝阳"
+        },
+        {
+          "value": "ruzhou",
+          "label": "汝州"
+        },
+        {
+          "value": "shangcheng",
+          "label": "商城"
+        },
+        {
+          "value": "sanmenxianan",
+          "label": "三门峡南"
+        },
+        {
+          "value": "sanmenxiaxi",
+          "label": "三门峡西"
+        },
+        {
+          "value": "suiping",
+          "label": "遂平"
+        },
+        {
+          "value": "shangqiunan",
+          "label": "商丘南"
+        },
+        {
+          "value": "tongbai",
+          "label": "桐柏"
+        },
+        {
+          "value": "tanghe",
+          "label": "唐河"
+        },
+        {
+          "value": "taiqian",
+          "label": "台前"
+        },
+        {
+          "value": "tangyin",
+          "label": "汤阴"
+        },
+        {
+          "value": "weihui",
+          "label": "卫辉"
+        },
+        {
+          "value": "xinanxian",
+          "label": "新安县"
+        },
+        {
+          "value": "xinxian",
+          "label": "新县"
+        },
+        {
+          "value": "xixian",
+          "label": "息县"
+        },
+        {
+          "value": "xiangyang",
+          "label": "向阳"
+        },
+        {
+          "value": "xiayixian",
+          "label": "夏邑县"
+        },
+        {
+          "value": "yuchengxian",
+          "label": "虞城县"
+        },
+        {
+          "value": "yima",
+          "label": "义马"
+        },
+        {
+          "value": "yueshan",
+          "label": "月山"
+        },
+        {
+          "value": "yanshi",
+          "label": "偃师"
+        },
+        {
+          "value": "zhongmu",
+          "label": "中牟"
+        },
+        {
+          "value": "anyangdong",
+          "label": "安阳东"
+        },
+        {
+          "value": "guangshan",
+          "label": "光山"
+        },
+        {
+          "value": "hebidong",
+          "label": "鹤壁东"
+        },
+        {
+          "value": "jialuhe",
+          "label": "贾鲁河"
+        },
+        {
+          "value": "kaifengbei",
+          "label": "开封北"
+        },
+        {
+          "value": "tahexi",
+          "label": "漯河西"
+        },
+        {
+          "value": "lankaonan",
+          "label": "兰考南"
+        },
+        {
+          "value": "minggangdong",
+          "label": "明港东"
+        },
+        {
+          "value": "minquanbei",
+          "label": "民权北"
+        },
+        {
+          "value": "nanyangzhai",
+          "label": "南阳寨"
+        },
+        {
+          "value": "songchenglu",
+          "label": "宋城路"
+        },
+        {
+          "value": "shiqiao",
+          "label": "石桥"
+        },
+        {
+          "value": "shenqiu",
+          "label": "沈丘"
+        },
+        {
+          "value": "wuzhi",
+          "label": "武陟"
+        },
+        {
+          "value": "xinxiangdong",
+          "label": "新乡东"
+        },
+        {
+          "value": "xinyangdong",
+          "label": "信阳东"
+        },
+        {
+          "value": "yongchengbei",
+          "label": "永城北"
+        },
+        {
+          "value": "yunlianghe",
+          "label": "运粮河"
+        },
+        {
+          "value": "zhumadianxi",
+          "label": "驻马店西"
+        },
+        {
+          "value": "zhengzhoudong",
+          "label": "郑州东"
+        }
+      ]
+    },
+    {
+      "value": "hubeisheng",
+      "label": "湖北省",
+      "children": [
+        {
+          "value": "wuhan",
+          "label": "武汉"
+        },
+        {
+          "value": "enshi",
+          "label": "恩施"
+        },
+        {
+          "value": "guangshui",
+          "label": "广水"
+        },
+        {
+          "value": "hankou",
+          "label": "汉口"
+        },
+        {
+          "value": "huangshi",
+          "label": "黄石"
+        },
+        {
+          "value": "jingmen",
+          "label": "荆门"
+        },
+        {
+          "value": "lichuan",
+          "label": "利川"
+        },
+        {
+          "value": "macheng",
+          "label": "麻城"
+        },
+        {
+          "value": "qichun",
+          "label": "蕲春"
+        },
+        {
+          "value": "shiyan",
+          "label": "十堰"
+        },
+        {
+          "value": "wuchang",
+          "label": "武昌"
+        },
+        {
+          "value": "xiangyang",
+          "label": "襄阳"
+        },
+        {
+          "value": "yichangdong",
+          "label": "宜昌东"
+        },
+        {
+          "value": "yichang",
+          "label": "宜昌"
+        },
+        {
+          "value": "yangxin",
+          "label": "阳新"
+        },
+        {
+          "value": "anlu",
+          "label": "安陆"
+        },
+        {
+          "value": "badong",
+          "label": "巴东"
+        },
+        {
+          "value": "caishan",
+          "label": "蔡山"
+        },
+        {
+          "value": "dangyang",
+          "label": "当阳"
+        },
+        {
+          "value": "ezhou",
+          "label": "鄂州"
+        },
+        {
+          "value": "gucheng",
+          "label": "谷城"
+        },
+        {
+          "value": "honganxi",
+          "label": "红安西"
+        },
+        {
+          "value": "hanchuan",
+          "label": "汉川"
+        },
+        {
+          "value": "huarong",
+          "label": "华容"
+        },
+        {
+          "value": "huayuan",
+          "label": "花园"
+        },
+        {
+          "value": "huangzhou",
+          "label": "黄州"
+        },
+        {
+          "value": "jianshi",
+          "label": "建始"
+        },
+        {
+          "value": "jingzhou",
+          "label": "荆州"
+        },
+        {
+          "value": "machengbei",
+          "label": "麻城北"
+        },
+        {
+          "value": "qianjiang",
+          "label": "潜江"
+        },
+        {
+          "value": "songzi",
+          "label": "松滋"
+        },
+        {
+          "value": "tianmen",
+          "label": "天门"
+        },
+        {
+          "value": "tianmennan",
+          "label": "天门南"
+        },
+        {
+          "value": "wuxue",
+          "label": "武穴"
+        },
+        {
+          "value": "xiaogan",
+          "label": "孝感"
+        },
+        {
+          "value": "xianningbei",
+          "label": "咸宁北"
+        },
+        {
+          "value": "xianning",
+          "label": "咸宁"
+        },
+        {
+          "value": "xishui",
+          "label": "浠水"
+        },
+        {
+          "value": "xiantaoxi",
+          "label": "仙桃西"
+        },
+        {
+          "value": "xiangyangdong",
+          "label": "襄阳东"
+        },
+        {
+          "value": "yicheng",
+          "label": "宜城"
+        },
+        {
+          "value": "yingcheng",
+          "label": "应城"
+        },
+        {
+          "value": "yunmeng",
+          "label": "云梦"
+        },
+        {
+          "value": "zhicheng",
+          "label": "枝城"
+        },
+        {
+          "value": "zhijiangbei",
+          "label": "枝江北"
+        },
+        {
+          "value": "zhongxiang",
+          "label": "钟祥"
+        },
+        {
+          "value": "zaoyang",
+          "label": "枣阳"
+        },
+        {
+          "value": "baishapu",
+          "label": "白沙铺"
+        },
+        {
+          "value": "zhangyang",
+          "label": "长阳"
+        },
+        {
+          "value": "dayebei",
+          "label": "大冶北"
+        },
+        {
+          "value": "ezhoudong",
+          "label": "鄂州东"
+        },
+        {
+          "value": "gediannan",
+          "label": "葛店南"
+        },
+        {
+          "value": "huanggangdong",
+          "label": "黄冈东"
+        },
+        {
+          "value": "huanggangxi",
+          "label": "黄冈西"
+        },
+        {
+          "value": "huahu",
+          "label": "花湖"
+        },
+        {
+          "value": "huarongdong",
+          "label": "华容东"
+        },
+        {
+          "value": "huarongnan",
+          "label": "华容南"
+        },
+        {
+          "value": "huangshibei",
+          "label": "黄石北"
+        },
+        {
+          "value": "huashannan",
+          "label": "花山南"
+        },
+        {
+          "value": "nanhudong",
+          "label": "南湖东"
+        },
+        {
+          "value": "tianhejie",
+          "label": "天河街"
+        },
+        {
+          "value": "xiaoganbei",
+          "label": "孝感北"
+        },
+        {
+          "value": "xiaogandong",
+          "label": "孝感东"
+        },
+        {
+          "value": "xianningdong",
+          "label": "咸宁东"
+        },
+        {
+          "value": "xianningnan",
+          "label": "咸宁南"
+        },
+        {
+          "value": "zhifangdong",
+          "label": "纸坊东"
+        },
+        {
+          "value": "zuoling",
+          "label": "左岭"
+        }
+      ]
+    },
+    {
+      "value": "hunansheng",
+      "label": "湖南省",
+      "children": [
+        {
+          "value": "changsha",
+          "label": "长沙"
+        },
+        {
+          "value": "changshanan",
+          "label": "长沙南"
+        },
+        {
+          "value": "chenzhou",
+          "label": "郴州"
+        },
+        {
+          "value": "huaihua",
+          "label": "怀化"
+        },
+        {
+          "value": "hengyang",
+          "label": "衡阳"
+        },
+        {
+          "value": "jishou",
+          "label": "吉首"
+        },
+        {
+          "value": "loudi",
+          "label": "娄底"
+        },
+        {
+          "value": "liling",
+          "label": "醴陵"
+        },
+        {
+          "value": "lixian",
+          "label": "澧县"
+        },
+        {
+          "value": "leiyang",
+          "label": "耒阳"
+        },
+        {
+          "value": "shaoshan",
+          "label": "韶山"
+        },
+        {
+          "value": "shaoyang",
+          "label": "邵阳"
+        },
+        {
+          "value": "tangbao",
+          "label": "塘豹"
+        },
+        {
+          "value": "yiyang",
+          "label": "益阳"
+        },
+        {
+          "value": "yueyang",
+          "label": "岳阳"
+        },
+        {
+          "value": "yongzhou",
+          "label": "永州"
+        },
+        {
+          "value": "zhangjiajie",
+          "label": "张家界"
+        },
+        {
+          "value": "zhuzhou",
+          "label": "株洲"
+        },
+        {
+          "value": "anhua",
+          "label": "安化"
+        },
+        {
+          "value": "cili",
+          "label": "慈利"
+        },
+        {
+          "value": "chenxi",
+          "label": "辰溪"
+        },
+        {
+          "value": "chenzhouxi",
+          "label": "郴州西"
+        },
+        {
+          "value": "dizhuang",
+          "label": "低庄"
+        },
+        {
+          "value": "daozhou",
+          "label": "道州"
+        },
+        {
+          "value": "hanshou",
+          "label": "汉寿"
+        },
+        {
+          "value": "hengshan",
+          "label": "衡山"
+        },
+        {
+          "value": "huitong",
+          "label": "会同"
+        },
+        {
+          "value": "hengyangdong",
+          "label": "衡阳东"
+        },
+        {
+          "value": "jiangyong",
+          "label": "江永"
+        },
+        {
+          "value": "jingzhou",
+          "label": "靖州"
+        },
+        {
+          "value": "lengshuijiangdong",
+          "label": "冷水江东"
+        },
+        {
+          "value": "linxiang",
+          "label": "临湘"
+        },
+        {
+          "value": "lianyuan",
+          "label": "涟源"
+        },
+        {
+          "value": "leiyangxi",
+          "label": "耒阳西"
+        },
+        {
+          "value": "mengdonghe",
+          "label": "猛洞河"
+        },
+        {
+          "value": "miluo",
+          "label": "汨罗"
+        },
+        {
+          "value": "mayang",
+          "label": "麻阳"
+        },
+        {
+          "value": "ningxiang",
+          "label": "宁乡"
+        },
+        {
+          "value": "shimenxianbei",
+          "label": "石门县北"
+        },
+        {
+          "value": "shimenxian",
+          "label": "石门县"
+        },
+        {
+          "value": "tongdao",
+          "label": "通道"
+        },
+        {
+          "value": "xinhua",
+          "label": "新化"
+        },
+        {
+          "value": "xupu",
+          "label": "溆浦"
+        },
+        {
+          "value": "xiangtan",
+          "label": "湘潭"
+        },
+        {
+          "value": "xiangxiang",
+          "label": "湘乡"
+        },
+        {
+          "value": "yatunbao",
+          "label": "牙屯堡"
+        },
+        {
+          "value": "yueyangdong",
+          "label": "岳阳东"
+        },
+        {
+          "value": "zhuzhouxi",
+          "label": "株洲西"
+        },
+        {
+          "value": "anjiangdong",
+          "label": "安江东"
+        },
+        {
+          "value": "bantang",
+          "label": "板塘"
+        },
+        {
+          "value": "changshaxi",
+          "label": "长沙西"
+        },
+        {
+          "value": "dongkou",
+          "label": "洞口"
+        },
+        {
+          "value": "huaihuanan",
+          "label": "怀化南"
+        },
+        {
+          "value": "jiulangshan",
+          "label": "九郎山"
+        },
+        {
+          "value": "jianshan",
+          "label": "尖山"
+        },
+        {
+          "value": "loudinan",
+          "label": "娄底南"
+        },
+        {
+          "value": "longhui",
+          "label": "隆回"
+        },
+        {
+          "value": "lilingdong",
+          "label": "醴陵东"
+        },
+        {
+          "value": "qiyang",
+          "label": "祁阳"
+        },
+        {
+          "value": "shuangfengbei",
+          "label": "双峰北"
+        },
+        {
+          "value": "shaoshannan",
+          "label": "韶山南"
+        },
+        {
+          "value": "shaoyangbei",
+          "label": "邵阳北"
+        },
+        {
+          "value": "xinhuanan",
+          "label": "新化南"
+        },
+        {
+          "value": "xinhuangxi",
+          "label": "新晃西"
+        },
+        {
+          "value": "xiangtanbei",
+          "label": "湘潭北"
+        },
+        {
+          "value": "yanling",
+          "label": "炎陵"
+        },
+        {
+          "value": "youxiannan",
+          "label": "攸县南"
+        },
+        {
+          "value": "zhijiang",
+          "label": "芷江"
+        }
+      ]
+    },
+    {
+      "value": "guangdongsheng",
+      "label": "广东省",
+      "children": [
+        {
+          "value": "guangzhounan",
+          "label": "广州南"
+        },
+        {
+          "value": "guangzhoudong",
+          "label": "广州东"
+        },
+        {
+          "value": "guangzhou",
+          "label": "广州"
+        },
+        {
+          "value": "dongguandong",
+          "label": "东莞东"
+        },
+        {
+          "value": "foshan",
+          "label": "佛山"
+        },
+        {
+          "value": "guangzhoubei",
+          "label": "广州北"
+        },
+        {
+          "value": "huizhou",
+          "label": "惠州"
+        },
+        {
+          "value": "maoming",
+          "label": "茂名"
+        },
+        {
+          "value": "maomingxi",
+          "label": "茂名西"
+        },
+        {
+          "value": "meizhou",
+          "label": "梅州"
+        },
+        {
+          "value": "pingshi",
+          "label": "坪石"
+        },
+        {
+          "value": "shaoguandong",
+          "label": "韶关东"
+        },
+        {
+          "value": "shantou",
+          "label": "汕头"
+        },
+        {
+          "value": "shenzhen",
+          "label": "深圳"
+        },
+        {
+          "value": "shenzhenxi",
+          "label": "深圳西"
+        },
+        {
+          "value": "zhuhai",
+          "label": "珠海"
+        },
+        {
+          "value": "zhuhaibei",
+          "label": "珠海北"
+        },
+        {
+          "value": "zhanjiang",
+          "label": "湛江"
+        },
+        {
+          "value": "zhaoqing",
+          "label": "肇庆"
+        },
+        {
+          "value": "beijiao",
+          "label": "北滘"
+        },
+        {
+          "value": "bijiang",
+          "label": "碧江"
+        },
+        {
+          "value": "changping",
+          "label": "常平"
+        },
+        {
+          "value": "dianbai",
+          "label": "电白"
+        },
+        {
+          "value": "dabu",
+          "label": "大埔"
+        },
+        {
+          "value": "dongsheng",
+          "label": "东升"
+        },
+        {
+          "value": "enping",
+          "label": "恩平"
+        },
+        {
+          "value": "guzhen",
+          "label": "古镇"
+        },
+        {
+          "value": "gaozhou",
+          "label": "高州"
+        },
+        {
+          "value": "hechun",
+          "label": "河唇"
+        },
+        {
+          "value": "heyuan",
+          "label": "河源"
+        },
+        {
+          "value": "huazhou",
+          "label": "化州"
+        },
+        {
+          "value": "huizhouxi",
+          "label": "惠州西"
+        },
+        {
+          "value": "jiangmendong",
+          "label": "江门东"
+        },
+        {
+          "value": "jieyang",
+          "label": "揭阳"
+        },
+        {
+          "value": "kaipingnan",
+          "label": "开平南"
+        },
+        {
+          "value": "longchuan",
+          "label": "龙川"
+        },
+        {
+          "value": "lechang",
+          "label": "乐昌"
+        },
+        {
+          "value": "lianjiang",
+          "label": "廉江"
+        },
+        {
+          "value": "mata",
+          "label": "马踏"
+        },
+        {
+          "value": "mingzhu",
+          "label": "明珠"
+        },
+        {
+          "value": "nanlang",
+          "label": "南朗"
+        },
+        {
+          "value": "pinghu",
+          "label": "平湖"
+        },
+        {
+          "value": "qianshan",
+          "label": "前山"
+        },
+        {
+          "value": "qingyuan",
+          "label": "清远"
+        },
+        {
+          "value": "shunde",
+          "label": "顺德"
+        },
+        {
+          "value": "shundexueyuan",
+          "label": "顺德学院"
+        },
+        {
+          "value": "shaoguan",
+          "label": "韶关"
+        },
+        {
+          "value": "shilong",
+          "label": "石龙"
+        },
+        {
+          "value": "shuangshuizhen",
+          "label": "双水镇"
+        },
+        {
+          "value": "suixi",
+          "label": "遂溪"
+        },
+        {
+          "value": "shenzhendong",
+          "label": "深圳东"
+        },
+        {
+          "value": "tangjiawan",
+          "label": "唐家湾"
+        },
+        {
+          "value": "taishan",
+          "label": "台山"
+        },
+        {
+          "value": "xinhui",
+          "label": "新会"
+        },
+        {
+          "value": "xiaolan",
+          "label": "小榄"
+        },
+        {
+          "value": "xingning",
+          "label": "兴宁"
+        },
+        {
+          "value": "xuwen",
+          "label": "徐闻"
+        },
+        {
+          "value": "xinxingxian",
+          "label": "新兴县"
+        },
+        {
+          "value": "yingde",
+          "label": "英德"
+        },
+        {
+          "value": "yangdong",
+          "label": "阳东"
+        },
+        {
+          "value": "yuantan",
+          "label": "源潭"
+        },
+        {
+          "value": "yangxi",
+          "label": "阳西"
+        },
+        {
+          "value": "zhanjiangxi",
+          "label": "湛江西"
+        },
+        {
+          "value": "zhongshanbei",
+          "label": "中山北"
+        },
+        {
+          "value": "changpingdong",
+          "label": "常平东"
+        },
+        {
+          "value": "changpingnan",
+          "label": "常平南"
+        },
+        {
+          "value": "chaoshan",
+          "label": "潮汕"
+        },
+        {
+          "value": "dongchengnan",
+          "label": "东城南"
+        },
+        {
+          "value": "dongguan",
+          "label": "东莞"
+        },
+        {
+          "value": "dinghushan",
+          "label": "鼎湖山"
+        },
+        {
+          "value": "daojiao",
+          "label": "道滘"
+        },
+        {
+          "value": "dalangzhen",
+          "label": "大朗镇"
+        },
+        {
+          "value": "dawang",
+          "label": "大旺"
+        },
+        {
+          "value": "duanzhou",
+          "label": "端州"
+        },
+        {
+          "value": "foshanxi",
+          "label": "佛山西"
+        },
+        {
+          "value": "futian",
+          "label": "福田"
+        },
+        {
+          "value": "guangmingcheng",
+          "label": "光明城"
+        },
+        {
+          "value": "guangning",
+          "label": "广宁"
+        },
+        {
+          "value": "huidong",
+          "label": "惠东"
+        },
+        {
+          "value": "huihuan",
+          "label": "惠环"
+        },
+        {
+          "value": "huaiji",
+          "label": "怀集"
+        },
+        {
+          "value": "houmen",
+          "label": "鲘门"
+        },
+        {
+          "value": "humen",
+          "label": "虎门"
+        },
+        {
+          "value": "huizhounan",
+          "label": "惠州南"
+        },
+        {
+          "value": "kuitan",
+          "label": "葵潭"
+        },
+        {
+          "value": "liaobu",
+          "label": "寮步"
+        },
+        {
+          "value": "lechangdong",
+          "label": "乐昌东"
+        },
+        {
+          "value": "lufeng",
+          "label": "陆丰"
+        },
+        {
+          "value": "lilinbei",
+          "label": "沥林北"
+        },
+        {
+          "value": "puning",
+          "label": "普宁"
+        },
+        {
+          "value": "qingsheng",
+          "label": "庆盛"
+        },
+        {
+          "value": "raoping",
+          "label": "饶平"
+        },
+        {
+          "value": "sanshuibei",
+          "label": "三水北"
+        },
+        {
+          "value": "songshanhubei",
+          "label": "松山湖北"
+        },
+        {
+          "value": "shishan",
+          "label": "狮山"
+        },
+        {
+          "value": "shanwei",
+          "label": "汕尾"
+        },
+        {
+          "value": "shixing",
+          "label": "始兴"
+        },
+        {
+          "value": "shenzhenbei",
+          "label": "深圳北"
+        },
+        {
+          "value": "shenzhenpingshan",
+          "label": "深圳坪山"
+        },
+        {
+          "value": "xihudong",
+          "label": "西湖东"
+        },
+        {
+          "value": "xiaojinkou",
+          "label": "小金口"
+        },
+        {
+          "value": "xipingxi",
+          "label": "西平西"
+        },
+        {
+          "value": "yunan",
+          "label": "郁南"
+        },
+        {
+          "value": "yinping",
+          "label": "银瓶"
+        },
+        {
+          "value": "zhongkai",
+          "label": "仲恺"
+        },
+        {
+          "value": "zhangmutoudong",
+          "label": "樟木头东"
+        }
+      ]
+    },
+    {
+      "value": "hainansheng",
+      "label": "海南省",
+      "children": [
+        {
+          "value": "hai  koudong",
+          "label": "海  口东"
+        },
+        {
+          "value": "haikoudong",
+          "label": "海口东"
+        },
+        {
+          "value": "haikou",
+          "label": "海口"
+        },
+        {
+          "value": "sanya",
+          "label": "三亚"
+        },
+        {
+          "value": "san  ya",
+          "label": "三  亚"
+        },
+        {
+          "value": "boao",
+          "label": "博鳌"
+        },
+        {
+          "value": "wenchang",
+          "label": "文昌"
+        },
+        {
+          "value": "wanning",
+          "label": "万宁"
+        },
+        {
+          "value": "baimajing",
+          "label": "白马井"
+        },
+        {
+          "value": "fushanzhen",
+          "label": "福山镇"
+        },
+        {
+          "value": "jianfeng",
+          "label": "尖峰"
+        },
+        {
+          "value": "ledong",
+          "label": "乐东"
+        },
+        {
+          "value": "yintan",
+          "label": "银滩"
+        }
+      ]
+    },
+    {
+      "value": "sichuansheng",
+      "label": "四川省",
+      "children": [
+        {
+          "value": "chengdudong",
+          "label": "成都东"
+        },
+        {
+          "value": "chengdunan",
+          "label": "成都南"
+        },
+        {
+          "value": "chengdu",
+          "label": "成都"
+        },
+        {
+          "value": "dazhou",
+          "label": "达州"
+        },
+        {
+          "value": "guanghan",
+          "label": "广汉"
+        },
+        {
+          "value": "guangyuan",
+          "label": "广元"
+        },
+        {
+          "value": "jiangyou",
+          "label": "江油"
+        },
+        {
+          "value": "longchang",
+          "label": "隆昌"
+        },
+        {
+          "value": "mianyang",
+          "label": "绵阳"
+        },
+        {
+          "value": "panzhihua",
+          "label": "攀枝花"
+        },
+        {
+          "value": "suining",
+          "label": "遂宁"
+        },
+        {
+          "value": "wanyuan",
+          "label": "万源"
+        },
+        {
+          "value": "xichang",
+          "label": "西昌"
+        },
+        {
+          "value": "xichangnan",
+          "label": "西昌南"
+        },
+        {
+          "value": "yibin",
+          "label": "宜宾"
+        },
+        {
+          "value": "yingshan",
+          "label": "营山"
+        },
+        {
+          "value": "zigong",
+          "label": "自贡"
+        },
+        {
+          "value": "ziyang",
+          "label": "资阳"
+        },
+        {
+          "value": "ande",
+          "label": "安德"
+        },
+        {
+          "value": "anjing",
+          "label": "安靖"
+        },
+        {
+          "value": "bazhong",
+          "label": "巴中"
+        },
+        {
+          "value": "chaotiannan",
+          "label": "朝天南"
+        },
+        {
+          "value": "dechang",
+          "label": "德昌"
+        },
+        {
+          "value": "deyang",
+          "label": "德阳"
+        },
+        {
+          "value": "dayingdong",
+          "label": "大英东"
+        },
+        {
+          "value": "ebian",
+          "label": "峨边"
+        },
+        {
+          "value": "emei",
+          "label": "峨眉"
+        },
+        {
+          "value": "guangan",
+          "label": "广安"
+        },
+        {
+          "value": "ganluo",
+          "label": "甘洛"
+        },
+        {
+          "value": "guangyuannan",
+          "label": "广元南"
+        },
+        {
+          "value": "huapengzi",
+          "label": "花棚子"
+        },
+        {
+          "value": "huaying",
+          "label": "华蓥"
+        },
+        {
+          "value": "hanyuan",
+          "label": "汉源"
+        },
+        {
+          "value": "jianyang",
+          "label": "简阳"
+        },
+        {
+          "value": "luojiang",
+          "label": "罗江"
+        },
+        {
+          "value": "leshanbei",
+          "label": "乐山北"
+        },
+        {
+          "value": "lazha",
+          "label": "拉鲊"
+        },
+        {
+          "value": "maoba",
+          "label": "毛坝"
+        },
+        {
+          "value": "meishan",
+          "label": "眉山"
+        },
+        {
+          "value": "manshuiwan",
+          "label": "漫水湾"
+        },
+        {
+          "value": "miyi",
+          "label": "米易"
+        },
+        {
+          "value": "pengan",
+          "label": "蓬安"
+        },
+        {
+          "value": "pengshan",
+          "label": "彭山"
+        },
+        {
+          "value": "puxiong",
+          "label": "普雄"
+        },
+        {
+          "value": "pengxi",
+          "label": "蓬溪"
+        },
+        {
+          "value": "pixian",
+          "label": "郫县"
+        },
+        {
+          "value": "quxian",
+          "label": "渠县"
+        },
+        {
+          "value": "sanhuizhen",
+          "label": "三汇镇"
+        },
+        {
+          "value": "shizhuang",
+          "label": "师庄"
+        },
+        {
+          "value": "tuxi",
+          "label": "土溪"
+        },
+        {
+          "value": "tongzilin",
+          "label": "桐子林"
+        },
+        {
+          "value": "xide",
+          "label": "喜德"
+        },
+        {
+          "value": "xuanhan",
+          "label": "宣汉"
+        },
+        {
+          "value": "xinjiang",
+          "label": "新江"
+        },
+        {
+          "value": "yonglang",
+          "label": "永郎"
+        },
+        {
+          "value": "yuexi",
+          "label": "越西"
+        },
+        {
+          "value": "yizi",
+          "label": "迤资"
+        },
+        {
+          "value": "zhuyuanba",
+          "label": "竹园坝"
+        },
+        {
+          "value": "buxingjie",
+          "label": "步行街"
+        },
+        {
+          "value": "bazhongdong",
+          "label": "巴中东"
+        },
+        {
+          "value": "chengduxi",
+          "label": "成都西"
+        },
+        {
+          "value": "chaotian",
+          "label": "朝天"
+        },
+        {
+          "value": "cangxi",
+          "label": "苍溪"
+        },
+        {
+          "value": "emeishan",
+          "label": "峨眉山"
+        },
+        {
+          "value": "guanghanbei",
+          "label": "广汉北"
+        },
+        {
+          "value": "jianmenguan",
+          "label": "剑门关"
+        },
+        {
+          "value": "jiangyoubei",
+          "label": "江油北"
+        },
+        {
+          "value": "longchangbei",
+          "label": "隆昌北"
+        },
+        {
+          "value": "luojiangdong",
+          "label": "罗江东"
+        },
+        {
+          "value": "leshan",
+          "label": "乐山"
+        },
+        {
+          "value": "langzhong",
+          "label": "阆中"
+        },
+        {
+          "value": "meishandong",
+          "label": "眉山东"
+        },
+        {
+          "value": "nanbu",
+          "label": "南部"
+        },
+        {
+          "value": "nanchongbei",
+          "label": "南充北"
+        },
+        {
+          "value": "neijiangbei",
+          "label": "内江北"
+        },
+        {
+          "value": "pingchang",
+          "label": "平昌"
+        },
+        {
+          "value": "pengshanbei",
+          "label": "彭山北"
+        },
+        {
+          "value": "pengzhou",
+          "label": "彭州"
+        },
+        {
+          "value": "pengzhounan",
+          "label": "彭州南"
+        },
+        {
+          "value": "qingbaijiangdong",
+          "label": "青白江东"
+        },
+        {
+          "value": "qingchuan",
+          "label": "青川"
+        },
+        {
+          "value": "qinglian",
+          "label": "青莲"
+        },
+        {
+          "value": "qingshen",
+          "label": "青神"
+        },
+        {
+          "value": "wenjiang",
+          "label": "温江"
+        },
+        {
+          "value": "xindoudong",
+          "label": "新都东"
+        },
+        {
+          "value": "xilai",
+          "label": "西来"
+        },
+        {
+          "value": "yaan",
+          "label": "雅安"
+        },
+        {
+          "value": "yingbinlu",
+          "label": "迎宾路"
+        },
+        {
+          "value": "yaodu",
+          "label": "姚渡"
+        },
+        {
+          "value": "zhaohua",
+          "label": "昭化"
+        }
+      ]
+    },
+    {
+      "value": "guizhousheng",
+      "label": "贵州省",
+      "children": [
+        {
+          "value": "anshun",
+          "label": "安顺"
+        },
+        {
+          "value": "douyun",
+          "label": "都匀"
+        },
+        {
+          "value": "kaili",
+          "label": "凯里"
+        },
+        {
+          "value": "liupanshui",
+          "label": "六盘水"
+        },
+        {
+          "value": "tongren",
+          "label": "铜仁"
+        },
+        {
+          "value": "yuping",
+          "label": "玉屏"
+        },
+        {
+          "value": "zunyixi",
+          "label": "遵义西"
+        },
+        {
+          "value": "caohai",
+          "label": "草海"
+        },
+        {
+          "value": "dushan",
+          "label": "独山"
+        },
+        {
+          "value": "fuquan",
+          "label": "福泉"
+        },
+        {
+          "value": "guiding",
+          "label": "贵定"
+        },
+        {
+          "value": "lufan",
+          "label": "鲁番"
+        },
+        {
+          "value": "liuzhi",
+          "label": "六枝"
+        },
+        {
+          "value": "pingtian",
+          "label": "平田"
+        },
+        {
+          "value": "putaojing",
+          "label": "葡萄菁"
+        },
+        {
+          "value": "shibing",
+          "label": "施秉"
+        },
+        {
+          "value": "songtao",
+          "label": "松桃"
+        },
+        {
+          "value": "shangxipu",
+          "label": "上西铺"
+        },
+        {
+          "value": "weiqing",
+          "label": "威箐"
+        },
+        {
+          "value": "wayaotian",
+          "label": "瓦窑田"
+        },
+        {
+          "value": "xiaoyugu",
+          "label": "小雨谷"
+        },
+        {
+          "value": "yueliangtian",
+          "label": "月亮田"
+        },
+        {
+          "value": "zhenyuan",
+          "label": "镇远"
+        },
+        {
+          "value": "anshunxi",
+          "label": "安顺西"
+        },
+        {
+          "value": "babu",
+          "label": "八步"
+        },
+        {
+          "value": "baiyi",
+          "label": "百宜"
+        },
+        {
+          "value": "congjiang",
+          "label": "从江"
+        },
+        {
+          "value": "guian",
+          "label": "贵安"
+        },
+        {
+          "value": "guidingbei",
+          "label": "贵定北"
+        },
+        {
+          "value": "geju",
+          "label": "革居"
+        },
+        {
+          "value": "guanling",
+          "label": "关岭"
+        },
+        {
+          "value": "guiyangbei",
+          "label": "贵阳北"
+        },
+        {
+          "value": "guiyangdong",
+          "label": "贵阳东"
+        },
+        {
+          "value": "kaiyang",
+          "label": "开阳"
+        },
+        {
+          "value": "longdongbao",
+          "label": "龙洞堡"
+        },
+        {
+          "value": "longlibei",
+          "label": "龙里北"
+        },
+        {
+          "value": "loushanguannan",
+          "label": "娄山关南"
+        },
+        {
+          "value": "luowansanjiang",
+          "label": "洛湾三江"
+        },
+        {
+          "value": "nayong",
+          "label": "纳雍"
+        },
+        {
+          "value": "puan",
+          "label": "普安"
+        },
+        {
+          "value": "puanxian",
+          "label": "普安县"
+        },
+        {
+          "value": "pingbanan",
+          "label": "平坝南"
+        },
+        {
+          "value": "puding",
+          "label": "普定"
+        },
+        {
+          "value": "panzhou",
+          "label": "盘州"
+        },
+        {
+          "value": "sansui",
+          "label": "三穗"
+        },
+        {
+          "value": "tongrennan",
+          "label": "铜仁南"
+        },
+        {
+          "value": "zhijinbei",
+          "label": "织金北"
+        },
+        {
+          "value": "zhushaguzhen",
+          "label": "朱砂古镇"
+        },
+        {
+          "value": "zunyi",
+          "label": "遵义"
+        },
+        {
+          "value": "zunyinan",
+          "label": "遵义南"
+        }
+      ]
+    },
+    {
+      "value": "yunnansheng",
+      "label": "云南省",
+      "children": [
+        {
+          "value": "kunming",
+          "label": "昆明"
+        },
+        {
+          "value": "kunmingxi",
+          "label": "昆明西"
+        },
+        {
+          "value": "wangjiayingxi",
+          "label": "王家营西"
+        },
+        {
+          "value": "dali",
+          "label": "大理"
+        },
+        {
+          "value": "heqing",
+          "label": "鹤庆"
+        },
+        {
+          "value": "lijiang",
+          "label": "丽江"
+        },
+        {
+          "value": "qujing",
+          "label": "曲靖"
+        },
+        {
+          "value": "xuanwei",
+          "label": "宣威"
+        },
+        {
+          "value": "zhaotong",
+          "label": "昭通"
+        },
+        {
+          "value": "ananzhuang",
+          "label": "阿南庄"
+        },
+        {
+          "value": "bijiguan",
+          "label": "碧鸡关"
+        },
+        {
+          "value": "banmaoqing",
+          "label": "班猫箐"
+        },
+        {
+          "value": "baishuizhen",
+          "label": "白水镇"
+        },
+        {
+          "value": "zhangchong",
+          "label": "长冲"
+        },
+        {
+          "value": "dushupu",
+          "label": "读书铺"
+        },
+        {
+          "value": "datianbian",
+          "label": "大田边"
+        },
+        {
+          "value": "dawanzi",
+          "label": "大湾子"
+        },
+        {
+          "value": "dianxin",
+          "label": "甸心"
+        },
+        {
+          "value": "gaoloufang",
+          "label": "高楼房"
+        },
+        {
+          "value": "huangguayuan",
+          "label": "黄瓜园"
+        },
+        {
+          "value": "hongjiang",
+          "label": "红江"
+        },
+        {
+          "value": "heijing",
+          "label": "黑井"
+        },
+        {
+          "value": "jinmacun",
+          "label": "金马村"
+        },
+        {
+          "value": "longgudian",
+          "label": "龙骨甸"
+        },
+        {
+          "value": "lugou",
+          "label": "芦沟"
+        },
+        {
+          "value": "luliang",
+          "label": "陆良"
+        },
+        {
+          "value": "longtangba",
+          "label": "龙塘坝"
+        },
+        {
+          "value": "midu",
+          "label": "弥渡"
+        },
+        {
+          "value": "malong",
+          "label": "马龙"
+        },
+        {
+          "value": "mupang",
+          "label": "沐滂"
+        },
+        {
+          "value": "qidian",
+          "label": "七甸"
+        },
+        {
+          "value": "shijiazui",
+          "label": "施家嘴"
+        },
+        {
+          "value": "shilin",
+          "label": "石林"
+        },
+        {
+          "value": "shaqiao",
+          "label": "沙桥"
+        },
+        {
+          "value": "shizong",
+          "label": "师宗"
+        },
+        {
+          "value": "tanghai",
+          "label": "棠海"
+        },
+        {
+          "value": "xiaocun",
+          "label": "小村"
+        },
+        {
+          "value": "xiaoshao",
+          "label": "小哨"
+        },
+        {
+          "value": "xiaoyuejiu",
+          "label": "小月旧"
+        },
+        {
+          "value": "xiangyunxi",
+          "label": "祥云西"
+        },
+        {
+          "value": "yaoan",
+          "label": "姚安"
+        },
+        {
+          "value": "yinde",
+          "label": "尹地"
+        },
+        {
+          "value": "yangjiuhe",
+          "label": "羊臼河"
+        },
+        {
+          "value": "yanglin",
+          "label": "杨林"
+        },
+        {
+          "value": "yuanmou",
+          "label": "元谋"
+        },
+        {
+          "value": "yinai",
+          "label": "宜耐"
+        },
+        {
+          "value": "yuxixi",
+          "label": "玉溪西"
+        },
+        {
+          "value": "yangzhewo",
+          "label": "羊者窝"
+        },
+        {
+          "value": "zhaofupu",
+          "label": "照福铺"
+        },
+        {
+          "value": "zerunli",
+          "label": "泽润里"
+        },
+        {
+          "value": "daju",
+          "label": "大苴"
+        },
+        {
+          "value": "funing",
+          "label": "富宁"
+        },
+        {
+          "value": "fuyuanbei",
+          "label": "富源北"
+        },
+        {
+          "value": "guangnanxian",
+          "label": "广南县"
+        },
+        {
+          "value": "guangtongbei",
+          "label": "广通北"
+        },
+        {
+          "value": "jianshui",
+          "label": "建水"
+        },
+        {
+          "value": "kunmingnan",
+          "label": "昆明南"
+        },
+        {
+          "value": "lufengnan",
+          "label": "禄丰南"
+        },
+        {
+          "value": "mengzibei",
+          "label": "蒙自北"
+        },
+        {
+          "value": "mengzi",
+          "label": "蒙自"
+        },
+        {
+          "value": "nanhua",
+          "label": "南华"
+        },
+        {
+          "value": "puzhehei",
+          "label": "普者黑"
+        },
+        {
+          "value": "qujingbei",
+          "label": "曲靖北"
+        },
+        {
+          "value": "qujiang",
+          "label": "曲江"
+        },
+        {
+          "value": "shilinxi",
+          "label": "石林西"
+        },
+        {
+          "value": "songming",
+          "label": "嵩明"
+        },
+        {
+          "value": "tonghai",
+          "label": "通海"
+        },
+        {
+          "value": "zhulin",
+          "label": "珠琳"
+        }
+      ]
+    },
+    {
+      "value": "shanxisheng",
+      "label": "陕西省",
+      "children": [
+        {
+          "value": "xianbei",
+          "label": "西安北"
+        },
+        {
+          "value": "ankang",
+          "label": "安康"
+        },
+        {
+          "value": "baoji",
+          "label": "宝鸡"
+        },
+        {
+          "value": "hancheng",
+          "label": "韩城"
+        },
+        {
+          "value": "huashan",
+          "label": "华山"
+        },
+        {
+          "value": "hanzhong",
+          "label": "汉中"
+        },
+        {
+          "value": "shangnan",
+          "label": "商南"
+        },
+        {
+          "value": "tongguan",
+          "label": "潼关"
+        },
+        {
+          "value": "weinan",
+          "label": "渭南"
+        },
+        {
+          "value": "xianyang",
+          "label": "咸阳"
+        },
+        {
+          "value": "yanan",
+          "label": "延安"
+        },
+        {
+          "value": "yanliang",
+          "label": "阎良"
+        },
+        {
+          "value": "yulin",
+          "label": "榆林"
+        },
+        {
+          "value": "yangpingguan",
+          "label": "阳平关"
+        },
+        {
+          "value": "baihedong",
+          "label": "白河东"
+        },
+        {
+          "value": "baihexian",
+          "label": "白河县"
+        },
+        {
+          "value": "baishuijiang",
+          "label": "白水江"
+        },
+        {
+          "value": "chenggu",
+          "label": "城固"
+        },
+        {
+          "value": "caijiapo",
+          "label": "蔡家坡"
+        },
+        {
+          "value": "danfeng",
+          "label": "丹凤"
+        },
+        {
+          "value": "fuxiandong",
+          "label": "富县东"
+        },
+        {
+          "value": "fengxian",
+          "label": "凤县"
+        },
+        {
+          "value": "fuxian",
+          "label": "富县"
+        },
+        {
+          "value": "fengzhou",
+          "label": "凤州"
+        },
+        {
+          "value": "ganquanbei",
+          "label": "甘泉北"
+        },
+        {
+          "value": "ganquan",
+          "label": "甘泉"
+        },
+        {
+          "value": "gaotan",
+          "label": "高滩"
+        },
+        {
+          "value": "guozhen",
+          "label": "虢镇"
+        },
+        {
+          "value": "huangling",
+          "label": "黄陵"
+        },
+        {
+          "value": "huashanbei",
+          "label": "华山北"
+        },
+        {
+          "value": "hanyin",
+          "label": "汉阴"
+        },
+        {
+          "value": "jingbian",
+          "label": "靖边"
+        },
+        {
+          "value": "lveyang",
+          "label": "略阳"
+        },
+        {
+          "value": "maobaguan",
+          "label": "毛坝关"
+        },
+        {
+          "value": "mianxian",
+          "label": "勉县"
+        },
+        {
+          "value": "puchengdong",
+          "label": "蒲城东"
+        },
+        {
+          "value": "pucheng",
+          "label": "蒲城"
+        },
+        {
+          "value": "qianhe",
+          "label": "千河"
+        },
+        {
+          "value": "qingjianxian",
+          "label": "清涧县"
+        },
+        {
+          "value": "qinling",
+          "label": "秦岭"
+        },
+        {
+          "value": "suide",
+          "label": "绥德"
+        },
+        {
+          "value": "shuhe",
+          "label": "蜀河"
+        },
+        {
+          "value": "shangluo",
+          "label": "商洛"
+        },
+        {
+          "value": "sunzhen",
+          "label": "孙镇"
+        },
+        {
+          "value": "wugong",
+          "label": "武功"
+        },
+        {
+          "value": "weinanbei",
+          "label": "渭南北"
+        },
+        {
+          "value": "weinannan",
+          "label": "渭南南"
+        },
+        {
+          "value": "xiaohezhen",
+          "label": "小河镇"
+        },
+        {
+          "value": "xingping",
+          "label": "兴平"
+        },
+        {
+          "value": "xixiang",
+          "label": "西乡"
+        },
+        {
+          "value": "xunyang",
+          "label": "旬阳"
+        },
+        {
+          "value": "yanchuan",
+          "label": "砚川"
+        },
+        {
+          "value": "yongledian",
+          "label": "永乐店"
+        },
+        {
+          "value": "yangling",
+          "label": "杨陵"
+        },
+        {
+          "value": "yanzibian",
+          "label": "燕子砭"
+        },
+        {
+          "value": "zhangqiao",
+          "label": "张桥"
+        },
+        {
+          "value": "zongxi",
+          "label": "棕溪"
+        },
+        {
+          "value": "baojinan",
+          "label": "宝鸡南"
+        },
+        {
+          "value": "chenggubei",
+          "label": "城固北"
+        },
+        {
+          "value": "dali",
+          "label": "大荔"
+        },
+        {
+          "value": "fuping",
+          "label": "佛坪"
+        },
+        {
+          "value": "heyangbei",
+          "label": "合阳北"
+        },
+        {
+          "value": "huyi",
+          "label": "鄠邑"
+        },
+        {
+          "value": "ningqiangnan",
+          "label": "宁强南"
+        },
+        {
+          "value": "qishan",
+          "label": "岐山"
+        },
+        {
+          "value": "shenmu",
+          "label": "神木"
+        },
+        {
+          "value": "yanglingnan",
+          "label": "杨陵南"
+        },
+        {
+          "value": "yongshou",
+          "label": "永寿"
+        },
+        {
+          "value": "yangxianxi",
+          "label": "洋县西"
+        }
+      ]
+    },
+    {
+      "value": "gansusheng",
+      "label": "甘肃省",
+      "children": [
+        {
+          "value": "lanzhoudong",
+          "label": "兰州东"
+        },
+        {
+          "value": "lanzhou",
+          "label": "兰州"
+        },
+        {
+          "value": "baiyinxi",
+          "label": "白银西"
+        },
+        {
+          "value": "dunhuang",
+          "label": "敦煌"
+        },
+        {
+          "value": "jiuquan",
+          "label": "酒泉"
+        },
+        {
+          "value": "jiayuguan",
+          "label": "嘉峪关"
+        },
+        {
+          "value": "longxi",
+          "label": "陇西"
+        },
+        {
+          "value": "liuyuan",
+          "label": "柳园"
+        },
+        {
+          "value": "pingliang",
+          "label": "平凉"
+        },
+        {
+          "value": "tianshui",
+          "label": "天水"
+        },
+        {
+          "value": "wuwei",
+          "label": "武威"
+        },
+        {
+          "value": "wuweinan",
+          "label": "武威南"
+        },
+        {
+          "value": "ankouyao",
+          "label": "安口窑"
+        },
+        {
+          "value": "chenguanying",
+          "label": "陈官营"
+        },
+        {
+          "value": "dongwan",
+          "label": "东湾"
+        },
+        {
+          "value": "diwopu",
+          "label": "低窝铺"
+        },
+        {
+          "value": "dingxi",
+          "label": "定西"
+        },
+        {
+          "value": "fuliqu",
+          "label": "福利区"
+        },
+        {
+          "value": "fengshuicun",
+          "label": "丰水村"
+        },
+        {
+          "value": "gancaodian",
+          "label": "甘草店"
+        },
+        {
+          "value": "gulang",
+          "label": "古浪"
+        },
+        {
+          "value": "gaolan",
+          "label": "皋兰"
+        },
+        {
+          "value": "guazhou",
+          "label": "瓜州"
+        },
+        {
+          "value": "hejiadian",
+          "label": "贺家店"
+        },
+        {
+          "value": "hekounan",
+          "label": "河口南"
+        },
+        {
+          "value": "hongqing",
+          "label": "宏庆"
+        },
+        {
+          "value": "hongshaxian",
+          "label": "红砂岘"
+        },
+        {
+          "value": "huixian",
+          "label": "徽县"
+        },
+        {
+          "value": "hongxiantai",
+          "label": "红岘台"
+        },
+        {
+          "value": "jinchang",
+          "label": "金昌"
+        },
+        {
+          "value": "jiling",
+          "label": "芨岭"
+        },
+        {
+          "value": "jingyuan",
+          "label": "靖远"
+        },
+        {
+          "value": "jingyuanxi",
+          "label": "靖远西"
+        },
+        {
+          "value": "liangdang",
+          "label": "两当"
+        },
+        {
+          "value": "lijiaping",
+          "label": "李家坪"
+        },
+        {
+          "value": "luomen",
+          "label": "洛门"
+        },
+        {
+          "value": "luotuoxiang",
+          "label": "骆驼巷"
+        },
+        {
+          "value": "miaozhuang",
+          "label": "庙庄"
+        },
+        {
+          "value": "nanhechuan",
+          "label": "南河川"
+        },
+        {
+          "value": "pananzhen",
+          "label": "磐安镇"
+        },
+        {
+          "value": "podixia",
+          "label": "坡底下"
+        },
+        {
+          "value": "qingshui",
+          "label": "清水"
+        },
+        {
+          "value": "qiaoxi",
+          "label": "桥西"
+        },
+        {
+          "value": "shaojiatang",
+          "label": "邵家堂"
+        },
+        {
+          "value": "shixiazi",
+          "label": "石峡子"
+        },
+        {
+          "value": "sanyangchuan",
+          "label": "三阳川"
+        },
+        {
+          "value": "shangyaodun",
+          "label": "上腰墩"
+        },
+        {
+          "value": "shuiyuan",
+          "label": "水源"
+        },
+        {
+          "value": "sangyuanzi",
+          "label": "桑园子"
+        },
+        {
+          "value": "tonganyi",
+          "label": "通安驿"
+        },
+        {
+          "value": "tumenzi",
+          "label": "土门子"
+        },
+        {
+          "value": "wujiachuan",
+          "label": "吴家川"
+        },
+        {
+          "value": "weinanzhen",
+          "label": "渭南镇"
+        },
+        {
+          "value": "wushan",
+          "label": "武山"
+        },
+        {
+          "value": "xigucheng",
+          "label": "西固城"
+        },
+        {
+          "value": "xiaguanying",
+          "label": "夏官营"
+        },
+        {
+          "value": "xujiatai",
+          "label": "许家台"
+        },
+        {
+          "value": "xinli",
+          "label": "新李"
+        },
+        {
+          "value": "xingquanbao",
+          "label": "兴泉堡"
+        },
+        {
+          "value": "xusanwan",
+          "label": "许三湾"
+        },
+        {
+          "value": "xinyangzhen",
+          "label": "新阳镇"
+        },
+        {
+          "value": "yumen",
+          "label": "玉门"
+        },
+        {
+          "value": "yuanyangzhen",
+          "label": "鸳鸯镇"
+        },
+        {
+          "value": "zhujiayao",
+          "label": "朱家窑"
+        },
+        {
+          "value": "zhangye",
+          "label": "张掖"
+        },
+        {
+          "value": "dingxibei",
+          "label": "定西北"
+        },
+        {
+          "value": "hadapu",
+          "label": "哈达铺"
+        },
+        {
+          "value": "jiayuguannan",
+          "label": "嘉峪关南"
+        },
+        {
+          "value": "longnan",
+          "label": "陇南"
+        },
+        {
+          "value": "liuyuannan",
+          "label": "柳园南"
+        },
+        {
+          "value": "linzenan",
+          "label": "临泽南"
+        },
+        {
+          "value": "qingshuixian",
+          "label": "清水县"
+        },
+        {
+          "value": "tianshuinan",
+          "label": "天水南"
+        },
+        {
+          "value": "tongwei",
+          "label": "通渭"
+        },
+        {
+          "value": "weiyuan",
+          "label": "渭源"
+        },
+        {
+          "value": "zhangjiachuan",
+          "label": "张家川"
+        },
+        {
+          "value": "zhangxian",
+          "label": "漳县"
+        },
+        {
+          "value": "zhangyexi",
+          "label": "张掖西"
+        }
+      ]
+    },
+    {
+      "value": "qinghaisheng",
+      "label": "青海省",
+      "children": [
+        {
+          "value": "xining",
+          "label": "西宁"
+        },
+        {
+          "value": "geermu",
+          "label": "格尔木"
+        },
+        {
+          "value": "delingha",
+          "label": "德令哈"
+        },
+        {
+          "value": "haiyan",
+          "label": "海晏"
+        },
+        {
+          "value": "ledou",
+          "label": "乐都"
+        },
+        {
+          "value": "pinganyi",
+          "label": "平安驿"
+        },
+        {
+          "value": "chaka",
+          "label": "茶卡"
+        },
+        {
+          "value": "datongxi",
+          "label": "大通西"
+        }
+      ]
+    },
+    {
+      "value": "taiwansheng",
+      "label": "台湾省",
+      "children": [
+
+      ]
+    },
+    {
+      "value": "neimengguzizhiqu",
+      "label": "内蒙古自治区",
+      "children": [
+        {
+          "value": "huhehaotedong",
+          "label": "呼和浩特东"
+        },
+        {
+          "value": "huhehaote",
+          "label": "呼和浩特"
+        },
+        {
+          "value": "aershan",
+          "label": "阿尔山"
+        },
+        {
+          "value": "baotou",
+          "label": "包头"
+        },
+        {
+          "value": "dayangshu",
+          "label": "大杨树"
+        },
+        {
+          "value": "erlian",
+          "label": "二连"
+        },
+        {
+          "value": "hailaer",
+          "label": "海拉尔"
+        },
+        {
+          "value": "huolinguolei",
+          "label": "霍林郭勒"
+        },
+        {
+          "value": "jiningnan",
+          "label": "集宁南"
+        },
+        {
+          "value": "linhe",
+          "label": "临河"
+        },
+        {
+          "value": "mangui",
+          "label": "满归"
+        },
+        {
+          "value": "manzhouli",
+          "label": "满洲里"
+        },
+        {
+          "value": "wulanhaote",
+          "label": "乌兰浩特"
+        },
+        {
+          "value": "yakeshi",
+          "label": "牙克石"
+        },
+        {
+          "value": "yitulihe",
+          "label": "伊图里河"
+        },
+        {
+          "value": "zhelimu",
+          "label": "哲里木"
+        },
+        {
+          "value": "zhalantun",
+          "label": "扎兰屯"
+        },
+        {
+          "value": "alongshan",
+          "label": "阿龙山"
+        },
+        {
+          "value": "benhong",
+          "label": "贲红"
+        },
+        {
+          "value": "baokang",
+          "label": "保康"
+        },
+        {
+          "value": "bailang",
+          "label": "白狼"
+        },
+        {
+          "value": "baolage",
+          "label": "宝拉格"
+        },
+        {
+          "value": "baiyinchagan",
+          "label": "白音察干"
+        },
+        {
+          "value": "bayangaolei",
+          "label": "巴彦高勒"
+        },
+        {
+          "value": "chasuqi",
+          "label": "察素齐"
+        },
+        {
+          "value": "daban",
+          "label": "大板"
+        },
+        {
+          "value": "debosi",
+          "label": "德伯斯"
+        },
+        {
+          "value": "daluhao",
+          "label": "大陆号"
+        },
+        {
+          "value": "dalin",
+          "label": "大林"
+        },
+        {
+          "value": "dongmingcun",
+          "label": "东明村"
+        },
+        {
+          "value": "eerduosi",
+          "label": "鄂尔多斯"
+        },
+        {
+          "value": "fengzhen",
+          "label": "丰镇"
+        },
+        {
+          "value": "gegenmiao",
+          "label": "葛根庙"
+        },
+        {
+          "value": "ganhe",
+          "label": "甘河"
+        },
+        {
+          "value": "genhe",
+          "label": "根河"
+        },
+        {
+          "value": "guiliuhe",
+          "label": "归流河"
+        },
+        {
+          "value": "gongmiaozi",
+          "label": "公庙子"
+        },
+        {
+          "value": "ganqika",
+          "label": "甘旗卡"
+        },
+        {
+          "value": "honghuagou",
+          "label": "红花沟"
+        },
+        {
+          "value": "jinbaotun",
+          "label": "金宝屯"
+        },
+        {
+          "value": "jinhe",
+          "label": "金河"
+        },
+        {
+          "value": "jiwen",
+          "label": "吉文"
+        },
+        {
+          "value": "kailu",
+          "label": "开鲁"
+        },
+        {
+          "value": "linxi",
+          "label": "林西"
+        },
+        {
+          "value": "mulitu",
+          "label": "木里图"
+        },
+        {
+          "value": "nailin",
+          "label": "乃林"
+        },
+        {
+          "value": "pingzhuang",
+          "label": "平庄"
+        },
+        {
+          "value": "pingzhuangnan",
+          "label": "平庄南"
+        },
+        {
+          "value": "qixiaying",
+          "label": "旗下营"
+        },
+        {
+          "value": "salaqi",
+          "label": "萨拉齐"
+        },
+        {
+          "value": "suolun",
+          "label": "索伦"
+        },
+        {
+          "value": "tuguiwula",
+          "label": "土贵乌拉"
+        },
+        {
+          "value": "wuchagou",
+          "label": "五叉沟"
+        },
+        {
+          "value": "wuhai",
+          "label": "乌海"
+        },
+        {
+          "value": "wulanhada",
+          "label": "乌兰哈达"
+        },
+        {
+          "value": "wulateqianqi",
+          "label": "乌拉特前旗"
+        },
+        {
+          "value": "wulashan",
+          "label": "乌拉山"
+        },
+        {
+          "value": "wuyuan",
+          "label": "五原"
+        },
+        {
+          "value": "xinghexi",
+          "label": "兴和西"
+        },
+        {
+          "value": "xixiaozhao",
+          "label": "西小召"
+        },
+        {
+          "value": "xizi",
+          "label": "汐子"
+        },
+        {
+          "value": "yuanbaoshan",
+          "label": "元宝山"
+        },
+        {
+          "value": "yuejiajing",
+          "label": "岳家井"
+        },
+        {
+          "value": "zhalute",
+          "label": "扎鲁特"
+        },
+        {
+          "value": "zhusihua",
+          "label": "珠斯花"
+        },
+        {
+          "value": "zhengxiangbaiqi",
+          "label": "正镶白旗"
+        },
+        {
+          "value": "zhuozishan",
+          "label": "卓资山"
+        },
+        {
+          "value": "aershanbei",
+          "label": "阿尔山北"
+        },
+        {
+          "value": "kulun",
+          "label": "库伦"
+        },
+        {
+          "value": "qixiayingnan",
+          "label": "旗下营南"
+        },
+        {
+          "value": "tuoketuodong",
+          "label": "托克托东"
+        },
+        {
+          "value": "wulanchabu",
+          "label": "乌兰察布"
+        },
+        {
+          "value": "xianfeng",
+          "label": "先锋"
+        },
+        {
+          "value": "zhuozidong",
+          "label": "卓资东"
+        }
+      ]
+    },
+    {
+      "value": "guangxizhuangzuzizhiqu",
+      "label": "广西壮族自治区",
+      "children": [
+        {
+          "value": "beihai",
+          "label": "北海"
+        },
+        {
+          "value": "chongzuo",
+          "label": "崇左"
+        },
+        {
+          "value": "guilinbei",
+          "label": "桂林北"
+        },
+        {
+          "value": "guilin",
+          "label": "桂林"
+        },
+        {
+          "value": "hezhou",
+          "label": "贺州"
+        },
+        {
+          "value": "liuzhou",
+          "label": "柳州"
+        },
+        {
+          "value": "rongan",
+          "label": "融安"
+        },
+        {
+          "value": "yulin",
+          "label": "玉林"
+        },
+        {
+          "value": "bailang",
+          "label": "百浪"
+        },
+        {
+          "value": "dani",
+          "label": "大拟"
+        },
+        {
+          "value": "fusui",
+          "label": "扶绥"
+        },
+        {
+          "value": "guigang",
+          "label": "贵港"
+        },
+        {
+          "value": "kangxiling",
+          "label": "康熙岭"
+        },
+        {
+          "value": "laituan",
+          "label": "濑湍"
+        },
+        {
+          "value": "luzhai",
+          "label": "鹿寨"
+        },
+        {
+          "value": "napu",
+          "label": "那铺"
+        },
+        {
+          "value": "qinzhoudong",
+          "label": "钦州东"
+        },
+        {
+          "value": "rongshui",
+          "label": "融水"
+        },
+        {
+          "value": "sanjiangxian",
+          "label": "三江县"
+        },
+        {
+          "value": "tiandong",
+          "label": "田东"
+        },
+        {
+          "value": "tianlin",
+          "label": "田林"
+        },
+        {
+          "value": "tingliang",
+          "label": "亭亮"
+        },
+        {
+          "value": "wuwei",
+          "label": "吴圩"
+        },
+        {
+          "value": "xiaodong",
+          "label": "小董"
+        },
+        {
+          "value": "xiashi",
+          "label": "夏石"
+        },
+        {
+          "value": "xingye",
+          "label": "兴业"
+        },
+        {
+          "value": "laibinbei",
+          "label": "来宾北"
+        },
+        {
+          "value": "liujiang",
+          "label": "柳江"
+        },
+        {
+          "value": "tiandongbei",
+          "label": "田东北"
+        },
+        {
+          "value": "yangshuo",
+          "label": "阳朔"
+        },
+        {
+          "value": "zhongshanxi",
+          "label": "钟山西"
+        }
+      ]
+    },
+    {
+      "value": "xizangzizhiqu",
+      "label": "西藏自治区",
+      "children": [
+        {
+          "value": "lasa",
+          "label": "拉萨"
+        },
+        {
+          "value": "naqu",
+          "label": "那曲"
+        },
+        {
+          "value": "renbu",
+          "label": "仁布"
+        }
+      ]
+    },
+    {
+      "value": "ningxiahuizuzizhiqu",
+      "label": "宁夏回族自治区",
+      "children": [
+        {
+          "value": "yinchuan",
+          "label": "银川"
+        },
+        {
+          "value": "gantang",
+          "label": "干塘"
+        },
+        {
+          "value": "zhongwei",
+          "label": "中卫"
+        },
+        {
+          "value": "daba",
+          "label": "大坝"
+        },
+        {
+          "value": "hanfuwan",
+          "label": "韩府湾"
+        },
+        {
+          "value": "huinong",
+          "label": "惠农"
+        },
+        {
+          "value": "huangyangtan",
+          "label": "黄羊滩"
+        },
+        {
+          "value": "nuanquan",
+          "label": "暖泉"
+        },
+        {
+          "value": "qingtongxia",
+          "label": "青铜峡"
+        },
+        {
+          "value": "qiying",
+          "label": "七营"
+        },
+        {
+          "value": "shapotou",
+          "label": "沙坡头"
+        },
+        {
+          "value": "yingpanshui",
+          "label": "营盘水"
+        },
+        {
+          "value": "zhongningdong",
+          "label": "中宁东"
+        },
+        {
+          "value": "zhongning",
+          "label": "中宁"
+        },
+        {
+          "value": "zhongningnan",
+          "label": "中宁南"
+        },
+        {
+          "value": "ningdong",
+          "label": "宁东"
+        },
+        {
+          "value": "shizuishan",
+          "label": "石嘴山"
+        }
+      ]
+    },
+    {
+      "value": "xinjiangweiwuerzizhiqu",
+      "label": "新疆维吾尔自治区",
+      "children": [
+        {
+          "value": "wulumuqi",
+          "label": "乌鲁木齐"
+        },
+        {
+          "value": "akesu",
+          "label": "阿克苏"
+        },
+        {
+          "value": "kuerlei",
+          "label": "库尔勒"
+        },
+        {
+          "value": "kashi",
+          "label": "喀什"
+        },
+        {
+          "value": "kuitun",
+          "label": "奎屯"
+        },
+        {
+          "value": "tulufan",
+          "label": "吐鲁番"
+        },
+        {
+          "value": "wulumuqinan",
+          "label": "乌鲁木齐南"
+        },
+        {
+          "value": "wuxi",
+          "label": "乌西"
+        },
+        {
+          "value": "aketao",
+          "label": "阿克陶"
+        },
+        {
+          "value": "atushen",
+          "label": "阿图什"
+        },
+        {
+          "value": "bachu",
+          "label": "巴楚"
+        },
+        {
+          "value": "bole",
+          "label": "博乐"
+        },
+        {
+          "value": "hetian",
+          "label": "和田"
+        },
+        {
+          "value": "jinghe",
+          "label": "精河"
+        },
+        {
+          "value": "jinghenan",
+          "label": "精河南"
+        },
+        {
+          "value": "kuche",
+          "label": "库车"
+        },
+        {
+          "value": "luntai",
+          "label": "轮台"
+        },
+        {
+          "value": "moyu",
+          "label": "墨玉"
+        },
+        {
+          "value": "pishan",
+          "label": "皮山"
+        },
+        {
+          "value": "shache",
+          "label": "莎车"
+        },
+        {
+          "value": "shihezi",
+          "label": "石河子"
+        },
+        {
+          "value": "shule",
+          "label": "疏勒"
+        },
+        {
+          "value": "wuwu",
+          "label": "五五"
+        },
+        {
+          "value": "yecheng",
+          "label": "叶城"
+        },
+        {
+          "value": "yingjisha",
+          "label": "英吉沙"
+        },
+        {
+          "value": "yanqi",
+          "label": "焉耆"
+        },
+        {
+          "value": "zepu",
+          "label": "泽普"
+        },
+        {
+          "value": "heshuo",
+          "label": "和硕"
+        },
+        {
+          "value": "malan",
+          "label": "马兰"
+        },
+        {
+          "value": "manasi",
+          "label": "玛纳斯"
+        },
+        {
+          "value": "sikeshu",
+          "label": "四棵树"
+        },
+        {
+          "value": "shanshanbei",
+          "label": "鄯善北"
+        },
+        {
+          "value": "wusu",
+          "label": "乌苏"
+        }
+      ]
+    },
+    {
+      "value": "xianggangtebiexingzhengqu",
+      "label": "香港特别行政区",
+      "children": [
+
+      ]
+    },
+    {
+      "value": "aomentebiexingzhengqu",
+      "label": "澳门特别行政区",
+      "children": [
+
+      ]
+    }
+  ]
+}

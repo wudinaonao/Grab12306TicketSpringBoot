@@ -2,34 +2,34 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.naonao.grab12306ticket.version.springboot.database.mapper.AllInformationMapper">
+<mapper namespace="com.naonao.grab12306ticket.version.springboot.mapper.AllInformationMapper">
 
 
     <resultMap id="AllInformationEntity" type="AllInformationEntity">
         <id column="id" property="id"/>
         <result column="hash" property="hash"/>
-        <association
-                property="userInformationEntity"
-                javaType="UserInformationEntity"
-                select="com.naonao.grab12306ticket.version.springboot.database.mapper.UserInformationMapper.getUsernameAndPasswordByHash"
-                column="hash"
-        />
+        <!--<association-->
+                <!--property="userInformationEntity"-->
+                <!--javaType="UserInformationEntity"-->
+                <!--select="com.naonao.grab12306ticket.version.springboot.mapper.UserInformationMapper.getUsernameAndPasswordByHash"-->
+                <!--column="hash"-->
+        <!--/>-->
         <association
                 property="grabTicketInformationEntity"
                 javaType="GrabTicketInformationEntity"
-                select="com.naonao.grab12306ticket.version.springboot.database.mapper.GrabTicketInformationMapper.getGrabTicketInformationByHash"
+                select="com.naonao.grab12306ticket.version.springboot.mapper.GrabTicketInformationMapper.getGrabTicketInformationByHash"
                 column="hash"
         />
         <association
-                property="notifyInformationEntity"
-                javaType="NotifyInformationEntity"
-                select="com.naonao.grab12306ticket.version.springboot.database.mapper.NotifyInformationMapper.getNotifyInformationByHash"
+                property="notificationInformationEntity"
+                javaType="NotificationInformationEntity"
+                select="com.naonao.grab12306ticket.version.springboot.mapper.NotificationInformationMapper.getNotificationInformationByHash"
                 column="hash"
         />
         <association
                 property="statusInformationEntity"
                 javaType="StatusInformationEntity"
-                select="com.naonao.grab12306ticket.version.springboot.database.mapper.StatusInformationMapper.getStatusInformationByHash"
+                select="com.naonao.grab12306ticket.version.springboot.mapper.StatusInformationMapper.getStatusInformationByHash"
                 column="hash"
         />
     </resultMap>
@@ -44,15 +44,15 @@
      <!--where-->
        <!--user_information.id = #{id}-->
     <select id="getAllInformationEntityById" resultMap="AllInformationEntity">
-          select * from user_information  where id = #{id}
+          select * from 12306_user_information  where id = #{id}
     </select>
 
     <select id="getAllInformationEntityByHash" resultMap="AllInformationEntity">
-          select * from user_information  where hash = #{hash}
+          select * from 12306_user_information  where hash = #{hash}
     </select>
 
     <select id="getAllInformationEntityByAll" resultMap="AllInformationEntity">
-        select * from user_information
+        select * from 12306_user_information
     </select>
 
     <!--<insert id="insert">-->
@@ -76,9 +76,12 @@
         <!--)-->
     <!--</insert>-->
 
-    <!--<delete id="delete">-->
-        <!--delete from status_information where hash = #{hash}-->
-    <!--</delete>-->
+    <delete id="deleteAllByHash">
+        delete from 12306_user_information where hash = #{hash};
+        delete from grab_ticket_information where hash = #{hash};
+        delete from notify_information where hash = #{hash};
+        delete from status_information where hash = #{hash};
+    </delete>
 
     <!--<update id="update">-->
         <!--update status_information-->
