@@ -12,8 +12,10 @@
     <groupId>com.naonao</groupId>
     <artifactId>grab12306ticket</artifactId>
     <version>1.0</version>
+    <packaging>war</packaging>
+    <!--<packaging>jar</packaging>-->
     <name>grab12306ticket</name>
-    <description>Demo project for Spring Boot</description>
+    <description>grab 12306 ticket series spring boot backend, implement grab core and restful api</description>
 
     <properties>
         <java.version>11</java.version>
@@ -104,6 +106,13 @@
             <artifactId>druid</artifactId>
             <version>1.1.16</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.16</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -181,6 +190,14 @@
             <version>27.1-jre</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.24</version>
+        </dependency>
+
+
 
     </dependencies>
 
@@ -193,11 +210,9 @@
             <!--</plugin>-->
 
             <plugin>
-                <!--热部署配置-->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <!--fork:如果没有该项配置,整个devtools不会起作用-->
                     <fork>true</fork>
                 </configuration>
             </plugin>

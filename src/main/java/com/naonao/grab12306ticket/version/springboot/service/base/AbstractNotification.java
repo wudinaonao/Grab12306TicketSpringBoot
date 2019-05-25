@@ -32,7 +32,7 @@ public class AbstractNotification extends AbstractService{
      * SMS
      */
     protected static final String NEXMO = "NEXMO";
-    protected static final String READ_CONFIGURE_FAILED = "read configure failed, because properties is null";
+    protected static final String READ_CONFIGURE_FAILED = "read yml configure file failed, because is null";
     protected static final String OK = "OK";
 
 

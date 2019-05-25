@@ -1,7 +1,7 @@
 package com.naonao.grab12306ticket.version.springboot.service.tools;
 
 import com.alibaba.fastjson.JSONObject;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.RequestConfig;
@@ -28,7 +28,7 @@ import java.util.Map;
  * @author: Wen lyuzhao
  * @create: 2019-04-29 17:32
  **/
-@Log4j
+@Slf4j
 public class HttpTools {
 
     private static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36";

@@ -6,7 +6,7 @@ import com.naonao.grab12306ticket.version.springboot.entity.database.Notificatio
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.preprocess.CheckInformationReturnResult;
 import com.naonao.grab12306ticket.version.springboot.constants.ConvertMap;
 import com.naonao.grab12306ticket.version.springboot.service.base.AbstractPreprocess;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +22,7 @@ import java.util.List;
  * @author: Wen lyuzhao
  * @create: 2019-05-15 13:08
  **/
-@Log4j
+@Slf4j
 @Component
 public class CheckInformation extends AbstractPreprocess {
 
@@ -36,7 +36,6 @@ public class CheckInformation extends AbstractPreprocess {
 
     /**
      * check if the data valid.
-     *
      * @param grabTicketInformationEntity   grabTicketInformationEntity
      * @param notificationInformationEntity       notificationInformationEntity
      * @return                              CheckInformationReturnResult

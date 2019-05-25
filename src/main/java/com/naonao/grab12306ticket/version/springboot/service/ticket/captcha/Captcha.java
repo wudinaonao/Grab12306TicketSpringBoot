@@ -6,7 +6,7 @@ import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.captcha.GetCaptchaReturnResult;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.captcha.MarkCaptchaReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractCaptcha;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 
 import org.apache.http.impl.client.CloseableHttpClient;
 
@@ -16,7 +16,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
  * @author: Wen lyuzhao
  * @create: 2019-04-29 19:02
  **/
-@Log4j
+@Slf4j
 public class Captcha extends AbstractCaptcha {
 
 

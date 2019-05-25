@@ -1,12 +1,12 @@
 package com.naonao.grab12306ticket.version.springboot.web.task;
 
 import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.entity.IResponseInterface;
 import com.naonao.grab12306ticket.version.springboot.entity.database.GrabTicketInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.NotificationInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.StatusInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.UserInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.response.GeneralResponse;
-import com.naonao.grab12306ticket.version.springboot.entity.IResponseInterface;
 import com.naonao.grab12306ticket.version.springboot.entity.response.InsertResponse;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.preprocess.CheckInformationReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.preprocess.CheckInformation;
@@ -46,8 +46,9 @@ public class Insert extends AbstractInsert {
      * @param inputData     inputData
      * @return              InsertResponse
      */
-    @PostMapping("insert")
+    @PostMapping(value = "insert")
     public InsertResponse insertTask(@RequestBody String inputData, HttpServletRequest request){
+
         Map<String, String> usernameAndPasswordMap = getUsernameAndPasswordBySession(request);
         // Authentication
         if (usernameAndPasswordMap == null){

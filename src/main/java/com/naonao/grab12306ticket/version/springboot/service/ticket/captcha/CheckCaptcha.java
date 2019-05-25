@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.captcha.CheckCaptchaReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractCaptcha;
 import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -21,7 +21,7 @@ import java.net.URISyntaxException;
  * @author: Wen lyuzhao
  * @create: 2019-04-29 22:59
  **/
-@Log4j
+@Slf4j
 public class CheckCaptcha extends AbstractCaptcha {
 
 

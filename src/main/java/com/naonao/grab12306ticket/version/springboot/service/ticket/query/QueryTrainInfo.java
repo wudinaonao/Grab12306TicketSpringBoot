@@ -13,7 +13,7 @@ import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.
 import com.naonao.grab12306ticket.version.springboot.service.ticket.query.arguments.QueryTrainInfoArguments;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractQuery;
 import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -33,7 +33,7 @@ import java.util.*;
  * @author: Wen lyuzhao
  * @create: 2019-05-06 16:03
  **/
-@Log4j
+@Slf4j
 public class QueryTrainInfo extends AbstractQuery {
 
     

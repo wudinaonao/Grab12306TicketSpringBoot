@@ -2,7 +2,7 @@ package com.naonao.grab12306ticket.version.springboot.service.tools;
 
 import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.entity.database.GrabTicketInformationEntity;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -13,7 +13,7 @@ import java.security.NoSuchAlgorithmException;
  * @author: Wen lyuzhao
  * @create: 2019-05-08 00:13
  **/
-@Log4j
+@Slf4j
 public class ComputeHash {
 
     private static final String MD5 = "MD5";

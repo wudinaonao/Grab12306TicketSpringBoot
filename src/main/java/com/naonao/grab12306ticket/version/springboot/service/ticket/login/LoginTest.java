@@ -5,7 +5,7 @@ import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.login.*;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.captcha.Captcha;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractLogin;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.impl.client.CloseableHttpClient;
 
 
@@ -15,7 +15,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
  * @author: Wen lyuzhao
  * @create: 2019-04-30 22:50
  **/
-@Log4j
+@Slf4j
 public class LoginTest extends AbstractLogin {
 
     

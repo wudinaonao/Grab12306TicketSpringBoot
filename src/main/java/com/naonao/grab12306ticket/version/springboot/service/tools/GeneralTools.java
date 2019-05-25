@@ -1,18 +1,21 @@
 package com.naonao.grab12306ticket.version.springboot.service.tools;
 
 import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.entity.yml.Configuration;
 import com.naonao.grab12306ticket.version.springboot.service.base.AbstractService;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
+import org.yaml.snakeyaml.Yaml;
 
-import java.io.*;
-import java.net.URL;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.FileSystemNotFoundException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Properties;
 import java.util.TimeZone;
 
 /**
@@ -21,7 +24,7 @@ import java.util.TimeZone;
  * @author: Wen lyuzhao
  * @create: 2019-04-29 17:31
  **/
-@Log4j
+@Slf4j
 public class GeneralTools extends AbstractService {
 
 
@@ -57,90 +60,63 @@ public class GeneralTools extends AbstractService {
 
     /**
      * read, write, append file, text mode
+     * file path in resource path.
      * @param filePath  file path
      * @return          String
      */
     public static String readFileText(String filePath) {
-        // List<String> lineList = new ArrayList<String>();
-        StringBuilder content = new StringBuilder("");
+        StringBuilder content = new StringBuilder();
+        InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream(filePath);
+        if (resourceAsStream == null){
+            throw new FileSystemNotFoundException("read file failed.");
+        }
         try {
-            String encoding = "UTF-8";
-            URL filePathUrl = ClassLoader.getSystemResource(filePath);
-            File file = new File(filePathUrl.getFile());
-            // 判断文件是否存在
-            if (file.isFile() && file.exists()) {
-                InputStreamReader read = new InputStreamReader(new FileInputStream(file), encoding);
-                BufferedReader bufferedReader = new BufferedReader(read);
-                String lineTxt = null;
-                while ((lineTxt = bufferedReader.readLine()) != null) {
-                    content.append(lineTxt + "\n");
-                }
-                bufferedReader.close();
-                read.close();
-            } else {
-                log.error("not found file");
+            InputStreamReader read = new InputStreamReader(resourceAsStream, StandardCharsets.UTF_8);
+            BufferedReader bufferedReader = new BufferedReader(read);
+            String lineTxt;
+            while ((lineTxt = bufferedReader.readLine()) != null) {
+                lineTxt += "\n";
+                content.append(lineTxt);
             }
+            bufferedReader.close();
+            read.close();
         } catch (Exception e) {
-            log.error("read file failed");
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
         return content.toString().substring(0, content.toString().length() - 1);
     }
 
-    public static boolean appendFileText(String filePath, String text) {
 
-        FileWriter fileWriter = null;
+    // /**
+    //  *
+    //  * @return      Properties configuration
+    //  */
+    // public static Properties getConfig() {
+    //
+    //     InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties");
+    //     if (resourceAsStream == null){
+    //         throw new FileSystemNotFoundException("read configuration file failed.");
+    //     }
+    //     try {
+    //         InputStreamReader inputStreamReader = new InputStreamReader(resourceAsStream, StandardCharsets.UTF_8);
+    //
+    //         Properties properties = new Properties();
+    //         properties.load(inputStreamReader);
+    //         return properties;
+    //     } catch (IOException e){
+    //         log.error(e.getMessage());
+    //     }
+    //     return null;
+    // }
 
-        try {
-            //如果文件存在，则追加内容；如果文件不存在，则创建文件
-            File file = new File(filePath);
-            fileWriter = new FileWriter(file, true);
-        } catch (IOException e) {
-            return false;
-        }
-        PrintWriter PrintWriter = new PrintWriter(fileWriter);
-        PrintWriter.println(text);
-        PrintWriter.flush();
-
-        try {
-            PrintWriter.flush();
-            PrintWriter.close();
-        } catch (Exception e) {
-            return false;
-        }
-        return true;
+    /**
+     * get configuration yml
+     * @return  Configuration
+     */
+    public static Configuration getConfiguration(){
+        Yaml yaml = new Yaml();
+        return yaml.loadAs(Thread.currentThread().getContextClassLoader().getResourceAsStream("configuration.yml"), Configuration.class);
     }
-
-    public static boolean writeFileText(String filePath, String text) {
-        try {
-            File file = new File(filePath);
-            file.delete();
-            file.createNewFile();
-            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.UTF_8));
-            writer.write(text);
-            writer.close();
-        } catch (IOException e) {
-            return false;
-        }
-        return true;
-    }
-
-    public static Properties getConfig() {
-        try {
-            // InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("config.properties"), StandardCharsets.UTF_8);
-            InputStreamReader inputStreamReader = new InputStreamReader(ClassLoader.getSystemResourceAsStream("config.properties"), StandardCharsets.UTF_8);
-
-            Properties properties = new Properties();
-            properties.load(inputStreamReader);
-            return properties;
-        } catch (IOException e){
-            log.error(e.getMessage());
-        } catch (NullPointerException e) {
-            log.error(e.getMessage());
-        }
-        return null;
-    }
-
 
     public static String currentDate(){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");

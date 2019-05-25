@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.login.InitLoginReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractLogin;
 import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.Header;
 import org.apache.http.HeaderElement;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -27,7 +27,7 @@ import java.util.Map;
  * @author: Wen lyuzhao
  * @create: 2019-05-02 13:39
  **/
-@Log4j
+@Slf4j
 public class InitLogin extends AbstractLogin {
 
     

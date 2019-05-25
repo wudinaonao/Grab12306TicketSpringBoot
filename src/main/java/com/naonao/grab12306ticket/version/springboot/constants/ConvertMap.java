@@ -2,7 +2,7 @@ package com.naonao.grab12306ticket.version.springboot.constants;
 
 
 import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ import java.util.Map;
  * @author: Wen lyuzhao
  * @create: 2019-05-05 00:06
  **/
-@Log4j
+@Slf4j
 public class ConvertMap {
 
     private static Map<String, String> seatNameToNumber;

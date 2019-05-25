@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.base.AbstractSpringBoot;
 import com.naonao.grab12306ticket.version.springboot.service.ticket.base.AbstractLogin;
 import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -20,7 +20,7 @@ import java.util.Map;
  * @author: Wen lyuzhao
  * @create: 2019-04-30 22:49
  **/
-@Log4j
+@Slf4j
 public class CheckUserStatus extends AbstractLogin {
 
     
