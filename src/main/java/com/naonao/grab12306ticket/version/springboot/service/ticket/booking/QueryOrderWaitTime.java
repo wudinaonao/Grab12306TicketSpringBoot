@@ -79,9 +79,9 @@ public class QueryOrderWaitTime extends AbstractBooking {
                     }
                 }
             }
-            // if the number of attempts exceeds 10000, then return false.
-            if (requestNum > 10000){
-                return failedQueryOrderWaitTimeReturnResult(session, STILL_NOT_GETTING_RESULTS_AFTER_TRYING_MORE_THAN_10000_TIMES);
+            // if the number of attempts exceeds 1000, then return false.
+            if (requestNum > 1000){
+                return failedQueryOrderWaitTimeReturnResult(session, STILL_NOT_GETTING_RESULTS_AFTER_TRYING_MORE_THAN_1000_TIMES);
             }
             // sleep time, unit millisecond
             delay(1000L);

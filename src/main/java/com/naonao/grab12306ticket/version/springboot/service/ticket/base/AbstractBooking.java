@@ -64,7 +64,7 @@ public abstract class AbstractBooking extends AbstractService {
     protected static final String BOOKING_SUCCESS = "booking success";
 
 
-    protected static final String STILL_NOT_GETTING_RESULTS_AFTER_TRYING_MORE_THAN_10000_TIMES = "still not getting results after trying more than 10000 times.";
+    protected static final String STILL_NOT_GETTING_RESULTS_AFTER_TRYING_MORE_THAN_1000_TIMES = "still not getting results after trying more than 1000 times.";
 
 
     protected CloseableHttpClient session;
