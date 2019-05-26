@@ -18,4 +18,5 @@ public class Sms {
     private NotificationInterfaceName interfaceName;
     private String content;
     private String title;
+    private String defaultContent;
 }

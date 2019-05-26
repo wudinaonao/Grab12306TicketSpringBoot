@@ -28,7 +28,7 @@ import java.util.Map;
  **/
 @RestController
 @EnableAutoConfiguration
-@RequestMapping(value = "/api/v1/task")
+@RequestMapping(value = "${url.prefix}" + "task")
 @CrossOrigin
 public class Query extends AbstractQuery {
 

@@ -35,5 +35,10 @@ public class AbstractNotification extends AbstractService{
     protected static final String READ_CONFIGURE_FAILED = "read yml configure file failed, because is null";
     protected static final String OK = "OK";
 
+    /**
+     * Notification
+     */
+    protected static final String PLEASE_SETTING_NOTIFY_PHONE_INTERFACE_NAME = "please setting notify phone interface name";
+    protected static final String PLEASE_SETTING_NOTIFY_SMS_INTERFACE_NAME = "please setting notify sms interface name";
 
 }

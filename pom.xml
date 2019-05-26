@@ -202,6 +202,7 @@
     </dependencies>
 
     <build>
+        <finalName>grab12306ticket</finalName>
         <plugins>
 
             <!--<plugin>-->

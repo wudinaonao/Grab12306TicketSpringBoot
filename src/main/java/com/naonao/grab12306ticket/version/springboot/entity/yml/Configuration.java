@@ -19,5 +19,6 @@ public class Configuration {
 
     private Platform platform;
     private Notification notification;
+    private Setting setting;
 
 }

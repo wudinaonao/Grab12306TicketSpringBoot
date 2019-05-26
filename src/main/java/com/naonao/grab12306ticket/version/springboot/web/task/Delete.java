@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
  * @create: 2019-05-15 04:07
  **/
 @RestController
-@RequestMapping("/api/v1/task")
+@RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
 public class Delete extends AbstractDelete {
 
@@ -24,8 +24,9 @@ public class Delete extends AbstractDelete {
      * delete task by hash
      * input data format is json
      * example:
-     * {"hash":"1111111111111111111111111"}
-     *
+     * {
+     *     "hash":"1111111111111111111111111"
+     * }
      * @param inputData     inputData
      * @return              DeleteResponse
      */

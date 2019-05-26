@@ -1,0 +1,6 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <!--voice file url-->
+    <Play loop="3">https://www.wenlyuzhao.it/other/grabedTicket.mp3</Play>
+</Response>

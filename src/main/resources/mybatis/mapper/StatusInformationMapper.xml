@@ -70,7 +70,8 @@
             taskStartTime = #{taskStartTime},
             taskEndTime = #{taskEndTime},
             taskLastRunTime = #{taskLastRunTime},
-            tryCount = #{tryCount}
+            tryCount = #{tryCount},
+            message = #{message}
         where
             hash = #{hash}
     </update>

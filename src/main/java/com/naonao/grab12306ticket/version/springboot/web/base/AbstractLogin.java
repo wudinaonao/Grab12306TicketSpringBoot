@@ -9,4 +9,5 @@ package com.naonao.grab12306ticket.version.springboot.web.base;
 public class AbstractLogin extends AbstractWeb {
 
     protected static final String REQUEST_INVALID = "request invalid.";
+    protected static final String SYSTEM_MAINTENANCE_TIME = "system maintenance time.";
 }

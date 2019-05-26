@@ -21,7 +21,7 @@ import java.util.Map;
  * @create: 2019-05-15 15:07
  **/
 @RestController
-@RequestMapping("/api/v1/task")
+@RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
 public class Updata extends AbstractUpdate {
 
@@ -46,7 +46,7 @@ public class Updata extends AbstractUpdate {
             return updateResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
         }
         // parse json data
-        Map<String, Object> jsonMap = encapsulationeJsonMap(inputData);
+        Map<String, Object> jsonMap = encapsulationJsonMap(inputData);
         // get hash
         JSONObject jsonObject = (JSONObject) jsonMap.get("grabticketinforamtion");
         String hash = jsonObject.getString("hash");

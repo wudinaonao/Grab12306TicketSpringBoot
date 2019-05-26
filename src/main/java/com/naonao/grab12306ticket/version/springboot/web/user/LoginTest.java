@@ -22,7 +22,7 @@ import java.util.List;
  **/
 @RestController
 @CrossOrigin
-@RequestMapping(value = "/api/v1/user")
+@RequestMapping(value = "${url.prefix}" + "user")
 public class LoginTest extends AbstractLogin {
 
     /**
@@ -52,7 +52,7 @@ public class LoginTest extends AbstractLogin {
             }
             // is system maintenance Time
             if (systemMaintenanceTime()){
-                return loginTestResponse(false, REQUEST_INVALID, null, null);
+                return loginTestResponse(false, SYSTEM_MAINTENANCE_TIME, null, null);
             }
             // find user table
             UserInformationEntity userInformationEntity = findUserInformationEntity(username12306, password12306);

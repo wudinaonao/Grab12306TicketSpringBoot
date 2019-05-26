@@ -17,5 +17,6 @@ public class Twilio {
     private String accountSid;
     private String authToken;
     private String voiceUrl;
+    private String defaultVoiceUrl;
     private String fromPhoneNumber;
 }

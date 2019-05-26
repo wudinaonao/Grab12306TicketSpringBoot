@@ -2,6 +2,7 @@ package com.naonao.grab12306ticket.version.springboot.service.tools;
 
 import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.entity.yml.Configuration;
+import com.naonao.grab12306ticket.version.springboot.exception.ConfigurationNotCompletedException;
 import com.naonao.grab12306ticket.version.springboot.service.base.AbstractService;
 import lombok.extern.slf4j.Slf4j;
 import org.yaml.snakeyaml.Yaml;
@@ -14,9 +15,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileSystemNotFoundException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.TimeZone;
+import java.util.*;
 
 /**
  * @program: 12306grabticket_java
@@ -26,7 +25,6 @@ import java.util.TimeZone;
  **/
 @Slf4j
 public class GeneralTools extends AbstractService {
-
 
 
     /**
@@ -87,28 +85,6 @@ public class GeneralTools extends AbstractService {
     }
 
 
-    // /**
-    //  *
-    //  * @return      Properties configuration
-    //  */
-    // public static Properties getConfig() {
-    //
-    //     InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties");
-    //     if (resourceAsStream == null){
-    //         throw new FileSystemNotFoundException("read configuration file failed.");
-    //     }
-    //     try {
-    //         InputStreamReader inputStreamReader = new InputStreamReader(resourceAsStream, StandardCharsets.UTF_8);
-    //
-    //         Properties properties = new Properties();
-    //         properties.load(inputStreamReader);
-    //         return properties;
-    //     } catch (IOException e){
-    //         log.error(e.getMessage());
-    //     }
-    //     return null;
-    // }
-
     /**
      * get configuration yml
      * @return  Configuration
@@ -116,6 +92,33 @@ public class GeneralTools extends AbstractService {
     public static Configuration getConfiguration(){
         Yaml yaml = new Yaml();
         return yaml.loadAs(Thread.currentThread().getContextClassLoader().getResourceAsStream("configuration.yml"), Configuration.class);
+    }
+
+    /**
+     * check configuration
+     * @throws ConfigurationNotCompletedException    configuration error message
+     */
+    public static void checkConfiguration() throws ConfigurationNotCompletedException{
+        Yaml yaml = new Yaml();
+        recursiveCheckMap(yaml.loadAs(Thread.currentThread().getContextClassLoader().getResourceAsStream("configuration.yml"), Map.class));
+    }
+
+    /**
+     * recursive check configuration file
+     * input yml map, recursive check item value is null or emtpy
+     * @param ymlMap                                 ymlMap
+     * @throws ConfigurationNotCompletedException    configuration error message
+     */
+    private static void recursiveCheckMap(Map ymlMap) throws ConfigurationNotCompletedException{
+        for (Object key : ymlMap.keySet()){
+            if (ymlMap.get(key) == null || "".equals(ymlMap.get(key))){
+                String message = String.format("[%s] not set", key.toString());
+                throw new ConfigurationNotCompletedException(message);
+            }
+            if (ymlMap.get(key).getClass() == LinkedHashMap.class){
+                recursiveCheckMap((Map) ymlMap.get(key));
+            }
+        }
     }
 
     public static String currentDate(){

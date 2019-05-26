@@ -79,7 +79,7 @@
     <delete id="deleteAllByHash">
         delete from 12306_user_information where hash = #{hash};
         delete from grab_ticket_information where hash = #{hash};
-        delete from notify_information where hash = #{hash};
+        delete from notification_information where hash = #{hash};
         delete from status_information where hash = #{hash};
     </delete>
 

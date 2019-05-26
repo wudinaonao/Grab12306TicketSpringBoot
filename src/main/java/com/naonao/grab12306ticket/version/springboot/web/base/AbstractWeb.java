@@ -17,8 +17,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @program: SpringBoot
- * @description:
+ * @program: Grab12306Ticket-SpringBoot
+ * @description: web view abstract class, these are general methods
  * @author: Wen lyuzhao
  * @create: 2019-05-14 23:26
  **/
@@ -39,10 +39,16 @@ public class AbstractWeb extends AbstractSpringBoot {
     @Autowired
     protected AllInformationMapper allInformationMapper;
 
-
     protected static final String USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED = "12306 username and password have not been verified";
     protected static final String INFORMATION_INVALID = "information invalid.";
 
+    /**
+     * encapsulation userInformationEntity by username12306 and password12306,
+     * input format is json
+     * @param userInformationJson   userInformationJson
+     * @param hash                  hash
+     * @return                      userInformationEntity
+     */
     protected UserInformationEntity userInformationEntity(JSONObject userInformationJson, String hash){
         UserInformationEntity userInformationEntity = new UserInformationEntity();
         userInformationEntity.setId(null);
@@ -52,6 +58,13 @@ public class AbstractWeb extends AbstractSpringBoot {
         return userInformationEntity;
     }
 
+    /**
+     * encapsulation userInformationEntity by username12306 and password12306,
+     * input format is map
+     * @param userInformationMap    userInformationMap
+     * @param hash                  hash
+     * @return                      userInformationEntity
+     */
     protected UserInformationEntity userInformationEntity(Map<String, String> userInformationMap, String hash){
         UserInformationEntity userInformationEntity = new UserInformationEntity();
         userInformationEntity.setId(null);
@@ -62,6 +75,7 @@ public class AbstractWeb extends AbstractSpringBoot {
     }
 
     /**
+     * encapsulation grabTicketInformationEntity
      * json format:
      * {
      *     "id":null,
@@ -106,6 +120,7 @@ public class AbstractWeb extends AbstractSpringBoot {
     }
 
     /**
+     * encapsulation notificationInformationEntity
      * json format:
      * {
      *     "id":null,
@@ -118,9 +133,9 @@ public class AbstractWeb extends AbstractSpringBoot {
      *     "receiverPhone":"",
      *     "notificationMode":[],
      * }
-     * @param notificationInformationJson     notificationInformationJson
-     * @param hash                      hash
-     * @return                          NotificationInformationEntity
+     * @param notificationInformationJson       notificationInformationJson
+     * @param hash                              hash
+     * @return                                  NotificationInformationEntity
      */
     protected NotificationInformationEntity notificationInformationEntity(JSONObject notificationInformationJson, String hash){
         NotificationInformationEntity notificationInformationEntity = new NotificationInformationEntity();
@@ -156,7 +171,12 @@ public class AbstractWeb extends AbstractSpringBoot {
         return statusInformationEntity;
     }
 
-    protected Map<String, Object> encapsulationeJsonMap(String inputData){
+    /**
+     * encapsulation input data to map, map element format is json
+     * @param inputData     input data, format is string
+     * @return              map
+     */
+    protected Map<String, Object> encapsulationJsonMap(String inputData){
         Map<String, Object> jsonMap = new HashMap<>(16);
         JSONObject jsonObject = JSONObject.parseObject(inputData);
         JSONObject grabticketJson = jsonObject.getJSONObject("grabticketinformation");
@@ -165,6 +185,7 @@ public class AbstractWeb extends AbstractSpringBoot {
         jsonMap.put("notificationinformation", notificationJson);
         return jsonMap;
     }
+
 
     protected Map<String, ?> entityMap(Map<String, JSONObject> jsonMap, String hash){
         Map<String, Object> entityMap = new HashMap<>(16);
@@ -175,6 +196,19 @@ public class AbstractWeb extends AbstractSpringBoot {
         return entityMap;
     }
 
+    /**
+     * get username and password by session.
+     * if username or password is null, then return null.
+     * if session exist return a map, map element is username
+     * and password.
+     * map format:
+     * {
+     *     "username12306":"",
+     *     "password12306":""
+     * }
+     * @param request   request
+     * @return          map
+     */
     protected Map<String, String> getUsernameAndPasswordBySession(HttpServletRequest request){
         Map<String, String> map = new HashMap<>(16);
         String username12306 = (String) request.getSession().getAttribute("username12306");
@@ -188,9 +222,10 @@ public class AbstractWeb extends AbstractSpringBoot {
     }
 
     /**
-     * get username12306 and password12306 by session
-     * @param request
-     * @return
+     * check username and password based on the session,
+     * if there is no match, then return false.
+     * @param request   request
+     * @return          Boolean
      */
     protected Boolean authentication(HttpServletRequest request){
         String username12306 = (String) request.getSession().getAttribute("username12306");
@@ -201,23 +236,4 @@ public class AbstractWeb extends AbstractSpringBoot {
         return true;
     }
 
-    public static void main(String[] args) {
-        String jsonString = "{\"grabticketinformation\":{\"afterTime\":\"11111111111111111111\",\"beforeTime\":\"11111111111111111111\",\"trainDate\":\"11111111111111111111\",\"fromStation\":\"11111111111111111111\",\"toStation\":\"11111111111111111111\",\"purposeCode\":\"11111111111111111111\",\"trainName\":\"11111111111111111111\",\"backTrainDate\":\"11111111111111111111\",\"passengerName\":\"11111111111111111111\",\"documentType\":\"11111111111111111111\",\"documentNumber\":\"11111111111111111111\",\"mobile\":\"11111111111111111111\",\"seatType\":\"11111111111111111111\",\"expectSeatNumber\":\"11111111111111111111\"},\"notificationinformation\":{\"receiverEmail\":\"11111111111111111111\",\"sendEmail\":\"11111111111111111111\",\"sendEmailHost\":\"11111111111111111111\",\"sendEmailPort\":\"11111111111111111111\",\"sendEmailUsername\":\"11111111111111111111\",\"sendEmailPassword\":\"11111111111111111111\",\"receiverPhone\":\"11111111111111111111\",\"notificationMode\":[\"email\", \"sms\"]}}";
-        JSONObject jsonObject = JSONObject.parseObject(jsonString);
-        JSONObject grabticket = jsonObject.getJSONObject("grabticketinformation");
-        JSONObject notificationInformationJson = jsonObject.getJSONObject("notificationinformation");
-
-        NotificationInformationEntity notificationInformationEntity = new NotificationInformationEntity();
-        notificationInformationEntity.setId(null);
-        notificationInformationEntity.setReceiverEmail(notificationInformationJson.getString("receiverEmail"));
-        notificationInformationEntity.setSendEmail(notificationInformationJson.getString("sendEmail"));
-        notificationInformationEntity.setSendEmailHost(notificationInformationJson.getString("sendEmailHost"));
-        notificationInformationEntity.setSendEmailPort(notificationInformationJson.getString("sendEmailPort"));
-        notificationInformationEntity.setSendEmailUsername(notificationInformationJson.getString("sendEmailUsername"));
-        notificationInformationEntity.setSendEmailPassword(notificationInformationJson.getString("sendEmailPassword"));
-        notificationInformationEntity.setReceiverPhone(notificationInformationJson.getString("receiverPhone"));
-        notificationInformationEntity.setNotificationMode(StringUtils.join(notificationInformationJson.getJSONArray("notificationMode"), ","));
-        notificationInformationEntity.setHash("asd");
-        System.out.println(notificationInformationEntity);
-    }
 }

@@ -269,7 +269,7 @@ public class InitLogin extends AbstractLogin {
             //         .setParameter("timestamp", timeValue)
             //         .build();
             // return uri;
-            return new URI("https://kyfw.12306.cn/otn/HttpZF/logdevice?algID=9K6MUm5nyb&hashCode=3x6L1oVRC2cuSu249abQJTbXO09cMgdwWqwTy0oVmJY&FMQw=0&q4f3=zh-CN&VySQ=FGFRn-jY-5aQX41Rv-AaFwr6BY6rDh4t&VPIf=1&custID=133&VEek=unknown&dzuS=0&yD16=0&EOQP=8f58b1186770646318a429cb33977d8c&lEnu=3232235976&jp76=52d67b2a5aa5e031084733d5006cc664&hAqN=Win32&platform=WEB&ks0Q=d22ca0b81584fbea62237b14bd04c866&TeRS=1040x1920&tOHY=24xx1080x1920&Fvje=i1l1o1s1&q5aJ=-2&wNLf=99115dfb07133750ba677d055874de87&0aew=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/74.0.3729.157%20Safari/537.36&E3gR=ec206075ed9ec71d5a736b2e07d09a75&timestamp=" + timeValue);
+            return new URI("https://kyfw.12306.cn/otn/HttpZF/logdevice?algID=nRnvs1A0LB&hashCode=K48Vh_5nHUZXQrdcKmXsiyBhFSmBHqR8PMEb1XmNtNE&FMQw=0&q4f3=zh-CN&VPIf=1&custID=133&VEek=unknown&dzuS=0&yD16=0&EOQP=8f58b1186770646318a429cb33977d8c&lEnu=3232235976&jp76=52d67b2a5aa5e031084733d5006cc664&hAqN=Win32&platform=WEB&ks0Q=d22ca0b81584fbea62237b14bd04c866&TeRS=1040x1920&tOHY=24xx1080x1920&Fvje=i1l1o1s1&q5aJ=-2&wNLf=99115dfb07133750ba677d055874de87&0aew=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/74.0.3729.169%20Safari/537.36&E3gR=20206597f58237feb111648262082854&timestamp=" + timeValue);
         }catch (URISyntaxException e){
             log.error(e.getMessage());
             return null;

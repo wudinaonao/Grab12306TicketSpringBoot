@@ -27,7 +27,7 @@ import java.util.Map;
  * @create: 2019-05-15 04:41
  **/
 @RestController
-@RequestMapping("/api/v1/task")
+@RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
 public class Insert extends AbstractInsert {
 
@@ -37,18 +37,15 @@ public class Insert extends AbstractInsert {
 
     /**
      * input data format:
-     *
-     *      {
-     *          "grabticketinformation":{...},
-     *          "notificationinformation":{...}
-     *      }
-     *
+     *{
+     *    "grabticketinformation":{...},
+     *    "notificationinformation":{...}
+     * }
      * @param inputData     inputData
      * @return              InsertResponse
      */
     @PostMapping(value = "insert")
     public InsertResponse insertTask(@RequestBody String inputData, HttpServletRequest request){
-
         Map<String, String> usernameAndPasswordMap = getUsernameAndPasswordBySession(request);
         // Authentication
         if (usernameAndPasswordMap == null){
@@ -56,7 +53,7 @@ public class Insert extends AbstractInsert {
             return insertResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
         }
         // parse json data
-        Map<String, Object> jsonMap = encapsulationeJsonMap(inputData);
+        Map<String, Object> jsonMap = encapsulationJsonMap(inputData);
         // get hash
         String hash = ComputeHash.fromGrabTicketInformation((JSONObject) jsonMap.get("grabticketinforamtion"));
         // get entity use to insert to database
@@ -142,15 +139,4 @@ public class Insert extends AbstractInsert {
     }
 
 
-    // private Boolean checkGrabTicketInformationEntity(GrabTicketInformationEntity grabTicketInformationEntity){
-    //
-    // }
-    //
-    // private Boolean checkNotificationInformationEntity(NotificationInformationEntity notificationInformationEntity){
-    //
-    // }
-    //
-    // private Boolean checkStatusInformationEntity(StatusInformationEntity statusInformationEntity){
-    //
-    // }
 }
