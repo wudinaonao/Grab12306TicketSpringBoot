@@ -1,20 +1,20 @@
-#Grab12306Ticket　SpringBoot
+# Grab12306Ticket　SpringBoot
 
-##文档完善中。。。
+## 文档完善中。。。
 
 这是12306抢票系列的SpringBoot后端。
 
-###技术栈：
+### 技术栈：
  * SpringBoot
  * MyBatis
  * Redis
 
-###使用方法：
+### 使用方法：
 你需要在resource文件夹里创建两个文件，一个是SpringBoot的配置文件，一个是项目的配置文件
  * application.yml
  * configuration.yml
 
-###项目配置：
+### 项目配置：
  * application.yml 文件内容
  * ```yaml
    spring:
@@ -148,7 +148,7 @@
       # 启动抢票代码
       grabTicketCode: true
    ```
-###通知方式：
+### 通知方式：
  * Email：
     * 目前测试了Gmail邮箱没有问题，但是需要进行一些相关的设置，国内的邮箱我暂时没有测试过。当然也可以自己搭建邮件服务器用自己的邮箱。
  * SMS：
