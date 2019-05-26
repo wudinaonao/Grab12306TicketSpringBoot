@@ -75,24 +75,24 @@ public class QueryTrainInfoReturnResultHandle extends AbstractScheduler {
         // log.info("i sleep time ---> " + sleepTime + "   hash ---> " + queryTrainInfoReturnResult.getUserInformationEntity().getHash());
 
         StatusInformationEntity statusInformationEntity = queryTrainInfoReturnResult.getStatusInformationEntity();
-        // // not found eligible train information
-        // if (!isTure(queryTrainInfoReturnResult)){
-        //     message = queryTrainInfoReturnResult.getMessage();
-        //     updateDatabase(TaskStatusName.WAIT, statusInformationEntity, message);
-        //     return;
-        // }
-        // // booking failed
-        // if (!booking(queryTrainInfoReturnResult)){
-        //     // this message get in method.
-        //     updateDatabase(TaskStatusName.BOOKING_FAILED, statusInformationEntity, message);
-        //     return;
-        // }
-        // // send notification failed
-        // if (!sendNotification(bookingReturnResult, queryTrainInfoReturnResult.getNotificationInformationEntity())){
-        //     message = TaskStatusName.BOOKING_SUCCEED_BUT_SEND_NOTIFICATION_FAILED.getTaskStatusName();
-        //     updateDatabase(TaskStatusName.BOOKING_SUCCEED_BUT_SEND_NOTIFICATION_FAILED, statusInformationEntity, message);
-        //     return;
-        // }
+        // not found eligible train information
+        if (!isTure(queryTrainInfoReturnResult)){
+            message = queryTrainInfoReturnResult.getMessage();
+            updateDatabase(TaskStatusName.WAIT, statusInformationEntity, message);
+            return;
+        }
+        // booking failed
+        if (!booking(queryTrainInfoReturnResult)){
+            // this message get in method.
+            updateDatabase(TaskStatusName.BOOKING_FAILED, statusInformationEntity, message);
+            return;
+        }
+        // send notification failed
+        if (!sendNotification(bookingReturnResult, queryTrainInfoReturnResult.getNotificationInformationEntity())){
+            message = TaskStatusName.BOOKING_SUCCEED_BUT_SEND_NOTIFICATION_FAILED.getTaskStatusName();
+            updateDatabase(TaskStatusName.BOOKING_SUCCEED_BUT_SEND_NOTIFICATION_FAILED, statusInformationEntity, message);
+            return;
+        }
         // success
         message = TaskStatusName.COMPLETED.getTaskStatusName();
         updateDatabase(TaskStatusName.COMPLETED, statusInformationEntity, message);
