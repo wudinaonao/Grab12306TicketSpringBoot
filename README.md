@@ -1,7 +1,5 @@
 # Grab12306Ticket　SpringBoot
 
-## 文档完善中。。。
-
 这是12306抢票系列的SpringBoot后端。
 
 ### 技术栈：
