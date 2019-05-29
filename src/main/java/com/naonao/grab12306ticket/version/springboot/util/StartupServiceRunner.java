@@ -25,6 +25,7 @@ public class StartupServiceRunner extends AbstractUtil implements CommandLineRun
     @Autowired
     private Scheduler scheduler;
 
+
     public StartupServiceRunner(){
         configuration = GeneralTools.getConfiguration();
     }

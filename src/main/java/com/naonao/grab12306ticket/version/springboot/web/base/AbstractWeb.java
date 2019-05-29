@@ -119,6 +119,19 @@ public class AbstractWeb extends AbstractSpringBoot {
 
     }
 
+    protected GrabTicketInformationEntity grabTicketInformationEntity(GrabTicketInformationEntity grabTicketInformationEntity, String hash){
+        grabTicketInformationEntity.setHash(hash);
+        grabTicketInformationEntity.setSeatType(
+                grabTicketInformationEntity
+                        .getSeatType()
+                        .replace("[", "")
+                        .replace("]", "")
+                        .replace("\'", "")
+                        .replace("\"", "")
+                        .replace(" ", "")
+        );
+        return grabTicketInformationEntity;
+    }
     /**
      * encapsulation notificationInformationEntity
      * json format:
@@ -151,6 +164,19 @@ public class AbstractWeb extends AbstractSpringBoot {
         notificationInformationEntity.setHash(hash);
         return notificationInformationEntity;
 
+    }
+    protected NotificationInformationEntity notificationInformationEntity(NotificationInformationEntity notificationInformationEntity, String hash){
+        notificationInformationEntity.setHash(hash);
+        notificationInformationEntity.setNotificationMode(
+                notificationInformationEntity
+                        .getNotificationMode()
+                        .replace("[", "")
+                        .replace("]", "")
+                        .replace("\'", "")
+                        .replace("\"", "")
+                        .replace(" ", "")
+        );
+        return notificationInformationEntity;
     }
 
     /**

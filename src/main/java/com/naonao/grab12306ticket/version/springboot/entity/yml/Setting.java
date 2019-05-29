@@ -1,5 +1,6 @@
 package com.naonao.grab12306ticket.version.springboot.entity.yml;
 
+import com.naonao.grab12306ticket.version.springboot.entity.yml.setting.Encryption;
 import lombok.Data;
 
 /**
@@ -12,5 +13,5 @@ import lombok.Data;
 public class Setting {
 
     private Boolean grabTicketCode;
-
+    private Encryption encryption;
 }

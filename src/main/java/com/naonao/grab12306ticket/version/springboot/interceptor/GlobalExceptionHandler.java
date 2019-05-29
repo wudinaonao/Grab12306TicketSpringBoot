@@ -1,39 +1,56 @@
 package com.naonao.grab12306ticket.version.springboot.interceptor;
 
 import com.naonao.grab12306ticket.version.springboot.entity.response.GeneralResponse;
-import com.naonao.grab12306ticket.version.springboot.interceptor.base.AbstractInterceptor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import javax.servlet.http.HttpServletRequest;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 /**
  * @program: SpringBoot
- * @description:
+ * @description: global exception handle
  * @author: Wen lyuzhao
  * @create: 2019-05-26 13:13
  **/
 @ControllerAdvice
-public class GlobalExceptionHandler extends AbstractInterceptor {
+@ResponseBody
+public class GlobalExceptionHandler {
+
 
     /**
-     * global exception handle
-     * @throws Exception
+     * not found exception
+     * @return  GeneralResponse
      */
-    @ExceptionHandler(value = Exception.class)
-    @ResponseBody
-    public GeneralResponse defaultErrorHandler(HttpServletRequest request, Exception exception) throws Exception {
-
-        if (exception instanceof org.springframework.web.servlet.NoHandlerFoundException) {
-            return generalResponse(false, 400, NOT_FOUND);
-        }
-        return generalResponse(false, 500, SERVER_ERROR);
+    @ExceptionHandler({NoHandlerFoundException.class})
+    public GeneralResponse notFound(){
+        return generalResponse(HttpStatus.NOT_FOUND.value(), HttpStatus.NOT_FOUND.getReasonPhrase());
     }
 
-    private GeneralResponse generalResponse(Boolean status, Integer httpStatus, String message){
+    /**
+     * requets method not allowed exception
+     * @return  GeneralResponse
+     */
+    @ExceptionHandler({HttpRequestMethodNotSupportedException.class})
+    public GeneralResponse methodNotAllowed(){
+        return generalResponse(HttpStatus.METHOD_NOT_ALLOWED.value(), HttpStatus.METHOD_NOT_ALLOWED.getReasonPhrase());
+    }
+
+
+    /**
+     * if request need a body but not have it, then return 400 code
+     * @return  GeneralResponse
+     */
+    @ExceptionHandler({HttpMessageNotReadableException.class})
+    public GeneralResponse notHaveBody(){
+        return generalResponse(HttpStatus.BAD_REQUEST.value(), HttpStatus.BAD_REQUEST.getReasonPhrase());
+    }
+
+    private GeneralResponse generalResponse(Integer httpStatus, String message){
         GeneralResponse generalResponse = new GeneralResponse();
-        generalResponse.setStatus(status);
+        generalResponse.setStatus(false);
         generalResponse.setHttpStatus(httpStatus);
         generalResponse.setMessage(message);
         return generalResponse;

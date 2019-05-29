@@ -1,6 +1,6 @@
 package com.naonao.grab12306ticket.version.springboot.web.valid;
 
-import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.entity.request.NotificationTestRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.GeneralResponse;
 import com.naonao.grab12306ticket.version.springboot.service.notification.Notification;
 import com.naonao.grab12306ticket.version.springboot.web.base.AbstractValid;
@@ -29,13 +29,12 @@ public class NotificationTest extends AbstractValid {
      * {
      *     "receiverEmail": ""
      * }
-     * @param inputData     json data
-     * @return              generalResponse
+     * @param notificationTestRequest   NotificationTestRequest
+     * @return                          generalResponse
      */
     @PostMapping("email")
-    public GeneralResponse email(@RequestBody String inputData){
-        JSONObject jsonObject = JSONObject.parseObject(inputData);
-        String receiverEmail = jsonObject.getString("receiverEmail");
+    public GeneralResponse email(@RequestBody NotificationTestRequest notificationTestRequest){
+        String receiverEmail = notificationTestRequest.getReceiverEmail();
         // check email format
         String[] chars = receiverEmail.split("");
         if (!Arrays.asList(chars).contains(EMAIL_CHAR)){
@@ -54,13 +53,12 @@ public class NotificationTest extends AbstractValid {
      * {
      *     "receiverPhone": ""
      * }
-     * @param inputData     json data
-     * @return              generalResponse
+     * @param notificationTestRequest   NotificationTestRequest
+     * @return                          generalResponse
      */
     @PostMapping("sms")
-    public GeneralResponse sms(@RequestBody String inputData){
-        JSONObject jsonObject = JSONObject.parseObject(inputData);
-        String receiverPhone = jsonObject.getString("receiverPhone");
+    public GeneralResponse sms(@RequestBody NotificationTestRequest notificationTestRequest){
+        String receiverPhone = notificationTestRequest.getReceiverPhone();
         // check phone format
         if (!StringUtils.isNumeric(receiverPhone) || "".equals(receiverPhone)){
             return generalResponse(false, PHONE_EMAIL_FAILED);
@@ -78,13 +76,12 @@ public class NotificationTest extends AbstractValid {
      * {
      *     "receiverPhone": ""
      * }
-     * @param inputData     json data
-     * @return              generalResponse
+     * @param notificationTestRequest   NotificationTestRequest
+     * @return                          generalResponse
      */
     @PostMapping("phone")
-    public GeneralResponse phone(@RequestBody String inputData){
-        JSONObject jsonObject = JSONObject.parseObject(inputData);
-        String receiverPhone = jsonObject.getString("receiverPhone");
+    public GeneralResponse phone(@RequestBody NotificationTestRequest notificationTestRequest){
+        String receiverPhone = notificationTestRequest.getReceiverPhone();
         // check phone format
         if (!StringUtils.isNumeric(receiverPhone) || "".equals(receiverPhone)){
             return generalResponse(false, PHONE_EMAIL_FAILED);

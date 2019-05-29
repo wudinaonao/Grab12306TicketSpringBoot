@@ -1,11 +1,13 @@
 package com.naonao.grab12306ticket.version.springboot.web.task;
 
 import com.google.common.base.Joiner;
+import com.naonao.grab12306ticket.version.springboot.annotation.Authentication;
 import com.naonao.grab12306ticket.version.springboot.constants.TaskStatusName;
 
 import com.naonao.grab12306ticket.version.springboot.entity.database.AllInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.StatusInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.UserInformationEntity;
+import com.naonao.grab12306ticket.version.springboot.entity.request.QueryRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.QueryResponse;
 import com.naonao.grab12306ticket.version.springboot.web.base.AbstractQuery;
 import lombok.NonNull;
@@ -38,13 +40,14 @@ public class Query extends AbstractQuery {
      * @param request   request
      * @return          QueryResponse
      */
+    @Authentication
     @GetMapping(value = "getInformationByStatusWait", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public QueryResponse getInformationByStatusWait(HttpServletRequest request){
         Map<String, String> usernameAndPasswordMap = getUsernameAndPasswordBySession(request);
-        if (usernameAndPasswordMap == null){
-            // not session, please log in
-            return queryResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
-        }
+        // if (usernameAndPasswordMap == null){
+        //     // not session, please log in
+        //     return queryResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
+        // }
         List<String> hashList = getHashListByUserInformation(usernameAndPasswordMap.get("username12306"));
         if (hashList == null){
             return queryResponse(true, SUCCESS, TaskStatusName.WAIT, new ArrayList<>());
@@ -150,19 +153,19 @@ public class Query extends AbstractQuery {
     }
     /**
      * get grab ticket information and notify information by hash
-     * @param hash          hash
+     * @param queryRequest  QueryRequest
      * @param request       request
      * @return              QueryResponse
      */
     @GetMapping(value = "getGrabTicketAndNotificationInformationByHash", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public QueryResponse getGrabTicketAndNotifyInformationByHash(@RequestParam("hash") String hash, HttpServletRequest request){
+    public QueryResponse getGrabTicketAndNotifyInformationByHash(QueryRequest queryRequest, HttpServletRequest request){
         Map<String, String> usernameAndPasswordMap = getUsernameAndPasswordBySession(request);
         if (usernameAndPasswordMap == null){
             // not session, please log in
             return queryResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
         }
         List<String> hashList = new ArrayList<>();
-        hashList.add(hash);
+        hashList.add(queryRequest.getHash());
         return encapsulationsQueryResponse(hashList);
     }
     /**

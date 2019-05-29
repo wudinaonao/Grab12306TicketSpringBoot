@@ -1,11 +1,12 @@
 package com.naonao.grab12306ticket.version.springboot.web.task;
 
-import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.annotation.Authentication;
 import com.naonao.grab12306ticket.version.springboot.entity.IResponseInterface;
 import com.naonao.grab12306ticket.version.springboot.entity.database.GrabTicketInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.NotificationInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.StatusInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.UserInformationEntity;
+import com.naonao.grab12306ticket.version.springboot.entity.request.InsertRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.GeneralResponse;
 import com.naonao.grab12306ticket.version.springboot.entity.response.InsertResponse;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.preprocess.CheckInformationReturnResult;
@@ -34,32 +35,30 @@ public class Insert extends AbstractInsert {
     @Autowired
     private CheckInformation checkInformation;
 
-
     /**
      * input data format:
      *{
      *    "grabticketinformation":{...},
      *    "notificationinformation":{...}
      * }
-     * @param inputData     inputData
+     * @param insertRequest InsertRequest
      * @return              InsertResponse
      */
+    @Authentication
     @PostMapping(value = "insert")
-    public InsertResponse insertTask(@RequestBody String inputData, HttpServletRequest request){
+    public InsertResponse insertTask(@RequestBody InsertRequest insertRequest, HttpServletRequest request){
         Map<String, String> usernameAndPasswordMap = getUsernameAndPasswordBySession(request);
         // Authentication
-        if (usernameAndPasswordMap == null){
-            // not session, please log in
-            return insertResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
-        }
-        // parse json data
-        Map<String, Object> jsonMap = encapsulationJsonMap(inputData);
+        // if (usernameAndPasswordMap == null){
+        //     // not session, please log in
+        //     return insertResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
+        // }
         // get hash
-        String hash = ComputeHash.fromGrabTicketInformation((JSONObject) jsonMap.get("grabticketinforamtion"));
+        String hash = ComputeHash.fromGrabTicketInformation(insertRequest.getGrabTicketInformation());
         // get entity use to insert to database
         UserInformationEntity userInformationEntity = userInformationEntity(usernameAndPasswordMap, hash);
-        GrabTicketInformationEntity grabTicketInformationEntity = grabTicketInformationEntity((JSONObject) jsonMap.get("grabticketinforamtion"), hash);
-        NotificationInformationEntity notificationInformationEntity = notificationInformationEntity((JSONObject) jsonMap.get("notificationinformation"),hash);
+        GrabTicketInformationEntity grabTicketInformationEntity = grabTicketInformationEntity(insertRequest.getGrabTicketInformation(), hash);
+        NotificationInformationEntity notificationInformationEntity = notificationInformationEntity(insertRequest.getNotificationInformation(), hash);
         StatusInformationEntity statusInformationEntity = statusInformationEntity(hash);
         // check if the data is valid
         CheckInformationReturnResult checkInformationReturnResult= checkInformation.check(grabTicketInformationEntity, notificationInformationEntity);
@@ -98,7 +97,8 @@ public class Insert extends AbstractInsert {
     }
 
     /**
-     * check insert information entity is valid
+     * check insert information entity is valid,
+     * whether there is a Null value.
      * @param entitys   entity list
      * @param <T>       generic
      * @return          IResponseInterface

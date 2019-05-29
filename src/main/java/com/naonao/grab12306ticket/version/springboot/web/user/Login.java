@@ -1,29 +1,36 @@
 package com.naonao.grab12306ticket.version.springboot.web.user;
 
-import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.annotation.Decrypt;
 import com.naonao.grab12306ticket.version.springboot.entity.database.UserInformationEntity;
+import com.naonao.grab12306ticket.version.springboot.entity.request.LoginRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.LoginTestResponse;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.login.LoginTestReturnResult;
-import com.naonao.grab12306ticket.version.springboot.service.ticket.login.Login;
 import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
 import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
+import com.naonao.grab12306ticket.version.springboot.util.RSAUtil;
 import com.naonao.grab12306ticket.version.springboot.web.base.AbstractLogin;
+import lombok.NonNull;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
  * @program: SpringBoot
  * @description:
  * @author: Wen lyuzhao
- * @create: 2019-05-14 19:21
+ * @create: 2019-05-28 23:16
  **/
 @RestController
 @CrossOrigin
 @RequestMapping(value = "${url.prefix}" + "user")
-public class LoginTest extends AbstractLogin {
+public class Login extends AbstractLogin {
+
+
+    @Autowired
+    private RSAUtil rsaUtil;
+
 
     /**
      * login test
@@ -32,18 +39,16 @@ public class LoginTest extends AbstractLogin {
      *     "username12306":"...",
      *     "password12306":"..."
      * }
-     * @param inputJsonString   inputJsonString
+     * @param loginRequest      LoginRequest
      * @param request           request
      * @return                  LoginTestResponse
      */
+    @Decrypt
     @PostMapping("login")
-    @ResponseBody
-    public LoginTestResponse loginTest(@RequestBody String inputJsonString,
-                                       HttpServletRequest request,
-                                       HttpServletResponse response){
-        JSONObject jsonObject = JSONObject.parseObject(inputJsonString);
-        String username12306 = jsonObject.getString("username12306");
-        String password12306 = jsonObject.getString("password12306");
+    public LoginTestResponse login(@RequestBody @NonNull LoginRequest loginRequest,
+                                   HttpServletRequest request){
+        String username12306 = loginRequest.getUsername12306();
+        String password12306 = loginRequest.getPassword12306();
         // get post username and password
         if (username12306 != null && password12306 != null){
             // authentication, if session is valid return current session
@@ -144,9 +149,20 @@ public class LoginTest extends AbstractLogin {
         return GeneralTools.systemMaintenanceTime();
     }
 
+    /**
+     * test if username and password can it log in 12306
+     * @param username12306     username12306
+     * @param password12306     password12306
+     * @return                  LoginTestReturnResult
+     */
     private LoginTestReturnResult loginTestReturnResult(String username12306, String password12306){
         // produce
-        return new Login(HttpTools.getSession(30000)).loginTest(username12306, password12306);
+        return new com.naonao.grab12306ticket.version.springboot.service.ticket.login.Login(
+                HttpTools.getSession(30000)
+        ).loginTest(
+                username12306,
+                password12306
+        );
 
         // test
         // LoginTestReturnResult loginTestReturnResult = new LoginTestReturnResult();

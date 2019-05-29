@@ -1,6 +1,7 @@
 package com.naonao.grab12306ticket.version.springboot.web.task;
 
-import com.alibaba.fastjson.JSONObject;
+import com.naonao.grab12306ticket.version.springboot.annotation.Authentication;
+import com.naonao.grab12306ticket.version.springboot.entity.request.DeleteRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.DeleteResponse;
 import com.naonao.grab12306ticket.version.springboot.web.base.AbstractDelete;
 import org.springframework.http.MediaType;
@@ -27,16 +28,16 @@ public class Delete extends AbstractDelete {
      * {
      *     "hash":"1111111111111111111111111"
      * }
-     * @param inputData     inputData
-     * @return              DeleteResponse
+     * @param deleteRequest     DeleteRequest
+     * @return                  DeleteResponse
      */
+    @Authentication
     @DeleteMapping(value = "delete", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public DeleteResponse deleteTaskByHash(@RequestBody String inputData, HttpServletRequest request){
-        if (!authentication(request)){
-            return deleteResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
-        }
-        JSONObject jsonObject = JSONObject.parseObject(inputData);
-        String hash = jsonObject.getString("hash");
+    public DeleteResponse deleteTaskByHash(@RequestBody DeleteRequest deleteRequest, HttpServletRequest request){
+        // if (!authentication(request)){
+        //     return deleteResponse(false, USERNAME_AND_PASSWORD_HAVE_NOT_BEEN_VERIFIED);
+        // }
+        String hash = deleteRequest.getHash();
         allInformationMapper.deleteAllByHash(hash);
         DeleteResponse deleteResponse = new DeleteResponse();
         deleteResponse.setStatus(true);
