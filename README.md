@@ -148,6 +148,12 @@
     setting:
       # 启动抢票代码
       grabTicketCode: true
+      encryption:
+        rsa:
+          # RSA 公钥和私钥的路径，用于加密登陆密码
+          publicFilePath: rsa/public
+          privateFilePath: rsa/private
+   
    ```
 ### 通知方式：
 |通知方式|说明|
