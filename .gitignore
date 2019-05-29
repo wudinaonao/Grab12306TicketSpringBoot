@@ -59,3 +59,5 @@ warn.log.2019-05-16
 /src/main/resources/configuration.yml
 
 
+/src/main/resources/rsa/private
+/src/main/resources/rsa/public

@@ -3,17 +3,19 @@ package com.naonao.grab12306ticket.version.springboot.web.task;
 import com.google.common.base.Joiner;
 import com.naonao.grab12306ticket.version.springboot.annotation.Authentication;
 import com.naonao.grab12306ticket.version.springboot.constants.TaskStatusName;
-
 import com.naonao.grab12306ticket.version.springboot.entity.database.AllInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.StatusInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.database.UserInformationEntity;
 import com.naonao.grab12306ticket.version.springboot.entity.request.QueryRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.QueryResponse;
-import com.naonao.grab12306ticket.version.springboot.web.base.AbstractQuery;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractTask;
 import lombok.NonNull;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.constraints.NotNull;
@@ -32,7 +34,7 @@ import java.util.Map;
 @EnableAutoConfiguration
 @RequestMapping(value = "${url.prefix}" + "task")
 @CrossOrigin
-public class Query extends AbstractQuery {
+public class Query extends AbstractTask {
 
 
     /**

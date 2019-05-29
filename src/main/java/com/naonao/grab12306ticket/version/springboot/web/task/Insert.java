@@ -12,7 +12,7 @@ import com.naonao.grab12306ticket.version.springboot.entity.response.InsertRespo
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.preprocess.CheckInformationReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.preprocess.CheckInformation;
 import com.naonao.grab12306ticket.version.springboot.service.tools.ComputeHash;
-import com.naonao.grab12306ticket.version.springboot.web.base.AbstractInsert;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,7 +30,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
-public class Insert extends AbstractInsert {
+public class Insert extends AbstractTask {
 
     @Autowired
     private CheckInformation checkInformation;

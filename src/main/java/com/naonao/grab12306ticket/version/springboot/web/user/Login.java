@@ -5,10 +5,8 @@ import com.naonao.grab12306ticket.version.springboot.entity.database.UserInforma
 import com.naonao.grab12306ticket.version.springboot.entity.request.LoginRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.LoginTestResponse;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.ticket.login.LoginTestReturnResult;
-import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
-import com.naonao.grab12306ticket.version.springboot.service.tools.HttpTools;
 import com.naonao.grab12306ticket.version.springboot.util.RSAUtil;
-import com.naonao.grab12306ticket.version.springboot.web.base.AbstractLogin;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractUser;
 import lombok.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,12 +23,11 @@ import java.util.List;
 @RestController
 @CrossOrigin
 @RequestMapping(value = "${url.prefix}" + "user")
-public class Login extends AbstractLogin {
+public class Login extends AbstractUser {
 
 
     @Autowired
     private RSAUtil rsaUtil;
-
 
     /**
      * login test
@@ -55,19 +52,20 @@ public class Login extends AbstractLogin {
             if (super.authentication(request)){
                 return loginTestResponse(true, SUCCESS, request.getSession().getId(), username12306);
             }
-            // is system maintenance Time
-            if (systemMaintenanceTime()){
-                return loginTestResponse(false, SYSTEM_MAINTENANCE_TIME, null, null);
-            }
-            // find user table
+            // find user table, check if is not first login
             UserInformationEntity userInformationEntity = findUserInformationEntity(username12306, password12306);
             if (userInformationEntity != null){
-                // whether the password has matches
+                // whether the password has matches, if it dose not match, the password
+                // has been changed and a new test is required
                 if (usernameAndPasswordIsMatch(userInformationEntity, username12306, password12306)){
                     request.getSession().setAttribute("username12306", username12306);
                     request.getSession().setAttribute("password12306", password12306);
                     return loginTestResponse(true, SUCCESS, request.getSession().getId(), username12306);
                 }
+            }
+            // if need to perform 12306 login test, first check if is system maintenance time.
+            if (systemMaintenanceTime()){
+                return loginTestResponse(false, SYSTEM_MAINTENANCE_TIME, null, null);
             }
             // if login success then set session
             if (loginTestReturnResult(username12306, password12306).getStatus()){
@@ -144,33 +142,6 @@ public class Login extends AbstractLogin {
         }
     }
 
-
-    private Boolean systemMaintenanceTime(){
-        return GeneralTools.systemMaintenanceTime();
-    }
-
-    /**
-     * test if username and password can it log in 12306
-     * @param username12306     username12306
-     * @param password12306     password12306
-     * @return                  LoginTestReturnResult
-     */
-    private LoginTestReturnResult loginTestReturnResult(String username12306, String password12306){
-        // produce
-        return new com.naonao.grab12306ticket.version.springboot.service.ticket.login.Login(
-                HttpTools.getSession(30000)
-        ).loginTest(
-                username12306,
-                password12306
-        );
-
-        // test
-        // LoginTestReturnResult loginTestReturnResult = new LoginTestReturnResult();
-        // loginTestReturnResult.setStatus(true);
-        // loginTestReturnResult.setSession(null);
-        // loginTestReturnResult.setMessage(SUCCESS);
-        // return loginTestReturnResult;
-    }
 
     private LoginTestResponse loginTestResponse(LoginTestReturnResult loginTestReturnResult, String sessionId, String username12306){
         LoginTestResponse loginTestResponse = new LoginTestResponse();

@@ -7,7 +7,7 @@ import com.naonao.grab12306ticket.version.springboot.entity.request.UpdateReques
 import com.naonao.grab12306ticket.version.springboot.entity.response.UpdateResponse;
 import com.naonao.grab12306ticket.version.springboot.resultclass.service.preprocess.CheckInformationReturnResult;
 import com.naonao.grab12306ticket.version.springboot.service.preprocess.CheckInformation;
-import com.naonao.grab12306ticket.version.springboot.web.base.AbstractUpdate;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -24,7 +24,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
-public class Update extends AbstractUpdate {
+public class Update extends AbstractTask {
 
     /**
      * update you need to input complete data, example:

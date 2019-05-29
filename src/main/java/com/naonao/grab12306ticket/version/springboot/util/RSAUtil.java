@@ -1,5 +1,6 @@
 package com.naonao.grab12306ticket.version.springboot.util;
 
+import com.naonao.grab12306ticket.version.springboot.exception.InvalidCiphertext;
 import com.naonao.grab12306ticket.version.springboot.exception.RSAException;
 import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
 import com.naonao.grab12306ticket.version.springboot.util.base.AbstractUtil;
@@ -122,8 +123,10 @@ public class RSAUtil extends AbstractUtil {
             return null;
         }
     }
-
     public String privateDecrypt(String data){
+        if (data == null){
+            throw new InvalidCiphertext(CIPHER_TEXT_IS_NULL);
+        }
         try{
             Cipher cipher = Cipher.getInstance(RSA_ALGORITHM);
             cipher.init(Cipher.DECRYPT_MODE, privateKey);

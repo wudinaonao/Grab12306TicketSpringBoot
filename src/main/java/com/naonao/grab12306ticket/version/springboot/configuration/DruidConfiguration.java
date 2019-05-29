@@ -18,41 +18,34 @@ import org.springframework.context.annotation.Configuration;
 public class DruidConfiguration {
 
     /**
-     * 注册一个StatViewServlet
-     * @return
+     * registered a servlet
+     * @return  ServletRegistrationBean
      */
     @Bean
     public ServletRegistrationBean druidStatViewServle(){
-        //org.springframework.boot.context.embedded.ServletRegistrationBean提供类的进行注册.
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new StatViewServlet(),"/druid/*");
-
-        //添加初始化参数：initParams
-
-        //白名单：
+        // allow list
         servletRegistrationBean.addInitParameter("allow","127.0.0.1");
-        //IP黑名单 (存在共同时，deny优先于allow) : 如果满足deny的话提示:Sorry, you are not permitted to view this page.
+        // deny list, if ip simultaneously exist in deny and allow list, then deny priority
         servletRegistrationBean.addInitParameter("deny","192.168.1.73");
-        //登录查看信息的账号密码.
+        // login to view the account, password of the information.
         servletRegistrationBean.addInitParameter("loginUsername","admin");
         servletRegistrationBean.addInitParameter("loginPassword","123456");
-        //是否能够重置数据.
+        // is it possible to reset the data?
         servletRegistrationBean.addInitParameter("resetEnable","false");
         return servletRegistrationBean;
     }
 
     /**
-     * 注册一个：filterRegistrationBean
-     * @return
+     * registered a filterRegistrationBean
+     * @return  FilterRegistrationBean
      */
     @Bean
     public FilterRegistrationBean druidStatFilter(){
-
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean(new WebStatFilter());
-
-        //添加过滤规则.
+        // add a filter rule.
         filterRegistrationBean.addUrlPatterns("/*");
-
-        //添加不需要忽略的格式信息.
+        // add formatting information that you don't need to ignore.
         filterRegistrationBean.addInitParameter("exclusions","*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*");
         return filterRegistrationBean;
     }

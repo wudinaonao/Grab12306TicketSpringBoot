@@ -1,6 +1,7 @@
 package com.naonao.grab12306ticket.version.springboot.interceptor.base;
 
 import com.naonao.grab12306ticket.version.springboot.base.AbstractSpringBoot;
+import com.naonao.grab12306ticket.version.springboot.entity.response.GeneralResponse;
 
 /**
  * @program: SpringBoot
@@ -10,7 +11,13 @@ import com.naonao.grab12306ticket.version.springboot.base.AbstractSpringBoot;
  **/
 public class AbstractInterceptor extends AbstractSpringBoot {
 
-    protected static final String NOT_FOUND = "not found.";
-    protected static final String SERVER_ERROR = "server error.";
+    protected static final String INVALID_CIPHER_TEXT = "invalid cipher text.";
 
+    protected GeneralResponse failedGeneralResponse(Integer httpStatus, String message){
+        GeneralResponse generalResponse = new GeneralResponse();
+        generalResponse.setStatus(false);
+        generalResponse.setHttpStatus(httpStatus);
+        generalResponse.setMessage(message);
+        return generalResponse;
+    }
 }

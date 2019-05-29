@@ -17,4 +17,6 @@ public class AbstractUtil extends AbstractSpringBoot {
     protected static final String AN_EXCEPTION_OCCURRED_WHILE_ENCRYPTING_DATA = "an exception occurred while encrypting data.";
     protected static final String AN_EXCEPTION_OCCURRED_WHILE_DECRYPTING_DATA = "an exception occurred while decrypting data.";
     protected static final String AN_EXCEPTION_OCCURRED_WHILE_ENCRYPTING_AND_DECRYPTING_DATA = "an exception occurred while encrypting and decrypting data.";
+
+    protected static final String CIPHER_TEXT_IS_NULL = "cipher text is null.";
 }

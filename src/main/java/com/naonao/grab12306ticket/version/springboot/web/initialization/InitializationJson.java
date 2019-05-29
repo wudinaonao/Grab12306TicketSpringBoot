@@ -3,8 +3,8 @@ package com.naonao.grab12306ticket.version.springboot.web.initialization;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.constants.ConvertMap;
-import com.naonao.grab12306ticket.version.springboot.service.base.AbstractService;
 import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractInitialization;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,7 +22,7 @@ import java.util.Map;
  **/
 @RestController
 @RequestMapping("${url.prefix}" + "initialization")
-public class InitializationJson extends AbstractService {
+public class InitializationJson extends AbstractInitialization {
 
     /**
      * get city json data, return a list.

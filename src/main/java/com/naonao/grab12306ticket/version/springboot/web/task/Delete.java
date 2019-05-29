@@ -3,7 +3,7 @@ package com.naonao.grab12306ticket.version.springboot.web.task;
 import com.naonao.grab12306ticket.version.springboot.annotation.Authentication;
 import com.naonao.grab12306ticket.version.springboot.entity.request.DeleteRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.response.DeleteResponse;
-import com.naonao.grab12306ticket.version.springboot.web.base.AbstractDelete;
+import com.naonao.grab12306ticket.version.springboot.web.base.AbstractTask;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("${url.prefix}" + "task")
 @CrossOrigin
-public class Delete extends AbstractDelete {
+public class Delete extends AbstractTask {
 
 
     /***

@@ -1,6 +1,7 @@
 package com.naonao.grab12306ticket.version.springboot.aop;
 
 import com.naonao.grab12306ticket.version.springboot.aop.base.AbstractAop;
+import com.naonao.grab12306ticket.version.springboot.entity.request.ChangePasswordRequest;
 import com.naonao.grab12306ticket.version.springboot.entity.request.LoginRequest;
 import com.naonao.grab12306ticket.version.springboot.util.RSAUtil;
 import org.aspectj.lang.JoinPoint;
@@ -36,6 +37,12 @@ public class DecryptAspect  extends AbstractAop {
             if (object instanceof LoginRequest){
                 LoginRequest loginRequest = (LoginRequest) object;
                 loginRequest.setPassword12306(rsaUtil.privateDecrypt(loginRequest.getPassword12306()));
+            }
+            // interceptor change password request, decrypt old and new password
+            if (object instanceof ChangePasswordRequest){
+                ChangePasswordRequest changePasswordRequest = (ChangePasswordRequest) object;
+                changePasswordRequest.setOldPassword12306(rsaUtil.privateDecrypt(changePasswordRequest.getOldPassword12306()));
+                changePasswordRequest.setNewPassword12306(rsaUtil.privateDecrypt(changePasswordRequest.getNewPassword12306()));
             }
         }
     }
