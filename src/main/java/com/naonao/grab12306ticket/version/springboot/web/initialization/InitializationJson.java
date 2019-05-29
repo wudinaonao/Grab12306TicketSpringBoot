@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.naonao.grab12306ticket.version.springboot.constants.ConvertMap;
 import com.naonao.grab12306ticket.version.springboot.service.tools.GeneralTools;
 import com.naonao.grab12306ticket.version.springboot.web.base.AbstractInitialization;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -112,5 +113,18 @@ public class InitializationJson extends AbstractInitialization {
             expectSeatNumberMapList.add(documentTypeMap);
         }
         return expectSeatNumberMapList;
+    }
+
+    @GetMapping("publicKey")
+    public Map<String, String> publicKey(@Value("${setting.encryption.rsa.publicFilePath}")String publicKeyPath){
+        Map<String, String> map = new HashMap<>(16);
+        String publicKey = GeneralTools
+                .readFileText(publicKeyPath)
+                .replace("-----BEGIN PUBLIC KEY-----", "")
+                .replace("-----END PUBLIC KEY-----", "")
+                .replace("\n", "")
+                .trim();
+        map.put("publicKey", publicKey);
+        return map;
     }
 }
